@@ -39,9 +39,7 @@ yarn-error.log*
 *.sublime-project
 
 # Large / generated data files we don't need versioned
-question_bank.json
 batch/*.json
-last_post.json
 *.wav
 *.ogg
 *.mp3
