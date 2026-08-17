@@ -1,21 +1,22 @@
 # AgriQuizBot
 
-Daily Agriculture Board Exam Quiz for the Nexis Family — writes 120 fresh
+Daily Agriculture Board Exam Quiz for the Nexis Family — writes 90 fresh
 questions into the live Google Form each morning, auto-graded, posted to the
-Chaos Control group on Telegram.
+Pre-Board Exam supergroup on Telegram.
 
 ## State (2026-08-17)
 
-- Question bank: 359 questions, 0 placeholders, ~235 unused (6 LEA areas).
-- Live form: rebuilt 2026-08-17 with 120 real questions (6 sections).
-- Delivery target: `telegram:-1003740504045` (Chaos Control).
+- Question bank: 1078 questions, 0 placeholders, ~504 unused (6 LEA areas).
+- Live form: rebuilt 2026-08-17 with 90 real questions (6 sections × 15,
+  numbered 1–15 per subject), title "Pre-Board Exam — {date}".
+- Delivery target: `telegram:-1004302584573` (Pre-Board Exam).
 - Service account key: `D:\Zero\secrets\nexis-quiz-bot.json` (not in this folder).
 
 ## Pipeline
 
 - **Weekly refill (Sunday 18:00, agent job):** Nexis researches ~960 new
   questions (160 per LEA area), writes a batch JSON, runs `bank_add.py`.
-- **Daily quiz (08:00, script + Nexis posts):** `agri_quiz_daily.py` runs
+- **Daily quiz (20:00, script + Nexis posts):** `agri_quiz_daily.py` runs
   `agri_quiz_bot.py`; Nexis relays the resulting message to the group.
 - **9PM reminder (20:45, no_agent):** `agri_quiz_reminder.py` prints a nudge
   only if today's quiz was posted.
@@ -39,7 +40,7 @@ Use the hermes313 python: `C:\Users\Administrator\AppData\Local\Python\hermes313
 
 - Question bank: `question_bank.json` (live data; never hand-edit).
 - Questions are used once and retired — `status: "unused" | "used"`.
-- 120 questions per day, 20 per area; if unused < 120 the bot prints
+- 90 questions per day, 15 per area; if unused < 90 the bot prints
   `BANK_LOW n` and the agent must top up before it runs again.
 - Batch files: one per session, saved under `batch\`, deleted after a
   successful `bank_add.py` run.

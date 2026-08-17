@@ -2,7 +2,7 @@
   "jobs": [
     {
       "id": "6a0ec69d679e",
-      "name": "Agri Quiz Weekly Refill",
+      "name": "Pre-Board Exam Weekly Refill",
       "prompt": "Agri Quiz weekly refill. Goal: top up the question bank at D:\\Hermes\\Nexis Aria Nexaris\\projects\\AgriQuizBot\\question_bank.json so the daily quiz never runs out. IMPORTANT: draft questions IN CHUNKS, never one giant response - one area per response (160 questions max per response). Steps: (1) Read D:\\Hermes\\Nexis Aria Nexaris\\projects\\AgriQuizBot\\AGENTS.md and the current bank file to confirm areas and existing question IDs. (2) For EACH of the 6 areas (Crop Science, Soil Science, Animal Science, Crop Protection, Agricultural Extension and Communication, Agricultural Economics and Marketing): research, then draft 160 fresh questions at 2026 Philippine Agriculture and Fisheries Engineering Board Exam level, and append them to a single JSON batch file at D:\\Hermes\\Nexis Aria Nexaris\\projects\\AgriQuizBot\\batch\\weekly_YYYYMMDD.json (YYYYMMDD = today). Build the file incrementally: write the JSON list with the first area's questions, then append each next area with a second write_file call that merges the new items. The batch file is a JSON array of question objects (see bank_add.py header for the exact schema). (3) When all 6 areas are in the file, run bank_add.py with the hermes313 python (C:\\Users\\Administrator\\AppData\\Local\\Python\\hermes313\\Scripts\\python.exe) on that batch file. Do NOT use python -e or -c flags (cron blocks them) - write a script file if needed. (4) Confirm UNUSED count is 900+. (5) Delete the batch file after a successful run. If bank_add rejects entries, fix and re-run until clean. Never reuse questions already in the bank; bank_add blocks duplicates. End your reply with a one-line summary: ADDED x (area counts) / UNUSED y.",
       "skills": [],
       "skill": null,
@@ -45,8 +45,8 @@
     },
     {
       "id": "5cdd3844581d",
-      "name": "Agri Quiz Daily",
-      "prompt": "Daily Agri Quiz run. The relay script output above is injected into this prompt (it ran agri_quiz_bot.py against the live form). Interpret it: (1) If it says QUIZ_OK followed by the quiz message: post that message to the Chaos Control group (Telegram chat -1003740504045) in your own warm voice, keeping all key details: title, 120 fresh questions, link, submit-before-9PM line. End your reply with the exact message you posted. (2) If it says BANK_LOW n: emergency top-up - research and draft enough fresh questions (target 240 unused, 40 per area) at 2026 Philippine Agriculture and Fisheries Engineering Board Exam level, write to D:\\Hermes\\Nexis Aria Nexaris\\projects\\AgriQuizBot\\batch\\emergency_YYYYMMDD.json, run bank_add.py with the hermes313 python (C:\\Users\\Administrator\\AppData\\Local\\Python\\hermes313\\Scripts\\python.exe), then re-run D:\\Hermes\\Nexis Aria Nexaris\\projects\\AgriQuizBot\\agri_quiz_bot.py with the hermes313 python and post the resulting QUIZ_OK message to the group. (3) If it says API_ERROR or KEY_MISSING: do NOT post a quiz; post a brief heads-up to the group that today's quiz is delayed and why, then end your reply with the heads-up text. Read D:\\Hermes\\Nexis Aria Nexaris\\projects\\AgriQuizBot\\AGENTS.md first if unsure about paths. Questions are never reused - trust the bot's selection. IMPORTANT: bank_add.py now rejects template or placeholder questions (answers like 'Option A', 'Explanation for X question N' feedback, or 'Exam Topic' titles) - if bank_add reports REJECTED entries, you MUST fix those entries into real, distinct, exam-level questions and re-run; never let junk into the bank.",
+      "name": "Pre-Board Exam Daily (20:00)",
+      "prompt": "Daily Agri Quiz run. The relay script output above is injected into this prompt (it ran agri_quiz_bot.py against the live form). Interpret it: (1) If it says QUIZ_OK followed by the quiz message: post that message to the Pre-Board Exam supergroup (Telegram chat -1004302584573) in your own warm voice, keeping all key details: title, 90 fresh questions (15 per subject), link, submit-before-9PM line. Then add ONE short motivational line for the students (under 25 words) \u2014 RESEARCH IT: web-search for a fresh motivational quote first, then adapt it into a single line that is always in ENGLISH, connected to studying, future goals, and life, and spoken in your own warm voice; fresh and different every day. THEN generate a voice note: run D:\\DevTools\\tts\\hermes_tts.py with the hermes313 python (C:\\Users\\Administrator\\AppData\\Local\\Python\\hermes313\\Scripts\\python.exe) using --ref nexis --output D:\\Hermes\\Nexis Aria Nexaris\\projects\\AgriQuizBot\\voice\\daily_YYYYMMDD.wav --text \"<your short spoken message>\" \u2014 the spoken message may vary daily (warm greeting, today's quiz is live with 90 fresh questions across 6 LEA areas, submit before 9PM, the link is in the chat) and MUST include the same motivational line spoken aloud, always in English. Verify the wav file exists, then include this line in your reply so the voice note is delivered to the group too: MEDIA:D:/Hermes/Nexis Aria Nexaris/projects/AgriQuizBot/voice/daily_YYYYMMDD.wav. End your reply with the exact text message you posted. (2) If it says BANK_LOW n: emergency top-up - research and draft enough fresh questions (target 180 unused, 30 per area) at 2026 Philippine Agriculture and Fisheries Engineering Board Exam level, write to D:\\Hermes\\Nexis Aria Nexaris\\projects\\AgriQuizBot\\batch\\emergency_YYYYMMDD.json, run bank_add.py with the hermes313 python (C:\\Users\\Administrator\\AppData\\Local\\Python\\hermes313\\Scripts\\python.exe), then re-run D:\\Hermes\\Nexis Aria Nexaris\\projects\\AgriQuizBot\\agri_quiz_bot.py with the hermes313 python and post the resulting QUIZ_OK message to the group. (3) If it says API_ERROR or KEY_MISSING: do NOT post a quiz; post a brief heads-up to the group that today's quiz is delayed and why, then end your reply with the heads-up text. Read D:\\Hermes\\Nexis Aria Nexaris\\projects\\AgriQuizBot\\AGENTS.md first if unsure about paths. Questions are never reused - trust the bot's selection. IMPORTANT: bank_add.py now rejects template or placeholder questions (answers like 'Option A', 'Explanation for X question N' feedback, or 'Exam Topic' titles) - if bank_add reports REJECTED entries, you MUST fix those entries into real, distinct, exam-level questions and re-run; never let junk into the bank.",
       "skills": [],
       "skill": null,
       "model": null,
@@ -65,31 +65,28 @@
       "schedule_display": "0 20 * * *",
       "repeat": {
         "times": null,
-        "completed": 1
+        "completed": 2
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-16T20:12:02.098420+08:00",
-      "next_run_at": "2026-08-17T20:00:00+08:00",
-      "last_run_at": "2026-08-17T10:07:53.031833+08:00",
+      "next_run_at": "2026-08-18T20:00:00+08:00",
+      "last_run_at": "2026-08-17T20:01:40.853334+08:00",
       "last_status": "ok",
       "last_error": null,
-      "last_delivery_error": "live adapter send failed: Forbidden: bot was kicked from the supergroup chat; live adapter delivery to telegram:-1004346387239 failed: Forbidden: bot was kicked from the supergroup chat; delivery error: Telegram send failed: Forbidden: bot was kicked from the supergroup chat",
-      "deliver": "telegram:-1003740504045",
+      "last_delivery_error": null,
+      "deliver": "telegram:-1004302584573",
       "origin": null,
       "enabled_toolsets": null,
       "workdir": "D:\\Hermes\\Nexis Aria Nexaris\\projects\\AgriQuizBot",
-      "fire_claim": {
-        "at": "2026-08-17T11:25:53.734861+08:00",
-        "by": "AniShinSei:14996"
-      }
+      "fire_claim": null
     },
     {
       "id": "c46b1162366b",
-      "name": "Agri Quiz 9PM Reminder",
-      "prompt": "9PM Agri Quiz reminder. No action needed \u2014 the no_agent watchdog script decides whether a reminder should be sent.",
+      "name": "Pre-Board Exam 9PM Reminder",
+      "prompt": "9PM reminder run for the Pre-Board Exam quiz. The watchdog script agri_quiz_reminder.py runs first and its output is injected above. Interpret it: (1) If it prints a reminder (a quiz was posted today): post that reminder to the Pre-Board Exam supergroup (Telegram chat -1004302584573) in your own warm voice, keeping the title, link, and submit-before-9PM line, and add ONE short motivational line for the students (under 25 words) \u2014 RESEARCH IT: web-search for a fresh motivational quote first, then adapt it into a single line that is always in ENGLISH, connected to studying, future goals, and life, and spoken in your own warm voice; fresh and different every night. THEN generate a voice note: run D:\\DevTools\\tts\\hermes_tts.py with the hermes313 python (C:\\Users\\Administrator\\AppData\\Local\\Python\\hermes313\\Scripts\\python.exe) using --ref nexis --output D:\\Hermes\\Nexis Aria Nexaris\\projects\\AgriQuizBot\\voice\\reminder_YYYYMMDD.wav --text \"<your short spoken reminder>\" \u2014 the spoken message may vary nightly (reminder that today's quiz closes at 9PM, the link is in the chat) and MUST include the same motivational line spoken aloud, always in English. Verify the wav file exists, then include this line in your reply so the voice note is delivered to the group too: MEDIA:D:/Hermes/Nexis Aria Nexaris/projects/AgriQuizBot/voice/reminder_YYYYMMDD.wav. End your reply with the exact text message you posted. (2) If it prints nothing (no quiz posted today): stay silent \u2014 do not post anything, reply with nothing.",
       "skills": [],
       "skill": null,
       "model": null,
@@ -98,7 +95,7 @@
       "model_snapshot": null,
       "base_url": null,
       "script": "agri_quiz_reminder.py",
-      "no_agent": true,
+      "no_agent": false,
       "context_from": null,
       "schedule": {
         "kind": "cron",
@@ -108,19 +105,19 @@
       "schedule_display": "45 21 * * *",
       "repeat": {
         "times": null,
-        "completed": 1
+        "completed": 2
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-16T20:12:30.211505+08:00",
-      "next_run_at": "2026-08-17T21:45:00+08:00",
-      "last_run_at": "2026-08-16T20:45:31.596850+08:00",
+      "next_run_at": "2026-08-18T21:45:00+08:00",
+      "last_run_at": "2026-08-17T21:45:21.075763+08:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
-      "deliver": "telegram:-1003740504045",
+      "deliver": "telegram:-1004302584573",
       "origin": null,
       "enabled_toolsets": null,
       "workdir": "D:\\Hermes\\Nexis Aria Nexaris\\projects\\AgriQuizBot",
@@ -128,7 +125,7 @@
     },
     {
       "id": "ddde66943ec4",
-      "name": "Agri Quiz Post (manual)",
+      "name": "Pre-Board Exam Post (manual)",
       "prompt": "",
       "skills": [],
       "skill": null,
@@ -148,7 +145,7 @@
       "schedule_display": "0 0 1 1 *",
       "repeat": {
         "times": null,
-        "completed": 1
+        "completed": 2
       },
       "enabled": true,
       "state": "scheduled",
@@ -156,11 +153,11 @@
       "paused_reason": null,
       "created_at": "2026-08-17T11:52:36.911632+08:00",
       "next_run_at": "2027-01-01T00:00:00+08:00",
-      "last_run_at": "2026-08-17T11:53:02.862605+08:00",
+      "last_run_at": "2026-08-17T21:55:21.313529+08:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
-      "deliver": "telegram:-1003740504045",
+      "deliver": "telegram:-1004302584573",
       "origin": null,
       "enabled_toolsets": null,
       "workdir": "D:\\Hermes\\Nexis Aria Nexaris\\projects\\AgriQuizBot",
@@ -188,15 +185,15 @@
       "schedule_display": "every 180m",
       "repeat": {
         "times": null,
-        "completed": 2
+        "completed": 3
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-17T12:11:34.711303+08:00",
-      "next_run_at": "2026-08-17T21:16:06.537556+08:00",
-      "last_run_at": "2026-08-17T18:16:06.537556+08:00",
+      "next_run_at": "2026-08-18T00:16:19.420071+08:00",
+      "last_run_at": "2026-08-17T21:16:19.420071+08:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -241,7 +238,7 @@
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-17T13:28:43.633231+08:00",
-      "next_run_at": "2026-08-17T23:00:00+08:00",
+      "next_run_at": "2026-08-18T23:00:00+08:00",
       "last_run_at": null,
       "last_status": null,
       "last_error": null,
@@ -258,5 +255,5 @@
       "workdir": null
     }
   ],
-  "updated_at": "2026-08-17T18:16:06.538550+08:00"
+  "updated_at": "2026-08-17T23:00:22.038381+08:00"
 }

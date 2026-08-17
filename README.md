@@ -27,6 +27,8 @@ D:\Hermes\Nexis Aria Nexaris\
 |   `-- .gitkeep
 |-- assets
 |   `-- .gitkeep
+|-- Backup
+|   `-- nexis_full_backup_20260817_184906.tar.gz
 |-- docs
 |   |-- process
 |   `-- specs
@@ -35,12 +37,25 @@ D:\Hermes\Nexis Aria Nexaris\
 |-- knowledge
 |   `-- .gitkeep
 |-- output
-|   `-- .gitkeep
+|   |-- .gitkeep
+|   `-- backup.log
 |-- projects
 |   `-- AgriQuizBot
 |-- scripts
 |   |-- .readme_tree_state
-|   `-- update_workspace_readme.py
+|   |-- update_workspace_readme.py
+|   `-- workspace_auto_backup.py
+|-- system-backup
+|   |-- cron
+|   |-- memories
+|   |-- scripts
+|   |-- skills
+|   |-- .gitignore
+|   |-- channel_directory.json
+|   |-- config.yaml
+|   |-- profile.yaml
+|   |-- shell-hooks-allowlist.json
+|   `-- SOUL.md
 |-- templates
 |   `-- .gitkeep
 |-- .gitignore

@@ -26,7 +26,7 @@ except (OSError, ValueError):
 
 if data.get("date") == today:
     link = data.get("link", "")
-    title = data.get("title", "Agriculture Board Exam Quiz")
+    title = data.get("title", "Pre-Board Exam")
     print(f"⏰ Reminder: {title} closes tonight at 9PM!\n"
           f"🔗 {link}\n"
           f"Submit before the deadline to get your score.")

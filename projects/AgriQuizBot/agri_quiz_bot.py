@@ -6,7 +6,7 @@ No LLM calls, no external API keys — only the service account key.
 
 Exit codes:
     0   success (prints QUIZ_OK + the message to post)
-    2   BANK_LOW n   (fewer than 120 unused; agent must top up)
+    2   BANK_LOW n   (fewer than 90 unused; agent must top up)
     3   KEY_MISSING  (service account key not found)
     4   API_ERROR    (Forms API failure; details on stderr)
 
@@ -14,7 +14,7 @@ Config (all optional via args):
     --form-id   default: live form 1J_15Uz63ZzynNbPHpi3_PEzvhYMSy6witBlDnK9V2nA
     --key       default: D:\\Zero\\secrets\\nexis-quiz-bot.json
     --bank      default: question_bank.json next to this script
-    --count     default 120, --per-area default 20
+    --count     default 90, --per-area default 15
     --dry-run   simulate selection and print what would be written (no API)
 """
 
@@ -35,7 +35,7 @@ DEFAULT_KEY = r"D:\Zero\secrets\nexis-quiz-bot.json"
 DEFAULT_BANK = os.path.join(os.path.dirname(os.path.abspath(__file__)), "question_bank.json")
 POST_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "last_post.json")
 
-DESCRIPTION = ("🌾 120 questions across 6 LEA subject areas\n"
+DESCRIPTION = ("🌾 90 questions across 6 LEA subject areas\n"
                "🔬 Auto-graded — submit to see your score\n"
                "⏰ Submit before 9PM!")
 
@@ -87,8 +87,8 @@ def build_requests(form, picked, title, desc, bank_meta_areas):
     """Return a flat list of batchUpdate request dicts, in execution order.
 
     Order: delete all existing items, update info/settings, then one section
-    header + questions per area, numbered continuously 1..N. Caller chunks
-    this list into batches.
+    header + questions per area, numbered 1..per_area within each section
+    (counter resets per subject). Caller chunks this list into batches.
     """
     requests = []
     existing = form.get("items", [])
@@ -107,11 +107,11 @@ def build_requests(form, picked, title, desc, bank_meta_areas):
         picked_by_area[q["area"]].append(q)
 
     form_index = 0
-    n = 0
     for area in bank_meta_areas:
         area_qs = picked_by_area.get(area)
         if not area_qs:
             continue
+        n = 0
         emoji = AREA_EMOJIS.get(area, "🌾")
         requests.append({"createItem": {
             "item": {"title": f"{emoji} {area}", "pageBreakItem": {}},
@@ -159,8 +159,8 @@ def main():
     ap.add_argument("--form-id", default=DEFAULT_FORM_ID)
     ap.add_argument("--key", default=DEFAULT_KEY)
     ap.add_argument("--bank", default=DEFAULT_BANK)
-    ap.add_argument("--count", type=int, default=120)
-    ap.add_argument("--per-area", type=int, default=20)
+    ap.add_argument("--count", type=int, default=90)
+    ap.add_argument("--per-area", type=int, default=15)
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
 
@@ -175,7 +175,7 @@ def main():
         sys.exit(2)
 
     today = date.today()
-    title = f"Agriculture Board Exam Quiz — {today.strftime('%B %d, %Y')}"
+    title = f"Pre-Board Exam — {today.strftime('%B %d, %Y')}"
     responder_uri = None
 
     if not args.dry_run:
