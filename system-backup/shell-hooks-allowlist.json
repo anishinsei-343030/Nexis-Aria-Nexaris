@@ -1,0 +1,16 @@
+{
+  "approvals": [
+    {
+      "approved_at": "2026-08-13T11:47:04.423511Z",
+      "command": "C:/Users/Administrator/AppData/Local/Python/hermes313/Scripts/python.exe C:/Users/Administrator/.hermes/hooks/guardrail.py",
+      "event": "pre_llm_call",
+      "script_mtime_at_approval": "2026-08-13T11:40:15.421257Z"
+    },
+    {
+      "approved_at": "2026-08-13T11:47:04.425156Z",
+      "command": "C:/Users/Administrator/AppData/Local/Python/hermes313/Scripts/python.exe C:/Users/Administrator/.hermes/hooks/guardrail.py",
+      "event": "pre_tool_call",
+      "script_mtime_at_approval": "2026-08-13T11:40:15.421257Z"
+    }
+  ]
+}

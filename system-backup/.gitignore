@@ -1,0 +1,56 @@
+# system-backup mirror — secrets and runtime state never enter git.
+# The sync script only copies the protected set, so these are belt-and-suspenders.
+
+# Secrets / credentials
+.env
+.env.*
+auth.lock
+pairing/
+*secret*.json
+*secret*.yaml
+*token*.json
+
+# Gateway runtime state
+gateway_state.json
+gateway.pid
+gateway.lock
+gateway-starts.log
+.restart_last_processed.json
+models_dev_cache.json
+
+# Databases (tarball-only by design)
+*.db
+*.db-shm
+*.db-wal
+
+# Cron runtime
+cron/executions.db*
+cron/output/
+cron/.jobs.lock
+cron/.tick.lock
+cron/ticker_*
+
+# Skills curation artifacts
+.curator_backups/
+.hub/
+.bundled_manifest
+.curator_state
+.usage.json
+.usage.json.lock
+
+# Caches / runtime
+__pycache__/
+*.pyc
+logs/
+sessions/
+lsp/
+audio_cache/
+image_cache/
+cache/
+state/
+sandboxes/
+home/
+workspace/
+gateway/
+plans/
+backups/

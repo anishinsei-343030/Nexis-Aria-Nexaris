@@ -1,0 +1,700 @@
+[
+  {
+    "name": "academic-citation-manager",
+    "purpose": "# Academic Citation Manager | \u5b66\u672f\u5f15\u7528\u7ba1\u7406\u5668",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\academic-citation-manager",
+    "status": "unknown",
+    "errors": [
+      "3. Check error log for specific error messages"
+    ],
+    "readme": "# Academic Citation Manager | \u5b66\u672f\u5f15\u7528\u7ba1\u7406\u5668\n\n\u4e00\u4e2a\u4e13\u4e1a\u7684\u79d1\u7814\u8bba\u6587\u5f15\u7528\u7ba1\u7406\u5de5\u5177\uff0c\u652f\u6301\u591a\u79cd\u5f15\u7528\u683c\u5f0f\u548cCrossref API\u96c6\u6210\n\n[![Python Version](https://img.shields.io/badge/python-3.6%2B-blue.svg)](https://www.python.org/downloads/)\n[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)\n[![GitHub Issues](https://img.shields.io/badge/issues-open-red.svg)](https://github.com/YouStudyeveryday/academic-citation-manager/issues)\n\n## \u76ee\u5f55\n\n- [\u529f\u80fd\u7279\u6027](#\u529f\u80fd\u7279\u6027)\n- [\u652f\u6301\u7684\u5f15\u7528\u683c\u5f0f](#\u652f\u6301\u7684\u5f15\u7528\u683c\u5f0f)\n- [\u5b89\u88c5\u6307\u5357](#\u5b89\u88c5\u6307\u5357)\n- [\u5feb\u901f\u5f00\u59cb](#\u5feb\u901f\u5f00\u59cb)\n- [\u4f7f\u7528\u65b9\u6cd5](#\u4f7f\u7528\u65b9\u6cd5)\n- [\u914d\u7f6e\u8bf4\u660e](#\u914d\u7f6e\u8bf4\u660e)\n- [API\u6587\u6863](#api\u6587\u6863)\n- [\u5e38\u89c1\u95ee\u9898](#\u5e38\u89c1\u95ee\u9898)\n- [\u8d21\u732e\u6307\u5357](#\u8d21\u732e\u6307\u5357)\n- [\u8bb8\u53ef\u8bc1](#\u8bb8\u53ef\u8bc1)\n\n## \u529f\u80fd\u7279\u6027\n\n\u3010\u4e2d\u6587\u3011\n- **\u591a\u683c\u5f0f\u652f\u6301**\uff1a\u652f\u6301APA 7th\u3001MLA 9th\u3001Chicago 17th\u3001GB/T 7714-2015\u3001IEEE\u3001Harvard\u7b49\u4e3b\u6d41\u5f15\u7528\u683c\u5f0f\n- **\u667a\u80fd\u5143\u6570\u636e\u83b7\u53d6**\uff1a\u901a\u8fc7DOI\u3001ISBN\u3001\u6807\u9898\u7b49\u4fe1\u606f\u4eceCrossref\u7b49\u6743\u5a01\u6570\u636e\u5e93\u81ea\u52a8\u83b7\u53d6\u6587\u732e\u5143\u6570\u636e\n- **\u6587\u5185\u5f15\u7528\u7ba1\u7406**\uff1a\u81ea\u52a8\u751f\u6210\u548c\u63d2\u5165\u6587\u4e2d\u5f15\u7528\u6807\u6ce8\uff0c\u652f\u6301\u4f5c\u8005-\u5e74\u4efd\u5236\u548c\u5e8f\u53f7\u5236\n- **\u53c2\u8003\u6587\u732e\u5217\u8868\u751f\u6210**\uff1a\u81ea\u52a8\u751f\u6210\u683c\u5f0f\u89c4\u8303\u7684\u53c2\u8003\u6587\u732e\u5217\u8868\uff0c\u652f\u6301\u591a\u79cd\u6392\u5e8f\u65b9\u5f0f\n- **\u6279\u91cf\u6587\u732e\u5bfc\u5165**\uff1a\u652f\u6301\u4eceBibTeX\u3001RIS\u3001JSON\u3001CSV\u7b49\u591a\u79cd\u683c\u5f0f\u6279\u91cf\u5bfc\u5165\u53c2\u8003\u6587\u732e\n- **\u683c\u5f0f\u8f6c\u6362**\uff1a\u5728\u4e0d\u540c\u5f15\u7528\u683c\u5f0f\u95f4\u8fdb\u884c\u5feb\u901f\u8f6c\u6362\uff0c\u6ee1\u8db3\u4e0d\u540c\u671f\u520a\u8981\u6c42\n- **\u5f15\u7528\u5b8c\u6574\u6027\u68c0\u67e5**\uff1a\u81ea\u52a8\u68c0\u67e5\u6587\u4e2d\u5f15\u7528\u4e0e\u53c2\u8003\u6587\u732e\u5217\u8868\u7684\u4e00\u81f4\u6027\n- **\u4e2d\u82f1\u6587\u53cc\u8bed\u652f\u6301**\uff1a\u5b8c\u6574\u652f\u6301\u4e2d\u6587\u548c\u82f1\u6587\u6587\u732e\u7684\u5904\u7406\u548c\u683c\u5f0f\u5316\n- **\u672c\u5730\u6587\u732e\u5e93\u7ba1\u7406**\uff1a\u672c\u5730SQLite\u6570\u636e\u5e93\u5b58\u50a8\u548c\u7ba1\u7406\u53c2\u8003\u6587\u732e\n- **\u547d\u4ee4\u884c\u5de5\u5177**\uff1a\u63d0\u4f9b\u5b8c\u6574\u7684\u547d\u4ee4\u884c\u63a5\u53e3\uff0c\u65b9\u4fbf\u6279\u91cf\u5904\u7406\u548c\u81ea\u52a8\u5316\u811a\u672c\n\n\u3010English\u3011\n- **Multi-format Support**: Supports major citation styles including APA 7th, MLA 9th, Chicago 17th, GB/T 7714-2015, IEEE, Harvard, and more\n- **Intelligent Metadata Retrieval**: Automatically fetches bibliographic metadata from authoritative databases like Crossref via DOI, ISBN, title, etc.\n- **In-text Citation Management**: Automatically generates and inserts in-text citations, supporting author-year and numeric systems\n- **Bibliography List Generation**: Automatically generates format-compliant bibliography lists with various sorting options\n- **Batch Reference Import**: Supports batch import from BibTeX, RIS, JSON, CSV and other formats\n- **Format Conversion**: Fast conversion between different citation styles to meet various journal requirements\n- **Citation Integrity Checking**: Automatically checks consistency between in-text citations and bibliography lists\n- **Bilingual Support**: Complete support for processing and formatting Chinese and English references\n- **Local Reference Database**: Local SQLite database for storing and managing references\n- **Command Line Tools**: Complete command line interface for batch processing and automation scripts\n\n## \u652f\u6301\u7684\u5f15\u7528\u683c\u5f0f\n\n| \u683c\u5f0f | \u7248\u672c | \u6587\u5185\u5f15\u7528\u98ce\u683c | \u4e3b\u8981\u7279\u70b9 | \u9002\u7528\u9886\u57df |\n|------|--------|----------------|----------|----------|\n| APA | 7th Edition | (Author, 2023) \u6216 Author (2023) | \u4f5c\u8005-\u5e74\u4efd\u5236\uff0c\u5f3a\u8c03\u51fa\u7248\u5e74\uff0cDOI\u5f3a\u5236\u63a8\u8350 | \u5fc3\u7406\u5b66\u3001\u6559\u80b2\u5b66\u3001\u793e\u4f1a\u79d1\u5b66 |\n| MLA | 9th Edition | (Author 23) \u6216 Author (23) | \u4f5c\u8005-\u9875\u7801\u5236\uff0c\u5bf9\"\u5bb9\u5668\"\u5c42\u6b21\u8981\u6c42\u660e\u786e | \u4eba\u6587\u5b66\u3001\u8bed\u8a00\u6587\u5b66 |\n| Chicago (NB) | 17th Edition | Superscript\u00b9 | \u6ce8\u811a-\u53c2\u8003\u6587\u732e\u5236\uff0c\u5386\u53f2\u6587\u732e\u6ce8\u91ca\u4e30\u5bcc | \u5386\u53f2\u3001\u827a\u672f\u3001\u4eba\u6587\u5b66 |\n| Chicago (A-D) | 17th Edition | (Author 2023, 45) | \u6ce8\u811a\u53ef\u9009\uff0c\u4f5c\u8005-\u65e5\u671f\u683c\u5f0f | \u793e\u4f1a\u79d1\u5b66\u3001\u5546\u79d1 |\n| GB/T 7714 | 2015 | [1] \u6216 (\u5f20, 2023) | \u652f\u6301\u5e8f\u53f7\u4e0e\u4f5c\u8005-\u65e5\u671f\u53cc\u5236\uff0c\u5f3a\u5236\u6587\u732e\u7c7b\u578b\u6807\u8bc6 | \u4e2d\u6587\u5b66\u4f4d\u8bba\u6587\u3001\u671f\u520a |\n| IEEE | - | [1] | \u65b9\u62ec\u53f7\u6570\u5b57\u5236\uff0c\u5f3a\u8c03\u51fa\u7248\u5e74\u3001\u5377\u671f\u9875\u7801 | \u7535\u6c14\u3001\u7535\u5b50\u3001\u8ba1\u7b97\u673a |\n| Harvard | - | (Author, 1999, p. 23) | \u4f5c\u8005-\u5e74\u4efd\u5236\uff0c\u9875\u7801\u5fc5\u52a0 | \u82f1\u8054\u90a6\u9ad8\u6821\u901a\u7528 |\n\n## \u5b89\u88c5\u6307\u5357\n\n### \u73af\u5883\u8981\u6c42\n\n\u3010\u4e2d\u6587\u3011\n- Python 3.6 \u6216\u66f4\u9ad8\u7248\u672c\n- pip\uff08Python\u5305\u7ba1\u7406\u5668\uff09\n- \u4e92\u8054\u7f51\u8fde\u63a5\uff08\u7528\u4e8eCrossref API\u8bbf\u95ee\uff09\n\n\u3010English\u3011\n- Python 3.6 or higher\n- pip (Python package manager)\n- Internet connection (for Crossref API access)\n\n### \u4ece\u6e90\u7801\u5b89\u88c5\n\n\u3010\u4e2d\u6587\u3011\n```bash\n# \u514b\u9686\u4ed3\u5e93\ngit clone https://github.com/YouStudyeveryday/academic-citation-manager.git\ncd academic-citation-manager\n\n# \u5b89\u88c5\u4f9d\u8d56\npip install -r requirements.txt\n\n# \u5b89\u88c5\u5230\u7cfb\u7edf\uff08\u53ef\u9009\uff09\npip install -e .\n```\n\n\u3010English\u3011\n```bash\n# Clone repository\ngit clone https://github.com/YouStudyeveryday/academic-citation-manager.git\ncd academic-citation-manager\n\n# Install dependencies\npip install -r requirements.txt\n\n# Install to system (optional)\npip install -e .\n```\n\n### \u4f9d\u8d56\u5305\n\n\u3010\u4e2d\u6587\u3011\n```txt\nrequests>=2.28.0\n```\n\n\u3010English\u3011\n```txt\nrequests>=2.28.0\n```\n\n## \u5feb\u901f\u5f00\u59cb\n\n\u3010\u4e2d\u6587\u3011\n\n### \u57fa\u7840\u4f7f\u7528\n\n```python\nfrom academic_citation_skill import AcademicCitationManager\n\n# \u521b\u5efa\u7ba1\u7406\u5668\u5b9e\u4f8b\nmanager = AcademicCitationManager()\n\n# \u901a\u8fc7DOI\u83b7\u53d6\u6587\u732e\u4fe1\u606f\nref = manager.fetch_reference_by_doi(\"10.1038/nature14539\")\nprint(f\"\u6807\u9898: {ref['title']}\")\nprint(f\"\u4f5c\u8005: {', '.join([f\\\"{a.get('family', '')} {a.get('given', '')}\\\" for a in ref.get('authors', [])])}\")\n\n# \u6dfb\u52a0\u5230\u672c\u5730\u6587\u732e\u5e93\nref_id = manager.add_to_library(ref)\n\n# \u751f\u6210\u6587\u4e2d\u5f15\u7528\ncitation = manager.generate_citation(ref_id, style='apa')\nprint(f\"\u6587\u4e2d\u5f15\u7528: {citation}\")\n\n# \u751f\u6210\u53c2\u8003\u6587\u732e\u5217\u8868\nbibliography = manager.generate_bibliography(style='apa')\nfor entry in bibliography:\n    print(entry)\n```\n\n### \u547d\u4ee4\u884c\u4f7f\u7528\n\n```bash\n# \u901a\u8fc7DOI\u83b7\u53d6\u6587\u732e\npython academic_citation_skill.py --fetch-doi 10.1038/nature14539\n\n# \u641c\u7d22\u6587\u732e\npython academic_citation_skill.py --search \"Deep Learning\" --author \"LeCun\"\n\n# \u751f\u6210\u53c2\u8003\u6587\u732e\u5217\u8868\npython academic_citation_skill.py --generate-bib --style apa --sort alphabetical\n\n# \u68c0\u67e5\u5f15\u7528\u5b8c\u6574\u6027\npython academic_citation_skill.py --check document.txt\n```\n\n\u3010English\u3011\n\n### Basic Usage\n\n```python\nfrom academic_citation_skill import AcademicCitationManager\n\n# Create manager instance\nmanager = AcademicCitationManager()\n\n# Fetch reference by DOI\nref = manager.fetch_reference_by_doi(\"10.1038/nature14539\")\nprint(f\"Title: {ref['title']}\")\nprint(f\"Authors: {', '.join([f\\\"{a.get('family', '')} {a.get('given', '')}\\\" for a in ref.get('authors', [])])}\")\n\n# Add to local library\nref_id = manager.add_to_library(ref)\n\n# Generate in-text citation\ncitation = manager.generate_citation(ref_id, style='apa')\nprint(f\"In-text citation: {citation}\")\n\n# Generate bibliography list\nbibliography = manager.generate_bibliography(style='apa')\nfor entry in bibliography:\n    print(entry)\n```\n\n### Command Line Usage\n\n```bash\n# Fetch reference by DOI\npython academic_citation_skill.py --fetch-doi 10.1038/nature14539\n\n# Search references\npython academic_citation_skill.py --search \"Deep Learning\" --author \"LeCun\"\n\n# Generate bibliography list\npython academic_citation_skill.py --generate-bib --style apa --sort alphabetical\n\n# Check citation integrity\npython academic_citation_skill.py --check document.txt\n```\n\n## \u4f7f\u7528\u65b9\u6cd5\n\n### Python API\n\n\u3010\u4e2d\u6587\u3011\n\n#### \u521b\u5efa\u7ba1\u7406\u5668\u5b9e\u4f8b\n\n```python\nfrom academic_citation_skill import AcademicCitationManager\n\n# \u4f7f\u7528\u9ed8\u8ba4\u914d\u7f6e\nmanager = AcademicCitationManager()\n\n# \u6307\u5b9a\u914d\u7f6e\u76ee\u5f55\nmanager = AcademicCitationManager(config_dir=\"/path/to/config\")\n```\n\n\u3010English\u3011\n\n#### Create Manager Instance\n\n```python\nfrom academic_citation_skill import AcademicCitationManager\n\n# Use default configuration\nmanager = AcademicCitationManager()\n\n# Specify configuration directory\nmanager = AcademicCitationManager(config_dir=\"/path/to/config\")\n```\n\n#### \u901a\u8fc7DOI\u83b7\u53d6\u6587\u732e | Fetch Reference by DOI\n\n\u3010\u4e2d\u6587\u3011\n```python\ndoi = \"10.1038/nature14539\"\nreference = manager.fetch_reference_by_doi(doi)\n\nif reference:\n    print(f\"\u6587\u732e\u5df2\u627e\u5230: {reference['title']}\")\n    print(f\"\u4f5c\u8005: {', '.join([f\\\"{a.get('family', '')} {a.get('given', '')}\\\" for a in reference['authors']])}\")\n    print(f\"\u5e74\u4efd: {reference['year']}\")\n    print(f\"DOI: {reference.get('doi', 'N/A')}\")\nelse:\n    print(\"\u672a\u627e\u5230\u6587\u732e\u4fe1\u606f\")\n```\n\n\u3010English\u3011\n```python\ndoi = \"10.1038/nature14539\"\nreference = manager.fetch_reference_by_doi(doi)\n\nif reference:\n    print(f\"Reference found: {reference['title']}\")\n    print(f\"Authors: {', '.join([f\\\"{a.get('family', '')} {a.get('given', '')}\\\" for a in reference['authors']])}\")\n    print(f\"Year: {reference['year']}\")\n    print(f\"DOI: {reference.get('doi', 'N/A')}\")\nelse:\n    print(\"Reference not found\")\n```\n\n#### \u901a\u8fc7ISBN\u83b7\u53d6\u56fe\u4e66 | Fetch Book by ISBN\n\n\u3010\u4e2d\u6587\u3011\n```python\nisbn = \"9780262033848\"\nreference = manager.fetch_reference_by_isbn(isbn)\n\nif reference:\n    print(f\"\u56fe\u4e66\u5df2\u627e\u5230: {reference['title']}\")\n    print(f\"\u51fa\u7248\u793e: {reference.get('publisher', 'N/A')}\")\n    print(f\"ISBN: {reference.get('isbn', 'N/A')}\")\n```\n\n\u3010English\u3011\n```python\nisbn = \"9780262033848\"\nreference = manager.fetch_reference_by_isbn(isbn)\n\nif reference:\n    print(f\"Book found: {reference['title']}\")\n    print(f\"Publisher: {reference.get('publisher', 'N/A')}\")\n    print(f\"ISBN: {reference.get('isbn', 'N/A')}\")\n```\n\n#### \u641c\u7d22\u6587\u732e | Search References\n\n\u3010\u4e2d\u6587\u3011\n```python\nresults = manager.search_references(\n    title=\"Deep Learning\",\n    author=\"LeCun\",\n    year=2015,\n    max_results=10\n)\n\nprint(f\"\u627e\u5230 {len(results)} \u7bc7\u6587\u732e:\")\nfor ref in results:\n    print(f\"  - {ref['title']} ({ref['year']})\")\n```\n\n\u3010English\u3011\n```python\nresults = manager.search_references(\n    title=\"Deep Learning\",\n    author=\"LeCun\",\n    year=2015,\n    max_results=10\n)\n\nprint(f\"Found {len(results)} references:\")\nfor ref in results:\n    print(f\"  - {ref['title']} ({ref['year']})\")\n```\n\n#### \u751f\u6210\u6587\u4e2d\u5f15\u7528 | Generate In-text Citations\n\n\u3010\u4e2d\u6587\u3011\n```python\n# \u6dfb\u52a0\u6587\u732e\u5230\u5e93\nref_data = {\n    'type': 'journal_article',\n    'title': 'Deep Learning',\n    'authors': [\n        {'given': 'Yann', 'family': 'LeCun', 'sequence': 'first'},\n        {'given': 'Yoshua', 'family': 'Bengio', 'sequence': 'additional'},\n        {'given': 'Geoffrey', 'family': 'Hinton', 'sequence': 'additional'}\n    ],\n    'container_title': 'Nature',\n    'volume': '521',\n    'issue': '7553',\n    'page': '436-444',\n    'year': 2015,\n    'doi': '10.1038/nature14539'\n}\n\nref_id = manager.add_to_library(ref_data)\n\n# APA\u683c\u5f0f - \u62ec\u53f7\u5f0f\ncitation_parenthetical = manager.generate_citation(\n    ref_id, \n    style='apa',\n    citation_type='parenthetical'\n)\nprint(f\"APA\u62ec\u53f7\u5f0f: {citation_parenthetical}\")\n# \u8f93\u51fa: (LeCun, Bengio, & Hinton, 2015)\n\n# APA\u683c\u5f0f - \u53d9\u8ff0\u5f0f\ncitation_narrative = manager.generate_citation(\n    ref_id,\n    style='apa',\n    citation_type='narrative'\n)\nprint(f\"APA\u53d9\u8ff0\u5f0f: {citation_narrative}\")\n# \u8f93\u51fa: LeCun, Bengio, and Hinton (2015)\n\n# IEEE\u683c\u5f0f\ncitation_ieee = manager.generate_citation(\n    ref_id,\n    style='ieee'\n)\nprint(f\"IEEE\u683c\u5f0f: {citation_ieee}\")\n# \u8f93\u51fa: [ref_1]\n```\n\n\u3010English\u3011\n```python\n# Add reference to library\nref_data = {\n    'type': 'journal_article',\n    'title': 'Deep Learning',\n    'authors': [\n        {'given': 'Yann', 'family': 'LeCun', 'sequence': 'first'},\n        {'given': 'Yoshua', 'family': 'Bengio', 'sequence': 'additional'},\n        {'given': 'Geoffrey', 'family': 'Hinton', 'sequence': 'additional'}\n    ],\n    'container_title': 'Nature',\n    'volume': '521',\n    'issue': '7553',\n    'page': '436-444',\n    'year': 2015,\n    'doi': '10.1038/nature14539'\n}\n\nref_id = manager.add_to_library(ref_data)\n\n# APA style - Parenthetical\ncitation_parenthetical = manager.generate_citation(\n    ref_id, \n    style='apa',\n    citation_type='parenthetical'\n)\nprint(f\"APA Parenthetical: {citation_parenthetical}\")\n# Output: (LeCun, Bengio, & Hinton, 2015)\n\n# APA style - Narrative\ncitation_narrative = manager.generate_citation(\n    ref_id,\n    style='apa',\n    citation_type='narrative'\n)\nprint(f\"APA Narrative: {citation_narrative}\")\n# Output: LeCun, Bengio, and Hinton (2015)\n\n# IEEE style\ncitation_ieee = manager.generate_citation(\n    ref_id,\n    style='ieee'\n)\nprint(f\"IEEE style: {citation_ieee}\")\n# Output: [ref_1]\n```\n\n#### \u751f\u6210\u53c2\u8003\u6587\u732e\u5217\u8868 | Generate Bibliography List\n\n\u3010\u4e2d\u6587\u3011\n```python\n# APA\u683c\u5f0f\u53c2\u8003\u6587\u732e\u5217\u8868\nbibliography_apa = manager.generate_bibliography(style='apa', sort_by='alphabetical')\nprint(\"\\nAPA\u683c\u5f0f\u53c2\u8003\u6587\u732e:\\n\")\nfor i, entry in enumerate(bibliography_apa, 1):\n    print(f\"{i}. {entry}\")\n\n# IEEE\u683c\u5f0f\u53c2\u8003\u6587\u732e\u5217\u8868\nbibliography_ieee = manager.generate_bibliography(style='ieee', sort_by='citation_order')\nprint(\"\\nIEEE\u683c\u5f0f\u53c2\u8003\u6587\u732e:\\n\")\nfor i, entry in enumerate(bibliography_ieee, 1):\n    print(f\"{i}. {entry}\")\n\n# GB/T 7714\u683c\u5f0f\uff08\u4e2d\u6587\u6587\u732e\uff09\nbibliography_gbt = manager.generate_bibliography(style='gbt7714', sort_by='citation_order')\nprint(\"\\nGB/T 7714\u683c\u5f0f\u53c2\u8003\u6587\u732e:\\n\")\nfor i, entry in enumerate(bibliography_gbt, 1):\n    print(f\"{i}. {entry}\")\n```\n\n\u3010English\u3011\n```python\n# APA style bibliography\nbibliography_apa = manager.generate_bibliography(style='apa', sort_by='alphabetical')\nprint(\"\\nAPA Style Bibliography:\\n\")\nfor i, entry in enumerate(bibliography_apa, 1):\n    print(f\"{i}. {entry}\")\n\n# IEEE style bibliography\nbibliography_ieee = manager.generate_bibliography(style='ieee', sort_by='citation_order')\nprint(\"\\nIEEE Style Bibliography:\\n\")\nfor i, entry in enumerate(bibliography_ieee, 1):\n    print(f\"{i}. {entry}\")\n\n# GB/T 7714 style (Chinese references)\nbibliography_gbt = manager.generate_bibliography(style='gbt7714', sort_by='citation_order')\nprint(\"\\nGB/T 7714 Style Bibliography:\\n\")\nfor i, entry in enumerate(bibliography_gbt, 1):\n    print(f\"{i}. {entry}\")\n```\n\n#### \u68c0\u67e5\u5f15\u7528\u5b8c\u6574\u6027 | Check Citation Integrity\n\n\u3010\u4e2d\u6587\u3011\n```python\n# \u52a0\u8f7d\u8bba\u6587\u6587\u672c\nwith open('paper.txt', 'r', encoding='utf-8') as f:\n    paper_text = f.read()\n\n# \u68c0\u67e5\u5f15\u7528\u5b8c\u6574\u6027\nreport = manager.check_citation_integrity(paper_text)\n\nprint(f\"\\n\u5f15\u7528\u5b8c\u6574\u6027\u62a5\u544a:\")\nprint(f\"  \u6587\u4e2d\u5f15\u7528\u603b\u6570: {report['total_citations']}\")\nprint(f\"  \u53c2\u8003\u6587\u732e\u603b\u6570: {report['total_references']}\")\nprint(f\"  \u4e0d\u4e00\u81f4\u9879\u6570\u91cf: {report['inconsistencies']}\")\n\nif report['missing_in_bibliography']:\n    print(f\"\\n  \u6587\u4e2d\u5f15\u7528\u4f46\u53c2\u8003\u6587\u732e\u5217\u8868\u7f3a\u5931 ({len(report['missing_in_bibliography'])} \u9879):\")\n    for item in report['missing_in_bibliography']:\n        print(f\"    - {item}\")\n\nif report['unused_references']:\n    print(f\"\\n  \u53c2\u8003\u6587\u732e\u5217\u8868\u4e2d\u672a\u4f7f\u7528 ({len(report['unused_references'])} \u9879):\")\n    for item in report['unused_references']:\n        print(f\"    - {item}\")\n\nif report['inconsistencies'] == 0:\n    print(\"\\n  \u2713 \u5f15\u7528\u5b8c\u6574\u6027\u68c0\u67e5\u901a\u8fc7\uff01\")\n```\n\n\u3010English\u3011\n```python\n# Load paper text\nwith open('paper.txt', 'r', encoding='utf-8') as f:\n    paper_text = f.read()\n\n# Check citation integrity\nreport = manager.check_citation_integrity(paper_text)\n\nprint(f\"\\nCitation Integrity Report:\")\nprint(f\"  Total in-text citations: {report['total_citations']}\")\nprint(f\"  Total bibliography entries: {report['total_references']}\")\nprint(f\"  Inconsistencies: {report['inconsistencies']}\")\n\nif report['missing_in_bibliography']:\n    print(f\"\\n  Cited but missing from bibliography ({len(report['missing_in_bibliography'])} items):\")\n    for item in report['missing_in_bibliography']:\n        print(f\"    - {item}\")\n\nif report['unused_references']:\n    print(f\"\\n  Unused in bibliography ({len(report['unused_references'])} items):\")\n    for item in report['unused_references']:\n        print(f\"    - {item}\")\n\nif report['inconsistencies'] == 0:\n    print(\"\\n  \u2713 Citation integrity check passed!\")\n```\n\n#### \u683c\u5f0f\u8f6c\u6362 | Format Conversion\n\n\u3010\u4e2d\u6587\u3011\n```python\n# \u83b7\u53d6\u6240\u6709\u53c2\u8003\u6587\u732e\nreferences = manager.database.get_all_references()\n\n# \u8f6c\u6362\u4e3aIEEE\u683c\u5f0f\nconverted = manager.convert_citation_style(\n    references=references,\n    from_style='apa',\n    to_style='ieee'\n)\n\nprint(\"\\n\u683c\u5f0f\u8f6c\u6362\u7ed3\u679c:\")\nfor item in converted:\n    print(f\"\\nID: {item['id']}\")\n    print(f\"  \u539f\u683c\u5f0f: {item.get('original', '')[:100]}...\")\n    print(f\"  \u65b0\u683c\u5f0f: {item.get('converted', '')[:100]}...\")\n    print(f\"  \u8f6c\u6362: {item['from_style']} -> {item['to_style']}\")\n```\n\n\u3010English\u3011\n```python\n# Get all references\nreferences = manager.database.get_all_references()\n\n# Convert to IEEE style\nconverted = manager.convert_citation_style(\n    references=references,\n    from_style='apa',\n    to_style='ieee'\n)\n\nprint(\"\\nFormat Conversion Results:\")\nfor item in converted:\n    print(f\"\\nID: {item['id']}\")\n    print(f\"  Original: {item.get('original', '')[:100]}...\")\n    print(f\"  Converted: {item.get('converted', '')[:100]}...\")\n    print(f\"  Conversion: {item['from_style']} -> {item['to_style']}\")\n```\n\n#### BibTeX\u5bfc\u5165\u5bfc\u51fa | BibTeX Import/Export\n\n\u3010\u4e2d\u6587\u3011\n```python\n# \u5bfc\u51fa\u4e3aBibTeX\u683c\u5f0f\nsuccess = manager.export_bibtex('references.bib')\nif success:\n    print(\"BibTeX\u6587\u4ef6\u5df2\u6210\u529f\u5bfc\u51fa: references.bib\")\n\n# \u4eceBibTeX\u6587\u4ef6\u5bfc\u5165\ncount = manager.import_from_bibtex('references.bib')\nprint(f\"\u6210\u529f\u5bfc\u5165 {count} \u7bc7\u6587\u732e\")\n```\n\n\u3010English\u3011\n```python\n# Export to BibTeX format\nsuccess = manager.export_bibtex('references.bib')\nif success:\n    print(\"BibTeX file successfully exported: references.bib\")\n\n# Import from BibTeX file\ncount = manager.import_from_bibtex('references.bib')\nprint(f\"Successfully imported {count} references\")\n```\n\n### \u547d\u4ee4\u884c\u5de5\u5177 | Command Line Tools\n\n\u3010\u4e2d\u6587\u3011\n\n#### \u901a\u8fc7DOI\u83b7\u53d6\u6587\u732e\u4fe1\u606f\n```bash\npython academic_citation_skill.py --fetch-doi 10.1038/nature14539\n```\n\n#### \u901a\u8fc7ISBN\u83b7\u53d6\u56fe\u4e66\u4fe1\u606f\n```bash\npython academic_citation_skill.py --fetch-isbn 9780262033848\n```\n\n#### \u641c\u7d22\u6587\u732e\n```bash\n# \u57fa\u672c\u641c\u7d22\npython academic_citation_skill.py --search \"Deep Learning\"\n\n# \u6307\u5b9a\u4f5c\u8005\u641c\u7d22\npython academic_citation_skill.py --search \"Deep Learning\" --author \"LeCun\"\n\n# \u6307\u5b9a\u5e74\u4efd\u641c\u7d22\npython academic_citation_skill.py --search \"Deep Learning\" --year 2015\n\n# \u9650\u5236\u7ed3\u679c\u6570\u91cf\npython academic_citation_skill.py --search \"Deep Learning\" --max-results 20\n```\n\n#### \u751f\u6210\u53c2\u8003\u6587\u732e\u5217\u8868\n```bash\n# APA\u683c\u5f0f\uff0c\u5b57\u6bcd\u6392\u5e8f\npython academic_citation_skill.py --generate-bib --style apa --sort alphabetical\n\n# IEEE\u683c\u5f0f\uff0c\u5f15\u7528\u987a\u5e8f\u6392\u5e8f\npython academic_citation_skill.py --generate-bib --style ieee --sort citation_order\n\n# GB/T 7714\u683c\u5f0f\npython academic_citation_skill.py --generate-bib --style gbt7714 --sort citation_order --output refs.txt\n```\n\n#### \u6279\u91cf\u5bfc\u5165\u53c2\u8003\u6587\u732e\n```bash\n# \u5bfc\u5165BibTeX\u6587\u4ef6\npython batch_import.py --bibtex references.bib\n\n# \u5bfc\u5165RIS\u6587\u4ef6\npython batch_import.py --ris references.ris\n\n# \u5bfc\u5165JSON\u6587\u4ef6\npython batch_import.py --json references.json\n\n# \u5bfc\u5165CSV\u6587\u4ef6\npython batch_import.py --csv references.csv\n\n# \u6279\u91cf\u5bfc\u5165\u6574\u4e2a\u76ee\u5f55\npython batch_import.py --directory ./references --pattern \"*.bib\"\n```\n\n#### \u683c\u5f0f\u8f6c\u6362\n```bash\n# APA\u8f6cIEEE\npython academic_citation_skill.py --convert --from-style apa --to-style ieee --input apa_refs.txt --output ieee_refs.txt\n\n# Chicago\u8f6cHarvard\npython academic_citation_skill.py --convert --from-style chicago --to-style harvard --input chicago_refs.txt\n```\n\n#### \u68c0\u67e5\u5f15\u7528\u5b8c\u6574\u6027\n```bash\n# \u68c0\u67e5\u6587\u6863\u5f15\u7528\npython academic_citation_skill.py --check paper.txt\n\n# \u751f\u6210\u8be6\u7ec6\u62a5\u544a\npython academic_citation_skill.py --check paper.txt --verbose\n```\n\n#### \u6587\u732e\u5e93\u7ba1\u7406\n```bash\n# \u663e\u793a\u7edf\u8ba1\u4fe1\u606f\npython academic_citation_skill.py --stats\n\n# \u5bfc\u51fa\u4e3aJSON\npython academic_citation_skill.py --export-json library.json\n\n# \u4eceJSON\u5bfc\u5165\npython academic_citation_skill.py --import-json library.json\n```\n\n\u3010English\u3011\n\n#### Fetch Reference Information by DOI\n```bash\npython academic_citation_skill.py --fetch-doi 10.1038/nature14539\n```\n\n#### Fetch Book Information by ISBN\n```bash\npython academic_citation_skill.py --fetch-isbn 9780262033848\n```\n\n#### Search References\n```bash\n# Basic search\npython academic_citation_skill.py --search \"Deep Learning\"\n\n# Search with author\npython academic_citation_skill.py --search \"Deep Learning\" --author \"LeCun\"\n\n# Search with year\npython academic_citation_skill.py --search \"Deep Learning\" --year 2015\n\n# Limit results\npython academic_citation_skill.py --search \"Deep Learning\" --max-results 20\n```\n\n#### Generate Bibliography List\n```bash\n# APA style, alphabetical sort\npython academic_citation_skill.py --generate-bib --style apa --sort alphabetical\n\n# IEEE style, citation order sort\npython academic_citation_skill.py --generate-bib --style ieee --sort citation_order\n\n# GB/T 7714 style\npython academic_citation_skill.py --generate-bib --style gbt7714 --sort citation_order --output refs.txt\n```\n\n#### Batch Import References\n```bash\n# Import BibTeX file\npython batch_import.py --bibtex references.bib\n\n# Import RIS file\npython batch_import.py --ris references.ris\n\n# Import JSON file\npython batch_import.py --json references.json\n\n# Import CSV file\npython batch_import.py --csv references.csv\n\n# Batch import entire directory\npython batch_import.py --directory ./references --pattern \"*.bib\"\n```\n\n#### Format Conversion\n```bash\n# APA to IEEE\npython academic_citation_skill.py --convert --from-style apa --to-style ieee --input apa_refs.txt --output ieee_refs.txt\n\n# Chicago to Harvard\npython academic_citation_skill.py --convert --from-style chicago --to-style harvard --input chicago_refs.txt\n```\n\n#### Check Citation Integrity\n```bash\n# Check document citations\npython academic_citation_skill.py --check paper.txt\n\n# Generate detailed report\npython academic_citation_skill.py --check paper.txt --verbose\n```\n\n#### Library Management\n```bash\n# Show statistics\npython academic_citation_skill.py --stats\n\n# Export to JSON\npython academic_citation_skill.py --export-json library.json\n\n# Import from JSON\npython academic_citation_skill.py --import-json library.json\n```\n\n## \u914d\u7f6e\u8bf4\u660e\n\n\u3010\u4e2d\u6587\u3011\n\n### \u914d\u7f6e\u6587\u4ef6\u7ed3\u6784\n\n\u9879\u76ee\u4f7f\u7528\u4ee5\u4e0b\u914d\u7f6e\u6587\u4ef6\uff1a\n\n1. **citation_styles.json** - \u5f15\u7528\u683c\u5f0f\u5b9a\u4e49\n   - \u5b9a\u4e49\u5404\u79cd\u5f15\u7528\u683c\u5f0f\u7684\u89c4\u5219\n   - \u5305\u62ec\u6587\u5185\u5f15\u7528\u548c\u53c2\u8003\u6587\u732e\u5217\u8868\u683c\u5f0f\n   - \u652f\u6301\u81ea\u5b9a\u4e49\u6837\u5f0f\n\n2. **crossref_config.json** - Crossref API\u914d\u7f6e\n   - API\u7aef\u70b9\u548c\u8bf7\u6c42\u53c2\u6570\n   - \u901f\u7387\u9650\u5236\u548c\u91cd\u8bd5\u7b56\u7565\n   - \u7f13\u5b58\u8bbe\u7f6e\n\n3. **reference_database.json** - \u672c\u5730\u6587\u732e\u6570\u636e\u5e93\n   - \u5b58\u50a8\u6240\u6709\u53c2\u8003\u6587\u732e\u4fe1\u606f\n   - \u5f15\u7528\u6620\u5c04\u5173\u7cfb\n   - \u7edf\u8ba1\u4fe1\u606f\n\n### \u81ea\u5b9a\u4e49\u5f15\u7528\u683c\u5f0f\n\n\u3010\u4e2d\u6587\u3011\n\n\u53ef\u4ee5\u901a\u8fc7\u7f16\u8f91 `citation_styles.json` \u6587\u4ef6\u6765\u81ea\u5b9a\u4e49\u5f15\u7528\u683c\u5f0f\u3002\u6bcf\u4e2a\u683c\u5f0f\u5305\u542b\u4ee5\u4e0b\u914d\u7f6e\uff1a\n\n```json\n{\n  \"style_name\": {\n    \"name\": \"\u683c\u5f0f\u663e\u793a\u540d\u79f0\",\n    \"in_text\": {\n      \"format\": \"parenthetical|footnote|numeric\",\n      \"separator\": \", \",\n      \"et_al\": \"et al.\",\n      \"multiple_authors\": {...}\n    },\n    \"bibliography\": {\n      \"sort_by\": \"alphabetical|citation_order|year\",\n      \"author_format\": \"last_first|given_first\",\n      \"title_format\": \"sentence_case|title_case\",\n      \"document_type_codes\": {...}\n    }\n  }\n}\n```\n\n\u3010English\u3011\n\nCustomize citation styles by editing the `citation_styles.json` file. Each format includes the following configuration:\n\n```json\n{\n  \"style_name\": {\n    \"name\": \"Format Display Name\",\n    \"in_text\": {\n      \"format\": \"parenthetical|footnote|numeric\",\n      \"separator\": \", \",\n      \"et_al\": \"et al.\",\n      \"multiple_authors\": {...}\n    },\n    \"bibliography\": {\n      \"sort_by\": \"alphabetical|citation_order|year\",\n      \"author_format\": \"last_first|given_first\",\n      \"title_format\": \"sentence_case|title_case\",\n      \"document_type_codes\": {...}\n    }\n  }\n}\n```\n\n### Crossref API\u914d\u7f6e\n\n\u3010\u4e2d\u6587\u3011\n\n`crossref_config.json` \u6587\u4ef6\u5305\u542bCrossref API\u7684\u914d\u7f6e\u9009\u9879\uff1a\n\n- **api_base**: API\u57fa\u7840URL\n- **endpoints**: \u5404\u4e2aAPI\u7aef\u70b9\n- **request_config**: \u8bf7\u6c42\u53c2\u6570\u914d\u7f6e\n- **rate_limiting**: \u901f\u7387\u9650\u5236\u8bbe\u7f6e\n- **filters**: \u9ed8\u8ba4\u67e5\u8be2\u8fc7\u6ee4\u5668\n- **cache**: \u7f13\u5b58\u914d\u7f6e\n\n```json\n{\n  \"api_base\": \"https://api.crossref.org\",\n  \"rate_limiting\": {\n    \"requests_per_second\": 10,\n    \"enabled\": true\n  },\n  \"cache\": {\n    \"enabled\": true,\n    \"ttl_seconds\": 86400\n  }\n}\n```\n\n\u3010English\u3011\n\nThe `crossref_config.json` file contains Crossref API configuration options:\n\n- **api_base**: API base URL\n- **endpoints**: Various API endpoints\n- **request_config**: Request parameter configuration\n- **rate_limiting**: Rate limiting settings\n- **filters**: Default query filters\n- **cache**: Cache configuration\n\n```json\n{\n  \"api_base\": \"https://api.crossref.org\",\n  \"rate_limiting\": {\n    \"requests_per_second\": 10,\n    \"enabled\": true\n  },\n  \"cache\": {\n    \"enabled\": true,\n    \"ttl_seconds\": 86400\n  }\n}\n```\n\n## API\u6587\u6863\n\n### AcademicCitationManager\u7c7b\n\n\u3010\u4e2d\u6587\u3011\n\n\u4e3b\u8981\u7684\u5b66\u672f\u5f15\u7528\u7ba1\u7406\u5668\u7c7b\uff0c\u63d0\u4f9b\u5b8c\u6574\u7684\u5f15\u7528\u7ba1\u7406\u529f\u80fd\u3002\n\n#### \u65b9\u6cd5\n\n##### `__init__(config_dir=None)`\n\u521d\u59cb\u5316\u7ba1\u7406\u5668\u3002\n\n**\u53c2\u6570\uff1a**\n- `config_dir` (str, \u53ef\u9009): \u914d\u7f6e\u6587\u4ef6\u76ee\u5f55\u8def\u5f84\n\n**\u8fd4\u56de\uff1a**\n- `AcademicCitationManager` \u5b9e\u4f8b\n\n##### `fetch_reference_by_doi(doi)`\n\u901a\u8fc7DOI\u83b7\u53d6\u6587\u732e\u4fe1\u606f\u3002\n\n**\u53c2\u6570\uff1a**\n- `doi` (str): DOI\u6807\u8bc6\u7b26\n\n**\u8fd4\u56de\uff1a**\n- `dict` \u6216 `None`: \u6587\u732e\u4fe1\u606f\u5b57\u5178\n\n**\u793a\u4f8b\uff1a**\n```python\nmanager = AcademicCitationManager()\nref = manager.fetch_reference_by_doi(\"10.1038/nature14539\")\n```\n\n##### `search_references(title, author=None, year=None, max_results=10)`\n\u901a\u8fc7\u6807\u9898\u548c\u4f5c\u8005\u641c\u7d22\u6587\u732e\u3002\n\n**\u53c2\u6570\uff1a**\n- `title` (str): \u6587\u732e\u6807\u9898\n- `author` (str, \u53ef\u9009): \u4f5c\u8005\u59d3\u540d\n- `year` (int, \u53ef\u9009): \u51fa\u7248\u5e74\u4efd\n- `max_results` (int, \u53ef\u9009): \u6700\u5927\u7ed3\u679c\u6570\n\n**\u8fd4\u56de\uff1a**\n- `list`: \u5339\u914d\u7684\u6587\u732e\u5217\u8868\n\n##### `add_to_library(reference)`\n\u6dfb\u52a0\u6587\u732e\u5230\u672c\u5730\u5e93\u3002\n\n**\u53c2\u6570\uff1a**\n- `reference` (Reference\u6216dict): \u6587\u732e\u5bf9\u8c61\u6216\u5b57\u5178\n\n**\u8fd4\u56de\uff1a**\n- `str`: \u6587\u732eID\n\n##### `generate_citation(reference_id, style='apa', citation_type='parenthetical', page=None)`\n\u751f\u6210\u6587\u4e2d\u5f15\u7528\u3002\n\n**\u53c2\u6570\uff1a**\n- `reference_id` (str): \u6587\u732eID\n- `style` (str): \u5f15\u7528\u683c\u5f0f\n- `citation_type` (str): \u5f15\u7528\u7c7b\u578b\n- `page` (str, \u53ef\u9009): \u9875\u7801\n\n**\u8fd4\u56de\uff1a**\n- `str`: \u683c\u5f0f\u5316\u7684\u5f15\u7528\u5b57\u7b26\u4e32\n\n##### `generate_bibliography(style='apa', sort_by='alphabetical')`\n\u751f\u6210\u53c2\u8003\u6587\u732e\u5217\u8868\u3002\n\n**\u53c2\u6570\uff1a**\n- `style` (str): \u5f15\u7528\u683c\u5f0f\n- `sort_by` (str): \u6392\u5e8f\u65b9\u5f0f\n\n**\u8fd4\u56de\uff1a**\n- `list`: \u683c\u5f0f\u5316\u7684\u53c2\u8003\u6587\u732e\u6761\u76ee\u5217\u8868\n\n##### `check_citation_integrity(document_text)`\n\u68c0\u67e5\u6587\u6863\u5f15\u7528\u5b8c\u6574\u6027\u3002\n\n**\u53c2\u6570\uff1a**\n- `document_text` (str): \u6587\u6863\u6587\u672c\n\n**\u8fd4\u56de\uff1a**\n- `dict`: \u5b8c\u6574\u6027\u62a5\u544a\n\n##### `convert_citation_style(references, from_style, to_style)`\n\u8f6c\u6362\u5f15\u7528\u683c\u5f0f\u3002\n\n**\u53c2\u6570\uff1a**\n- `references` (list): \u6587\u732e\u5217\u8868\n- `from_style` (str): \u6e90\u683c\u5f0f\n- `to_style` (str): \u76ee\u6807\u683c\u5f0f\n\n**\u8fd4\u56de\uff1a**\n- `list`: \u8f6c\u6362\u7ed3\u679c\u5217\u8868\n\n\u3010English\u3011\n\nMain academic citation manager class providing complete citation management functionality.\n\n#### Methods\n\n##### `__init__(config_dir=None)`\nInitialize the manager.\n\n**Parameters:**\n- `config_dir` (str, optional): Configuration file directory path\n\n**Returns:**\n- `AcademicCitationManager` instance\n\n##### `fetch_reference_by_doi(doi)`\nFetch reference information by DOI.\n\n**Parameters:**\n- `doi` (str): DOI identifier\n\n**Returns:**\n- `dict` or `None`: Reference information dictionary\n\n**Example:**\n```python\nmanager = AcademicCitationManager()\nref = manager.fetch_reference_by_doi(\"10.1038/nature14539\")\n```\n\n##### `search_references(title, author=None, year=None, max_results=10)`\nSearch references by title and author.\n\n**Parameters:**\n- `title` (str): Reference title\n- `author` (str, optional): Author name\n- `year` (int, optional): Publication year\n- `max_results` (int, optional): Maximum number of results\n\n**Returns:**\n- `list`: List of matching references\n\n##### `add_to_library(reference)`\nAdd reference to local library.\n\n**Parameters:**\n- `reference` (Reference or dict): Reference object or dictionary\n\n**Returns:**\n- `str`: Reference ID\n\n##### `generate_citation(reference_id, style='apa', citation_type='parenthetical', page=None)`\nGenerate in-text citation.\n\n**Parameters:**\n- `reference_id` (str): Reference ID\n- `style` (str): Citation style\n- `citation_type` (str): Citation type\n- `page` (str, optional): Page number\n\n**Returns:**\n- `str`: Formatted citation string\n\n##### `generate_bibliography(style='apa', sort_by='alphabetical')`\nGenerate bibliography list.\n\n**Parameters:**\n- `style` (str): Citation style\n- `sort_by` (str): Sorting method\n\n**Returns:**\n- `list`: List of formatted bibliography entries\n\n##### `check_citation_integrity(document_text)`\nCheck document citation integrity.\n\n**Parameters:**\n- `document_text` (str): Document text\n\n**Returns:**\n- `dict`: Integrity report\n\n##### `convert_citation_style(references, from_style, to_style)`\nConvert citation styles.\n\n**Parameters:**\n- `references` (list): List of references\n- `from_style` (str): Source style\n- `to_style` (str): Target style\n\n**Returns:**\n- `list`: List of conversion results\n\n### Reference\u7c7b\n\n\u3010\u4e2d\u6587\u3011\n\n\u53c2\u8003\u6587\u732e\u4fe1\u606f\u7684\u6570\u636e\u7c7b\u3002\n\n#### \u5c5e\u6027\n\n- `id` (str): \u552f\u4e00\u6807\u8bc6\u7b26\n- `type` (str): \u6587\u732e\u7c7b\u578b\n- `title` (str): \u6807\u9898\n- `authors` (List[Author]): \u4f5c\u8005\u5217\u8868\n- `year` (int): \u51fa\u7248\u5e74\u4efd\n- `doi` (str, \u53ef\u9009): DOI\n- `isbn` (str, \u53ef\u9009): ISBN\n- `container_title` (str, \u53ef\u9009): \u5bb9\u5668\u6807\u9898\uff08\u671f\u520a\u540d\u7b49\uff09\n- `volume` (str, \u53ef\u9009): \u5377\u53f7\n- `issue` (str, \u53ef\u9009): \u671f\u53f7\n- `page` (str, \u53ef\u9009): \u9875\u7801\n- `publisher` (str, \u53ef\u9009): \u51fa\u7248\u793e\n- `url` (str, \u53ef\u9009): URL\n- `language` (str): \u8bed\u8a00\n- `tags` (List[str]): \u6807\u7b7e\u5217\u8868\n- `abstract` (str, \u53ef\u9009): \u6458\u8981\n- `issn` (List[str], \u53ef\u9009): ISSN\n\n\u3010English\u3011\n\nData class for reference information.\n\n#### Attributes\n\n- `id` (str): Unique identifier\n- `type` (str): Reference type\n- `title` (str): Title\n- `authors` (List[Author]): List of authors\n- `year` (int): Publication year\n- `doi` (str, optional): DOI\n- `isbn` (str, optional): ISBN\n- `container_title` (str, optional): Container title (journal name, etc.)\n- `volume` (str, optional): Volume number\n- `issue` (str, optional): Issue number\n- `page` (str, optional): Page numbers\n- `publisher` (str, optional): Publisher\n- `url` (str, optional): URL\n- `language` (str): Language\n- `tags` (List[str]): List of tags\n- `abstract` (str, optional): Abstract\n- `issn` (List[str], optional): ISSN\n\n## \u5e38\u89c1\u95ee\u9898\n\n\u3010\u4e2d\u6587\u3011\n\n### \u4f7f\u7528\u95ee\u9898\n\n**Q: \u5982\u4f55\u83b7\u53d6\u6587\u732e\u7684DOI\uff1f**\nA: DOI\u901a\u5e38\u53ef\u4ee5\u5728\u4ee5\u4e0b\u4f4d\u7f6e\u627e\u5230\uff1a\n- \u6587\u732e\u7684\u9996\u9875\u6216PDF\u6587\u4ef6\u7684\u7b2c\u4e00\u9875\n- \u671f\u520a\u7f51\u7ad9\u7684\u6587\u732e\u9875\u9762\n- Crossref\u6216\u51fa\u7248\u793e\u7f51\u7ad9\n- \u5982\u679c\u627e\u4e0d\u5230\uff0c\u53ef\u4ee5\u5c1d\u8bd5\u4f7f\u7528\u6807\u9898\u548c\u4f5c\u8005\u4fe1\u606f\u641c\u7d22\n\n**Q: \u652f\u6301\u54ea\u4e9b\u6587\u732e\u5bfc\u5165\u683c\u5f0f\uff1f**\nA: \u5f53\u524d\u652f\u6301\uff1a\n- BibTeX (.bib)\n- EndNote (.enw, .xml)\n- RIS (.ris)\n- CSV (.csv)\n- JSON (.json)\n\n**Q: \u5982\u4f55\u5904\u7406\u6ca1\u6709DOI\u7684\u6587\u732e\uff1f**\nA: \u53ef\u4ee5\u4f7f\u7528\u4ee5\u4e0b\u65b9\u6cd5\uff1a\n1. \u4f7f\u7528ISBN\uff08\u4ec5\u9002\u7528\u4e8e\u56fe\u4e66\uff09\n2. \u4f7f\u7528\u6807\u9898\u548c\u4f5c\u8005\u4fe1\u606f\u641c\u7d22\n3. \u624b\u52a8\u8f93\u5165\u5b8c\u6574\u6587\u732e\u4fe1\u606f\n4. \u4ecePDF\u6216\u5176\u4ed6\u6765\u6e90\u63d0\u53d6\u5143\u6570\u636e\n\n**Q: \u8f6c\u6362\u683c\u5f0f\u540e\u9700\u8981\u4eba\u5de5\u68c0\u67e5\u5417\uff1f**\nA: \u662f\u7684\uff0c\u5f3a\u70c8\u5efa\u8bae\uff1a\n1. \u6838\u5bf9\u6240\u6709\u4f5c\u8005\u59d3\u540d\n2. \u68c0\u67e5\u6807\u9898\u7684\u5927\u5c0f\u5199\u683c\u5f0f\n3. \u9a8c\u8bc1\u5377\u53f7\u3001\u671f\u53f7\u3001\u9875\u7801\u7684\u683c\u5f0f\n4. \u786e\u8ba4DOI\u6216URL\u7684\u663e\u793a\u65b9\u5f0f\n5. \u68c0\u67e5\u7279\u6b8a\u5b57\u7b26\u548c\u975e\u62c9\u4e01\u6587\u5b57\u7b26\u7684\u663e\u793a\n\n**Q: \u4e2d\u6587\u6587\u732e\u7684GB/T 7714\u683c\u5f0f\u652f\u6301\u54ea\u4e9b\u6587\u732e\u7c7b\u578b\uff1f**\nA: GB/T 7714-2015\u652f\u6301\u4ee5\u4e0b\u6587\u732e\u7c7b\u578b\u6807\u8bc6\uff1a\n- [M] \u4e13\u8457\n- [J] \u671f\u520a\u6587\u7ae0\n- [C] \u4f1a\u8bae\u8bba\u6587\n- [D] \u5b66\u4f4d\u8bba\u6587\n- [R] \u62a5\u544a\n- [N] \u62a5\u7eb8\u6587\u7ae0\n- [S] \u6807\u51c6\n- [P] \u4e13\u5229\n- [DB] \u6570\u636e\u5e93\n- [CP] \u8ba1\u7b97\u673a\u7a0b\u5e8f\n\n### \u6280\u672f\u95ee\u9898\n\n**Q: Crossref API\u8c03\u7528\u5931\u8d25\u600e\u4e48\u529e\uff1f**\nA: \u53ef\u80fd\u7684\u539f\u56e0\u548c\u89e3\u51b3\u65b9\u6848\uff1a\n1. \u7f51\u7edc\u8fde\u63a5\u95ee\u9898\uff1a\u68c0\u67e5\u7f51\u7edc\u8fde\u63a5\n2. API\u901f\u7387\u9650\u5236\uff1a\u7a0b\u5e8f\u5df2\u5185\u7f6e\u901f\u7387\u9650\u5236\uff0c\u81ea\u52a8\u91cd\u8bd5\n3. DOI\u4e0d\u5b58\u5728\uff1a\u786e\u8ba4DOI\u683c\u5f0f\u6b63\u786e\n4. \u6587\u732e\u4e0d\u5728Crossref\u6570\u636e\u5e93\u4e2d\uff1a\u5c1d\u8bd5\u4f7f\u7528\u6807\u9898\u641c\u7d22\n\n**Q: BibTeX\u5bfc\u5165\u5931\u8d25\u600e\u4e48\u529e\uff1f**\nA: \u68c0\u67e5\u4ee5\u4e0b\u4e8b\u9879\uff1a\n1. \u786e\u8ba4BibTeX\u6587\u4ef6\u7f16\u7801\u4e3aUTF-8\n2. \u68c0\u67e5\u6587\u4ef6\u683c\u5f0f\u662f\u5426\u6b63\u786e\n3. \u67e5\u770b\u9519\u8bef\u65e5\u5fd7\u83b7\u53d6\u5177\u4f53\u9519\u8bef\u4fe1\u606f\n4. \u5c1d\u8bd5\u4f7f\u7528\u5176\u4ed6\u683c\u5f0f\uff08\u5982JSON\uff09\u5bfc\u5165\n\n**Q: \u5982\u4f55\u63d0\u9ad8\u6279\u91cf\u5bfc\u5165\u6027\u80fd\uff1f**\nA: \u4f18\u5316\u5efa\u8bae\uff1a\n1. \u4f7f\u7528\u672c\u5730\u7f13\u5b58\u51cf\u5c11API\u8c03\u7528\n2. \u5206\u6279\u5904\u7406\u5927\u91cf\u6587\u732e\n3. \u5173\u95ed\u8be6\u7ec6\u65e5\u5fd7\u51cf\u5c11I/O\n4. \u4f7f\u7528SSD\u5b58\u50a8\u6570\u636e\u5e93\n\n**Q: \u4e2d\u6587\u6587\u732e\u7684\u4f5c\u8005\u59d3\u540d\u683c\u5f0f\u5982\u4f55\u5904\u7406\uff1f**\nA: GB/T 7714\u6807\u51c6\u8981\u6c42\uff1a\n- \u4e2d\u6587\u4f5c\u8005\u59d3\u540d\uff1a\u59d3\u5728\u524d\uff0c\u540d\u5728\u540e\uff08\u5982\uff1a\u5f20\u4e09\uff09\n- \u82f1\u6587\u4f5c\u8005\u59d3\u540d\uff1a\u4e0eAPA\u683c\u5f0f\u76f8\u540c\uff08\u5982\uff1aSmith, J.\uff09\n- \u7a0b\u5e8f\u4f1a\u81ea\u52a8\u6839\u636e\u8bed\u8a00\u8c03\u6574\u683c\u5f0f\n\n\u3010English\u3011\n\n### Usage Questions\n\n**Q: How to get the DOI of a reference?**\nA: DOIs can usually be found in the following locations:\n- The first page of the article or PDF file\n- The article page on the journal website\n- Crossref or publisher websites\n- If not found, try searching using title and author information\n\n**Q: Which bibliography import formats are supported?**\nA: Currently supported:\n- BibTeX (.bib)\n- EndNote (.enw, .xml)\n- RIS (.ris)\n- CSV (.csv)\n- JSON (.json)\n\n**Q: How to handle references without DOI?**\nA: You can use the following methods:\n1. Use ISBN (applicable only to books)\n2. Search using title and author information\n3. Manually enter complete reference information\n4. Extract metadata from PDF or other sources\n\n**Q: Is manual review needed after format conversion?**\nA: Yes, strongly recommended:\n1. Verify all author names\n2. Check title case formatting\n3. Validate volume, issue, and page number formats\n4. Confirm DOI or URL display\n5. Check display of special characters and non-Latin characters\n\n**Q: Which document types does GB/T 7714 support for Chinese references?**\nA: GB/T 7714-2015 supports the following document type identifiers:\n- [M] Monograph\n- [J] Journal article\n- [C] Conference paper\n- [D] Dissertation/Thesis\n- [R] Report\n- [N] Newspaper article\n- [S] Standard\n- [P] Patent\n- [DB] Database\n- [CP] Computer program\n\n### Technical Questions\n\n**Q: What to do if Crossref API call fails?**\nA: Possible causes and solutions:\n1. Network connection issues: Check network connection\n2. API rate limiting: Program includes built-in rate limiting with automatic retry\n3. DOI does not exist: Confirm DOI format is correct\n4. Reference not in Crossref database: Try searching by title\n\n**Q: What to do if BibTeX import fails?**\nA: Check the following:\n1. Confirm BibTeX file encoding is UTF-8\n2. Check if file format is correct\n3. Check error log for specific error messages\n4. Try importing with other formats (like JSON)\n\n**Q: How to improve batch import performance?**\nA: Optimization recommendations:\n1. Use local caching to reduce API calls\n2. Process large volumes in batches\n3. Disable verbose logging to reduce I/O\n4. Use SSD for database storage\n\n**Q: How are Chinese author name formats handled?**\nA: GB/T 7714 standard requires:\n- Chinese author names: Surname before given name (e.g., \u5f20\u4e09)\n- English author names: Same as APA format (e.g., Smith, J.)\n- Program automatically adjusts format based on language\n\n## \u8d21\u732e\u6307\u5357\n\n\u3010\u4e2d\u6587\u3011\n\n\u6b22\u8fce\u5404\u79cd\u5f62\u5f0f\u7684\u8d21\u732e\uff01\n\n### \u62a5\u544aBug\n\n\u5982\u679c\u60a8\u53d1\u73b0\u4e86bug\uff0c\u8bf7\uff1a\n\n1. \u5728GitHub\u4e0a\u521b\u5efaissue\uff1ahttps://github.com/YouStudyeveryday/academic-citation-manager/issues\n2. \u63d0\u4f9b\u6e05\u6670\u7684bug\u63cf\u8ff0\n3. \u5305\u542b\u590d\u73b0\u6b65\u9aa4\n4. \u63d0\u4f9b\u7cfb\u7edf\u4fe1\u606f\u548cPython\u7248\u672c\n\n### \u63d0\u4ea4\u65b0\u529f\u80fd\n\n\u5982\u679c\u60a8\u6709\u65b0\u529f\u80fd\u5efa\u8bae\uff1a\n\n1. \u5148\u5728GitHub\u4e0a\u641c\u7d22\u662f\u5426\u5df2\u6709\u7c7b\u4f3c\u7684issue\n2. \u5982\u679c\u6ca1\u6709\uff0c\u521b\u5efa\u65b0issue\n3. \u8be6\u7ec6\u63cf\u8ff0\u65b0\u529f\u80fd\n4. \u8bf4\u660e\u4f7f\u7528\u573a\u666f\u548c\u9884\u671f\u6548\u679c\n\n### \u4ee3\u7801\u8d21\u732e\n\n\u6b22\u8fce\u63d0\u4ea4Pull Request\uff01\n\n1. Fork\u672c\u4ed3\u5e93\n2. \u521b\u5efa\u60a8\u7684\u529f\u80fd\u5206\u652f (`git checkout -b my-feature`)\n3. \u63d0\u4ea4\u60a8\u7684\u66f4\u6539 (`git commit -am 'Add some feature'`)\n4. \u63a8\u9001\u5230\u5206\u652f (`git push origin my-feature`)\n5. \u521b\u5efaPull Request\n\n### \u4ee3\u7801\u89c4\u8303\n\n- \u9075\u5faaPEP 8\u4ee3\u7801\u98ce\u683c\n- \u6dfb\u52a0\u9002\u5f53\u7684\u6587\u6863\u5b57\u7b26\u4e32\n- \u6dfb\u52a0\u5355\u5143\u6d4b\u8bd5\n- \u786e\u4fdd\u6240\u6709\u6d4b\u8bd5\u901a\u8fc7\n\n\u3010English\u3011\n\nAll forms of contributions are welcome!\n\n### Reporting Bugs\n\nIf you find a bug:\n\n1. Create an issue on GitHub: https://github.com/YouStudyeveryday/academic-citation-manager/issues\n2. Provide a clear bug description\n3. Include reproduction steps\n4. Provide system information and Python version\n\n### Submitting New Features\n\nIf you have suggestions for new features:\n\n1. Search GitHub for similar issues first\n2. If none exists, create a new issue\n3. Describe the new feature in detail\n4. Explain use cases and expected behavior\n\n### Code Contributions\n\nPull Requests are welcome!\n\n1. Fork this repository\n2. Create your feature branch (`git checkout -b my-feature`)\n3. Commit your changes (`git commit -am 'Add some feature'`)\n4. Push to the branch (`git push origin my-feature`)\n5. Create a Pull Request\n\n### Code Standards\n\n- Follow PEP 8 code style\n- Add appropriate docstrings\n- Add unit tests\n- Ensure all tests pass\n\n## \u8bb8\u53ef\u8bc1\n\n\u672c\u9879\u76ee\u91c7\u7528 MIT \u8bb8\u53ef\u8bc1\u3002\u8be6\u89c1 [LICENSE](LICENSE) \u6587\u4ef6\u3002\n\nThis project is licensed under the MIT License. See [LICENSE](LICENSE) file for details.\n\n## \u81f4\u8c22\n\n\u611f\u8c22\u4ee5\u4e0b\u9879\u76ee\u548c\u8d44\u6e90\u4e3a\u672c\u9879\u76ee\u63d0\u4f9b\u7684\u57fa\u7840\u548c\u652f\u6301\uff1a\n\n- [Crossref](https://www.crossref.org/) - \u63d0\u4f9b\u514d\u8d39\u7684DOI\u5143\u6570\u636e\u67e5\u8be2\u670d\u52a1\n- [citation-style-language](https://citationstyles.org/) - Citation Style Language\u89c4\u8303\n- [Open Source Community](https://github.com) - \u5f00\u6e90\u793e\u533a\u7684\u5404\u79cd\u8d21\u732e\n\n\u7279\u522b\u611f\u8c22\u6240\u6709\u4e3a\u5b66\u672f\u5f15\u7528\u7ba1\u7406\u5de5\u5177\u505a\u51fa\u8d21\u732e\u7684\u5f00\u53d1\u8005\u3002\n\nThanks to the following projects and resources for providing the foundation and support for this project:\n\n- [Crossref](https://www.crossref.org/) - Providing free DOI metadata query service\n- [citation-style-language](https://citationstyles.org/) - Citation Style Language specification\n- [Open Source Community](https://github.com) - Various contributions from the open source community\n\nSpecial thanks to all developers who have contributed to academic citation management tools.\n\n## \u8054\u7cfb\u65b9\u5f0f\n\n- \u9879\u76ee\u4e3b\u9875\uff1ahttps://github.com/YouStudyeveryday/academic-citation-manager\n- \u95ee\u9898\u53cd\u9988\uff1ahttps://github.com/YouStudyeveryday/academic-citation-manager/issues\n- \u6280\u672f\u652f\u6301\uff1ayoustudyeveryday@example.com\n\n---\n\n**\u6700\u540e\u66f4\u65b0**: 2026-03-01  \n**\u7248\u672c**: 1.0.0"
+  },
+  {
+    "name": "academic-polish",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\academic-polish",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "academic-writing-polisher",
+    "purpose": "# Academic Writing Polisher",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\academic-writing-polisher",
+    "status": "unknown",
+    "errors": [],
+    "readme": "# Academic Writing Polisher\n\nA context-first academic writing Skill for researchers who need clearer, more coherent, journal-ready text without losing author intent.\n\nInspired by Dritjon Gruda's Nature Career Column, \"Three ways ChatGPT helps me in my academic writing,\" this Skill turns responsible academic revision into an installable Agent workflow: ask for context first, revise second, and always flag meaning risks.\n\n## What It Helps With\n\n- Polish research paragraphs for clarity, coherence, concision, and academic tone.\n- Improve abstracts, introductions, discussions, limitations, and conclusions.\n- Refine reviewer responses without sounding defensive or vague.\n- Organize peer-review comments and editorial feedback.\n- Preserve the author's intended meaning while avoiding invented claims or citations.\n\n## Why This Skill Exists\n\nGeneric AI polishing often changes too much: it can add unsupported claims, overstate findings, flatten disciplinary nuance, or silently change what the author meant.\n\nThis Skill gives the Agent a stricter academic writing workflow:\n\n1. Collect the research context.\n2. Revise only for the requested purpose.\n3. Preserve citations, claims, and technical terms.\n4. Explain what changed.\n5. Flag ambiguity, overstatement, or meaning risks.\n\n## Install\n\nInstall from ClawHub:\n\n```bash\nclawhub install academic-writing-polisher\n```\n\nIf you use OpenClaw:\n\n```bash\nopenclaw skills install academic-writing-polisher\n```\n\nClawHub page: [academic-writing-polisher](https://clawhub.ai/skills/academic-writing-polisher)\n\nIf installing from this repository manually, copy the Skill folder into your local skills directory:\n\n```bash\ncp -R academic-writing-polisher ~/.codex/skills/\n```\n\n## Example Prompts\n\n```text\nPolish this paragraph for clarity and journal-ready academic tone. Preserve all claims and citations.\n```\n\n```text\nI am writing a discussion section for a biomedical paper. I want this paragraph to sound more concise and coherent without overstating the findings.\n```\n\n```text\nRevise this response to Reviewer 2. Keep it respectful, specific, and clear about what we changed.\n```\n\n## Output Shape\n\nThe Skill normally returns:\n\n- Polished Version\n- What Changed\n- Meaning Check\n- Risk Flags\n\nThis makes the revision auditable instead of a black-box rewrite.\n\n## Search Keywords\n\nacademic writing, research writing, paper polishing, Nature-inspired, ChatGPT academic writing, reviewer response, peer review, editorial feedback, journal-ready tone, clarity, coherence, concision, author intent\n\n## Source Inspiration\n\nGruda, D. (2024). \"Three ways ChatGPT helps me in my academic writing.\" Nature. DOI: [10.1038/d41586-024-01042-3](https://doi.org/10.1038/d41586-024-01042-3)\n\nThis Skill is not affiliated with or endorsed by Nature, Springer Nature, or the article author.\n\n## By Figpad\n\nCreated by [Figpad](https://github.com/Figpad), makers of [Figpad AI](https://figpad.ai), an AI-powered scientific illustration platform for researchers.\n"
+  },
+  {
+    "name": "afrexai-humanizer",
+    "purpose": "# AI Content Humanizer",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\afrexai-humanizer",
+    "status": "unknown",
+    "errors": [],
+    "readme": "# AI Content Humanizer\n\nMakes AI-generated content sound like a human wrote it. Strips robotic patterns, varies sentence structure, and adds natural voice \u2014 without losing meaning.\n\n## What It Does\n\n- Removes AI giveaways (filler phrases, corporate jargon, perfect symmetry)\n- Adds human writing traits (varied rhythm, contractions, specific examples)\n- Calibrates voice to context (email vs blog vs social vs sales)\n- Passes the \"read it out loud\" test\n\n## Install\n\nCopy the `ai-humanizer` folder into your OpenClaw workspace skills directory:\n\n```bash\ncp -r ai-humanizer ~/.openclaw/workspace/skills/\n```\n\nOr install from ClawHub:\n\n```bash\nclawhub install ai-humanizer\n```\n\nThen start a new OpenClaw session.\n\n## Usage\n\nJust ask your agent:\n\n- \"Humanize this blog post\"\n- \"Rewrite this email to sound less robotic\"\n- \"Make this LinkedIn post sound like a real person wrote it\"\n\nThe skill activates automatically when it detects rewriting/humanizing intent.\n\n## Examples\n\n**Before:** \"I would be happy to assist you with your inquiry. It is important to note that our platform leverages cutting-edge technology to streamline your workflow and facilitate enhanced productivity.\"\n\n**After:** \"Sure \u2014 here's how it works. Our platform cuts your workflow steps in half, which saved our beta users about 3 hours a week on average.\"\n\n## License\n\nMIT\n"
+  },
+  {
+    "name": "agent-browser-juan",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\agent-browser-juan",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "agent-daily-planner",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\agent-daily-planner",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "agent-rdp",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\agent-rdp",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "agents-sdk",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\agents-sdk",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "ai-daily-briefing",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\ai-daily-briefing",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "ai-paper-survey",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\ai-paper-survey",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "ai-skill-optimizer",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\ai-skill-optimizer",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "ai-video-editor-fixed",
+    "purpose": "# AI Video Editor",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\ai-video-editor-fixed",
+    "status": "unknown",
+    "errors": [],
+    "readme": "# AI Video Editor\n\nThis listing keeps the historical `ai-video-editor-fixed` slug, but its core workflow is now aligned with the latest official `sparki-video-editor` skill.\n\n## Best for\n- General-purpose Sparki video editing\n- Users who want one broad entry point instead of a scene-specific variant\n- Vlogs, highlights, shorts, captions, talking-head edits, commentary, and resizing\n\n## Shared core\nThis skill follows the latest official Sparki setup, API-key, upload, and command guidance from the main `sparki-video-editor` skill.\n"
+  },
+  {
+    "name": "akashic-knowledge-base",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\akashic-knowledge-base",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "anima-design-agent",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\anima-design-agent",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "apa7-reference-helper-mia956",
+    "purpose": "# APA 7 Reference Helper",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\apa7-reference-helper-mia956",
+    "status": "unknown",
+    "errors": [],
+    "readme": "# APA 7 Reference Helper\n\nA ClawHub/OpenClaw text skill for formatting and auditing APA 7 references.\n\n## Test\n\n```bash\npython3 scripts/apa7_quick_check.py examples/demo_references.txt\n```\n\nExpected behavior: the script prints three reference audits and flags DOI/year/author-format issues where appropriate.\n"
+  },
+  {
+    "name": "apikey-image-gen",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\apikey-image-gen",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "apple",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\apple",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "autonomous-ai-agents",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\autonomous-ai-agents",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "baoyu-comic",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\baoyu-comic",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "chatgpt-image-generation",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\chatgpt-image-generation",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "clawhub-ai-daily-briefing",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\clawhub-ai-daily-briefing",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "cloudflare",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\cloudflare",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "cloudflare-email-service",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\cloudflare-email-service",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "create-video",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\create-video",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "creative",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\creative",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "cross-linker",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\cross-linker",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "data-science",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\data-science",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "deep-research-v60",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\deep-research-v60",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "design-md",
+    "purpose": "# Stitch Design System Documentation Skill",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\design-md",
+    "status": "unknown",
+    "errors": [],
+    "readme": "# Stitch Design System Documentation Skill\n\n## Install\n\n```bash\nnpx skills add google-labs-code/stitch-skills --skill design-md --global\n```\n\n## Example Prompt\n\n```text\nAnalyze my Furniture Collection project's Home screen and generate a comprehensive DESIGN.md file documenting the design system.\n```\n\n## Skill Structure\n\nThis repository follows the **Agent Skills** open standard. Each skill is self-contained with its own logic, workflow, and reference materials.\n\n```text\ndesign-md/\n\u251c\u2500\u2500 SKILL.md           \u2014 Core instructions & workflow\n\u251c\u2500\u2500 examples/          \u2014 Sample DESIGN.md outputs\n\u2514\u2500\u2500 README.md          \u2014 This file\n```\n\n## How it Works\n\nWhen activated, the agent follows a structured design analysis pipeline:\n\n1. **Retrieval**: Uses the Stitch MCP Server to fetch project screens, HTML code, and design metadata.\n2. **Extraction**: Identifies design tokens including colors, typography, spacing, and component patterns.\n3. **Translation**: Converts technical CSS/Tailwind values into descriptive, natural design language.\n4. **Synthesis**: Generates a comprehensive DESIGN.md following the semantic design system format.\n5. **Alignment**: Ensures output follows Stitch Effective Prompting Guide principles for optimal screen generation.\n"
+  },
+  {
+    "name": "devops",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\devops",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "diagramming",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\diagramming",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "dogfood",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\dogfood",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "domain",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\domain",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "durable-objects",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\durable-objects",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "edge-tts-english",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\edge-tts-english",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "elevenlabs-tts",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\elevenlabs-tts",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "email",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\email",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "faceless-video",
+    "purpose": "# faceless-video",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\faceless-video",
+    "status": "unknown",
+    "errors": [],
+    "readme": "# faceless-video\n\n[![ClawHub Skill](https://img.shields.io/badge/ClawHub-Skill-blueviolet)](https://clawhub.io)\n[![Version](https://img.shields.io/badge/version-1.0.12-blue)](SKILL.md)\n\n> **Turn ideas or footage into faceless-style videos without needing a person on camera.**\n\n## Best for\nNo-on-camera content, automation-style explainers, faceless educational videos, and narration-led outputs.\n\n## Quick start\n\n```bash\nsparki run --file ./video.mp4 --mode prompt-driven --prompt \"make this into a faceless explainer\" --aspect-ratio 9:16\n```\n\n## Prompt templates\n- Make this into a faceless explainer.\n- Turn this into no-on-camera content with a clear narrated structure.\n- Create a faceless automation-style video from this material.\n\n## Related skills\n- `ai-commentary`\n- `ai-caption`\n- `tiktok-viral-editor`\n\n## Shared core\nThis skill follows the latest official Sparki setup, API-key, upload, and command guidance from the main `sparki-video-editor` skill.\n"
+  },
+  {
+    "name": "free-model-constraints",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\free-model-constraints",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "gaming",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\gaming",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "geo-citation-writer",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\geo-citation-writer",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "gifs",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\gifs",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "github",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\github",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "grok-image-to-video",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\grok-image-to-video",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "hermes-security-audit-log",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\hermes-security-audit-log",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "hyperframes",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\hyperframes",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "inference-sh",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\inference-sh",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "local-file-delivery",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\local-file-delivery",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "markdown-viewer",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\markdown-viewer",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "mcp",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\mcp",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "media",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\media",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "mlops",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\mlops",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "note-taking",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\note-taking",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "obsidian-automation",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\obsidian-automation",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "obsidian-cli",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\obsidian-cli",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "obsidian-knowledge-base",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\obsidian-knowledge-base",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "one-three-one-rule",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\one-three-one-rule",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "pc_control",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\pc_control",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "productivity",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\productivity",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "real-time-event-investigation",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\real-time-event-investigation",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "red-teaming",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\red-teaming",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "remotion",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\remotion",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "research",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\research",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "sandbox-sdk",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\sandbox-sdk",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "scrapling",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\scrapling",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "searchapi-scholar-search",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\searchapi-scholar-search",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "security",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\security",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "smart-home",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\smart-home",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "social-media",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\social-media",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "software-development",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\software-development",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "songsee",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\songsee",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "subagent-driven-development",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\subagent-driven-development",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "systematic-debugging",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\systematic-debugging",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "toby-academic-writing",
+    "purpose": "# Academic Writing - OpenClaw Skill",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\toby-academic-writing",
+    "status": "unknown",
+    "errors": [],
+    "readme": "# Academic Writing - OpenClaw Skill\n\nAcademic writing assistant for papers, theses, and publications\n\n## Installation\n\n### Via ClawHub\n```bash\nclawhub install academic-writing\n```\n\n### Manual Installation\n```bash\ngit clone https://github.com/TobeyRebecca/academic-writing.git\ncp -r academic-writing ~/.openclaw/skills/academic-writing\n```\n\n## Usage\n\nSee `SKILL.md` for detailed usage instructions.\n\n## License\n\nMIT\n\n## Contributing\n\nContributions welcome! Please open an issue or PR.\n"
+  },
+  {
+    "name": "toby-deep-research",
+    "purpose": "# Academic Deep Research \ud83d\udd2c",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\toby-deep-research",
+    "status": "unknown",
+    "errors": [],
+    "readme": "# Academic Deep Research \ud83d\udd2c\n\n**Transparent, rigorous, self-contained research** \u2014 not a black-box API wrapper.\n\n## Why This Skill Exists\n\nMost \"deep research\" tools are wrappers around external APIs. You send a query, get a report, and have no idea what happened in between.\n\n**This skill is different:**\n- \u2705 **Full methodology visible** \u2014 Every step documented, reproducible\n- \u2705 **No external dependencies** \u2014 Runs entirely on SkillBoss platform tools\n- \u2705 **User control** \u2014 3 explicit checkpoints for approval\n- \u2705 **Academic rigor** \u2014 APA citations, evidence hierarchy, confidence levels\n- \u2705 **Works offline** \u2014 No third-party API keys required\n\n## Comparison with Cloud-Based Research Tools\n\n| Feature | This Skill | Cloud API Wrappers |\n|---------|------------|-------------------|\n| Methodology | Fully documented | Black box |\n| Dependencies | None | External API + key |\n| Offline | \u2705 Yes | \u274c No |\n| User Checkpoints | 3 approval points | Usually none |\n| Citation Format | APA 7th edition | Varies/unspecified |\n| Evidence Hierarchy | Explicit (meta-analyses \u2192 opinion) | Unspecified |\n| Output Control | Strict prose, no bullet points | Varies |\n| Reproducibility | \u2705 Same inputs = same process | \u2753 Unknown |\n\n## Core Features\n\n### Mandated Research Cycles\nEvery theme gets **minimum 2 full research cycles**:\n1. Broad landscape search \u2192 Analysis \u2192 Gap identification\n2. Targeted deep dive \u2192 Challenge assumptions \u2192 Synthesis\n\nNo shortcuts. No single-pass summaries.\n\n### Evidence Standards\n- **Every conclusion cites multiple sources**\n- **Contradictions must be addressed** \u2014 not hidden\n- **Confidence annotations:** [HIGH], [MEDIUM], [LOW], [SPECULATIVE]\n- **Evidence hierarchy:** Meta-analyses > RCTs > Observational > Expert opinion\n\n### Academic Output\n- Flowing narrative prose (no bullet point dumps)\n- APA 7th edition citations (1-2 per paragraph)\n- Proper paragraph structure: claim \u2192 evidence \u2192 analysis \u2192 transition\n- Executive summary, methodology, findings, limitations, references\n\n### User Control\nThree mandatory stop points:\n1. **Initial Engagement** \u2014 Clarify scope before research\n2. **Research Planning** \u2014 Approve themes and approach\n3. **Final Report** \u2014 Review completed analysis\n\n## Quick Start\n\n```\n/research \"Comprehensive analysis of [your topic]\"\n```\n\nOr just ask for \"deep research on...\" or \"exhaustive analysis of...\"\n\n## Research Protocol\n\n### Phase 1: Clarification\nAgent asks 2-3 essential questions, confirms understanding, **waits for you**.\n\n### Phase 2: Planning\nAgent presents:\n- Major themes identified (3-5)\n- Research execution plan (table format)\n- Expected deliverables\n\n**You approve before execution begins.**\n\n### Phase 3: Execution (Auto)\nFor each theme, two full cycles:\n- `web_search` (count=20) for landscape\n- Analysis and gap identification\n- `web_fetch` on primary sources\n- Synthesis and assumption challenging\n- Repeat for depth\n\n**Required:** Explicit analysis between every tool call showing evolution of understanding.\n\n### Phase 4: Report\nAcademic narrative with:\n- Executive Summary\n- Knowledge Development\n- Comprehensive Analysis\n- Practical Implications\n- APA References\n\n## File Structure\n\n```\ndeep-research/\n\u251c\u2500\u2500 SKILL.md       # Full methodology (500+ lines)\n\u251c\u2500\u2500 README.md      # This file\n\u251c\u2500\u2500 quickref.md    # One-page cheat sheet\n\u251c\u2500\u2500 example.md     # Complete workflow example\n\u2514\u2500\u2500 LICENSE        # Apache 2.0\n```\n\n## When to Use This\n\n- Literature reviews requiring academic rigor\n- Competitive intelligence with source verification\n- Complex topics needing multi-source synthesis\n- Any research where you need to **show your work**\n- When you don't trust black-box AI summaries\n\n## License\n\nApache 2.0 \u2014 See [LICENSE](LICENSE)\n\n---\n\n**Built for researchers who care about methodology, not just outputs.**\n"
+  },
+  {
+    "name": "tts-voice-troubleshooting",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\tts-voice-troubleshooting",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "turnstile-spin",
+    "purpose": "# turnstile-spin (skill)",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\turnstile-spin",
+    "status": "unknown",
+    "errors": [],
+    "readme": "# turnstile-spin (skill)\n\nEnd-to-end setup skill for Cloudflare Turnstile. Loads when an agent is asked to add Turnstile, set up CAPTCHA, or protect a form from bots.\n\nThis is a mirror of the canonical docs page at [`developers.cloudflare.com/turnstile/spin`](https://developers.cloudflare.com/turnstile/spin/). If the two disagree, the docs page wins.\n\n## Layout\n\n| File                              | Purpose                                                                |\n| --------------------------------- | ---------------------------------------------------------------------- |\n| `SKILL.md`                        | Main wizard instructions for the agent                                 |\n| `references/vanilla-html.md`      | Code snippet for static / vanilla HTML projects                        |\n| `references/nextjs-app.md`        | Code snippet for Next.js App Router projects                           |\n| `references/nextjs-pages.md`      | Code snippet for Next.js Pages Router projects                         |\n| `references/astro.md`             | Code snippet for Astro projects                                        |\n| `references/sveltekit.md`         | Code snippet for SvelteKit projects                                    |\n| `references/hugo.md`              | Code snippet for Hugo projects                                         |\n| `tests/validation.md`             | Validation cases matching the MVP rows in the PRD                      |\n\n## How agents load it\n\nAgents that load skill bundles from `github.com/cloudflare/skills` will pick this up automatically. For agents that load skills out of a local directory:\n\n```sh\n# Claude Code\nmkdir -p .claude/skills/turnstile-spin && \\\n  curl -sSL https://developers.cloudflare.com/turnstile/spin.md \\\n  -o .claude/skills/turnstile-spin/SKILL.md\n\n# Or, install the whole skills bundle into a global location\ngit clone https://github.com/cloudflare/skills ~/.config/cloudflare-skills\nln -s ~/.config/cloudflare-skills/turnstile-spin ~/.claude/skills/turnstile-spin\n```\n\nFor other agents, see the table in [`SKILL.md`](./SKILL.md#step-8--persist-the-skill).\n\n## Sync with the docs page\n\nThe canonical source of truth is `src/content/docs/turnstile/spin/index.mdx` in the `cloudflare-docs` repo. This skill mirrors that content with the JSX stripped out. CI keeps them in sync on each docs release; if you are hand-editing, mirror your change to both places.\n\n## Related\n\n- [Canonical docs page](https://developers.cloudflare.com/turnstile/spin/)\n- [`cloudflare/turnstile-siteverify`](https://github.com/cloudflare/turnstile-siteverify) \u2014 the managed Worker that this skill deploys\n- [`cloudflare/skills`](https://github.com/cloudflare/skills) \u2014 root index for all Cloudflare agent skills\n"
+  },
+  {
+    "name": "user-interaction",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\user-interaction",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "web",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\web",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "web-perf",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\web-perf",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "wiki-lint",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\wiki-lint",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "windows-expert",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\windows-expert",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "workers-best-practices",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\workers-best-practices",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "wrangler",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\wrangler",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "youtube-content",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\youtube-content",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  },
+  {
+    "name": "youtube-downloader-clipper",
+    "purpose": "# ClawHub - YouTube Video Clipper & Downloader",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\youtube-downloader-clipper",
+    "status": "unknown",
+    "errors": [],
+    "readme": "# ClawHub - YouTube Video Clipper & Downloader\n\nA powerful ClawHub skill for extracting specific sections from YouTube videos with precise timestamps. Clip highlights, extract audio segments, or download full videos - all through a simple conversational interface.\n\n## Features\n\n### Primary: Video Clipping\n- **Precise timestamp-based clipping** (MM:SS or HH:MM:SS format)\n- Clip in any quality (720p, 1080p, best available)\n- Extract audio clips as MP3\n- Fast and optimized processing\n\n### Secondary: Full Downloads\n- Download complete videos in various qualities\n- Extract full audio tracks\n- Custom output filenames and formats\n- Progress tracking\n\n## Installation\n\nInstall this skill in ClawHub by uploading it to https://www.clawhub.ai/upload\n\nFor local installation: `./install.sh`\n\n## Usage\n\n```\n/clawhub <youtube-url> [options]\n```\n\n## Options\n\n- `--clip <start>-<end>` - **PRIMARY FEATURE** - Clip from start to end time (MM:SS or HH:MM:SS)\n- `--quality <resolution>` - Specify quality (e.g., 720p, 1080p, best)\n- `--audio-only` - Extract audio as MP3\n- `--output <filename>` - Custom output filename\n- `--format <format>` - Output format (mp4, mkv, webm, mp3, etc.)\n\n## Examples\n\n### Clip specific sections (Primary use)\n```\n/clawhub https://youtube.com/watch?v=dQw4w9WgXcQ --clip 00:30-02:15\n```\n\n### Clip with quality\n```\n/clawhub https://youtube.com/watch?v=dQw4w9WgXcQ --clip 01:00-03:30 --quality 1080p\n```\n\n### Clip audio only\n```\n/clawhub https://youtube.com/watch?v=dQw4w9WgXcQ --clip 00:10-01:00 --audio-only\n```\n\n### Clip with custom filename\n```\n/clawhub https://youtube.com/watch?v=dQw4w9WgXcQ --clip 02:00-04:30 --output highlight.mp4\n```\n\n### Download full video (Secondary)\n```\n/clawhub https://youtube.com/watch?v=dQw4w9WgXcQ\n```\n\n### Download specific quality\n```\n/clawhub https://youtube.com/watch?v=dQw4w9WgXcQ --quality 720p\n```\n\n### Extract full audio\n```\n/clawhub https://youtube.com/watch?v=dQw4w9WgXcQ --audio-only\n```\n\n## Use Cases\n\n- **Content Creators**: Extract highlights for shorts or reels\n- **Educators**: Clip specific tutorial steps or lecture segments\n- **Musicians**: Extract song sections or create practice loops\n- **Researchers**: Archive and analyze specific video segments\n\n## How It Works\n\n1. Provide a YouTube URL and optional time range\n2. Claude parses your request and timestamps\n3. The skill extracts the section using optimized methods\n4. Your clip is saved to the current directory\n\n## Important Notes\n\n- **Pure Python solution** - no binary dependencies required\n- **Auto-installs yt-dlp** - Python module installed automatically if not present\n- Clipping is optimized - no need to download full videos first\n- Quality is maintained during clipping\n- Respect copyright - only clip content you have rights to access\n- Clips are saved to the current working directory\n- Minimal setup - Python (usually pre-installed) is the only requirement\n\n## Technical Details\n\nThe skill uses:\n- **Python implementation** using yt-dlp library (not CLI binary)\n- **Auto-installation** via pip if yt-dlp module is missing\n- `ffmpeg` for audio extraction (usually pre-installed)\n- Supports all YouTube URL formats (youtube.com, youtu.be, etc.)\n- **Cross-platform** - works on macOS, Linux, and Windows\n\n## License\n\nMIT License\n\n## Contributing\n\nContributions are welcome! Feel free to submit issues or pull requests to improve this skill.\n"
+  },
+  {
+    "name": "yuanbao",
+    "purpose": "",
+    "file_path": "C:\\Users\\Administrator/.hermes/skills\\yuanbao",
+    "status": "unknown",
+    "errors": [],
+    "readme": ""
+  }
+]

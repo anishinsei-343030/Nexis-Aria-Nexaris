@@ -1,0 +1,49 @@
+{
+  "updated_at": "2026-08-17T18:45:06.555515",
+  "platforms": {
+    "telegram": [
+      {
+        "id": "7795539900",
+        "name": "AniShin Sei",
+        "type": "dm",
+        "thread_id": null
+      },
+      {
+        "id": "-1004299945362:1",
+        "name": "Nexaris World / topic 1",
+        "type": "group",
+        "thread_id": "1"
+      },
+      {
+        "id": "-1004346387239",
+        "name": "Aoi & Shin",
+        "type": "group",
+        "thread_id": null
+      },
+      {
+        "id": "-1004299945362:81",
+        "name": "Nexaris World / topic 81",
+        "type": "group",
+        "thread_id": "81"
+      },
+      {
+        "id": "-1004299945362:56",
+        "name": "Nexaris World / topic 56",
+        "type": "group",
+        "thread_id": "56"
+      },
+      {
+        "id": "-1004299945362:53",
+        "name": "Nexaris World / topic 53",
+        "type": "group",
+        "thread_id": "53"
+      },
+      {
+        "id": "-1004299945362:49",
+        "name": "Nexaris World / topic 49",
+        "type": "group",
+        "thread_id": "49"
+      }
+    ]
+  }
+}
