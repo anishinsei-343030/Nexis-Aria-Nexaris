@@ -78,7 +78,10 @@ def sync_mirror():
     for child in MIRROR.iterdir():
         if child.name in KEEP_IN_MIRROR:
             continue
-        if child.name not in INCLUDE:
+        covered = child.name in INCLUDE or any(
+            rel.startswith(child.name + "/") for rel in INCLUDE
+        )
+        if not covered:
             if child.is_dir():
                 shutil.rmtree(child, ignore_errors=True)
             else:
