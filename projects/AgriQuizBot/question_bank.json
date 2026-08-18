@@ -8719,9 +8719,9 @@
       ],
       "answer": "15 to 20 percent",
       "explanation": "Hybrid rice exploits heterosis and commonly outyields inbred varieties by about 15 to 20 percent under comparable growing conditions.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00545",
@@ -8735,9 +8735,9 @@
       ],
       "answer": "Its first stable product of photosynthesis is a three-carbon compound",
       "explanation": "In C3 plants like rice, the first product of carbon fixation is 3-phosphoglycerate, a three-carbon compound formed by RuBisCO.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00546",
@@ -8751,9 +8751,9 @@
       ],
       "answer": "1 seedling",
       "explanation": "Hybrid rice is transplanted at one seedling per hill because hybrids tiller vigorously and thin planting preserves the yield advantage.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00547",
@@ -8767,9 +8767,9 @@
       ],
       "answer": "Sugarcane, sorghum, and corn",
       "explanation": "Sugarcane, sorghum, and corn are C4 crops that use the C4 pathway with high photosynthetic and water-use efficiency.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00548",
@@ -8783,9 +8783,9 @@
       ],
       "answer": "Prevent self-pollination of the female parent",
       "explanation": "Removing tassels from the seed parent rows forces cross-pollination with the selected male parent, producing true hybrid seed.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00549",
@@ -8799,9 +8799,9 @@
       ],
       "answer": "53,333 plants",
       "explanation": "Dividing 10,000 square meters by the product of 0.75 m by 0.25 m gives about 53,333 hills per hectare.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00550",
@@ -8815,9 +8815,9 @@
       ],
       "answer": "Zinc",
       "explanation": "Zinc deficiency in corn produces interveinal chlorosis and the whitish 'white bud' symptom in the whorl, particularly on calcareous soils.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00551",
@@ -8831,9 +8831,9 @@
       ],
       "answer": "The milk stage",
       "explanation": "Sweet corn is picked at the milk stage when kernels are soft, juicy, and contain the highest sugar content for fresh consumption.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00552",
@@ -8847,9 +8847,9 @@
       ],
       "answer": "They are cross-pollinated, late-bearing, and vigorous",
       "explanation": "Tall coconuts are largely cross-pollinated, flower at five to seven years, and grow tall and vigorous compared with dwarfs.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00553",
@@ -8863,9 +8863,9 @@
       ],
       "answer": "1 kg ammonium sulfate and 0.5 kg sodium chloride",
       "explanation": "The PCA recommendation of one kilogram ammonium sulfate plus half a kilogram sodium chloride per palm per year is split into two applications.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00554",
@@ -8879,9 +8879,9 @@
       ],
       "answer": "A viroid",
       "explanation": "Coconut cadang-cadang is caused by the coconut cadang-cadang viroid (CCCVd), a small naked RNA molecule that destroys bearing palms.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00555",
@@ -8895,9 +8895,9 @@
       ],
       "answer": "Boring into the crown and unopened fronds",
       "explanation": "Adult rhinoceros beetles bore into the palm crown and feed on unopened fronds, producing characteristic V-shaped cuts in mature leaves.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00556",
@@ -8911,9 +8911,9 @@
       ],
       "answer": "5 to 6 percent",
       "explanation": "Copra dried to about 5 to 6 percent moisture resists mold and rancidity and keeps well during storage and transport.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00557",
@@ -8927,9 +8927,9 @@
       ],
       "answer": "The banana aphid Pentalonia nigronervosa",
       "explanation": "Banana bunchy top virus is spread persistently by the banana aphid, Pentalonia nigronervosa, which colonizes young suckers.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00558",
@@ -8943,9 +8943,9 @@
       ],
       "answer": "Fusarium oxysporum f. sp. cubense",
       "explanation": "Panama wilt is a soilborne Fusarium wilt of banana caused by Fusarium oxysporum f. sp. cubense, which attacks the vascular system.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00559",
@@ -10223,9 +10223,9 @@
       ],
       "answer": "Oxidized iron compounds such as hematite",
       "explanation": "Hematite and other ferric oxides impart the red hues typical of well-drained, strongly weathered tropical soils.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00639",
@@ -10239,9 +10239,9 @@
       ],
       "answer": "Alternating wet and dry, poorly aerated conditions",
       "explanation": "Mottling results from iron being reduced and moved during wet periods and reoxidized during dry periods within a seasonally saturated zone.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00640",
@@ -10255,9 +10255,9 @@
       ],
       "answer": "Gravitational water has drained for about 2 to 3 days",
       "explanation": "Field capacity approximates the water retained against gravity after rapid drainage, commonly taken at a tension near -33 kPa.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00641",
@@ -10271,9 +10271,9 @@
       ],
       "answer": "-1500 kPa (-15 bars)",
       "explanation": "At about -1500 kPa most plants can no longer extract water, so the moisture level at permanent wilting is conventionally set there.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00642",
@@ -10287,9 +10287,9 @@
       ],
       "answer": "Field capacity minus permanent wilting point",
       "explanation": "Only water held between field capacity and permanent wilting point can be extracted by plants and is therefore considered available.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00643",
@@ -10303,9 +10303,9 @@
       ],
       "answer": "Medium-textured loam",
       "explanation": "Loams balance high total porosity with a large share of small pores, while clays hold more total water but much of it is unavailable.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00644",
@@ -10319,9 +10319,9 @@
       ],
       "answer": "Gravitational water",
       "explanation": "Gravitational water moves freely downward under gravity and is largely unavailable to plants because it drains away quickly.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00645",
@@ -10335,9 +10335,9 @@
       ],
       "answer": "Hygroscopic water",
       "explanation": "Hygroscopic water is adsorbed as thin films at tensions beyond the permanent wilting point and is essentially unavailable.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00646",
@@ -10351,9 +10351,9 @@
       ],
       "answer": "More negative",
       "explanation": "Matric forces tighten as water films thin, so matric potential decreases, becoming more negative as the soil dries.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00647",
@@ -10367,9 +10367,9 @@
       ],
       "answer": "0 to about 80 kPa",
       "explanation": "Tensiometers operate through a ceramic cup up to roughly 80 kPa; beyond that point air enters and readings become unreliable.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00648",
@@ -10383,9 +10383,9 @@
       ],
       "answer": "Allowable depletion",
       "explanation": "Allowable or management depletion, often 50 percent for many crops, sets the soil moisture level at which irrigation should start.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00649",
@@ -10399,9 +10399,9 @@
       ],
       "answer": "4 dS/m",
       "explanation": "By the standard criterion, a saturated paste extract EC above 4 dS/m at 25 degrees Celsius defines a saline soil.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00650",
@@ -10415,9 +10415,9 @@
       ],
       "answer": "More than 15",
       "explanation": "An ESP above 15 indicates harmful sodium dominance on the exchange complex, causing clay dispersion and poor structure.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00651",
@@ -10431,9 +10431,9 @@
       ],
       "answer": "Gypsum",
       "explanation": "Gypsum supplies calcium that displaces sodium from exchange sites, allowing the displaced sodium to be leached below the root zone.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00652",
@@ -10447,9 +10447,9 @@
       ],
       "answer": "Negative logarithm of the hydrogen ion activity",
       "explanation": "pH equals -log(H+), so each unit change represents a tenfold change in hydrogen ion activity in the soil solution.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00653",
@@ -11583,9 +11583,9 @@
       ],
       "answer": "21 to 28 days",
       "explanation": "Weaning at 21 to 28 days balances sow productivity with piglet maturity, allowing more litters per sow per year once piglets can consume starter feed.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00724",
@@ -11599,9 +11599,9 @@
       ],
       "answer": "Is rich in antibodies that confer passive immunity",
       "explanation": "Colostrum carries maternal immunoglobulins that newborn piglets absorb across the gut only in the first hours of life, providing critical protection against neonatal infections.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00725",
@@ -11615,9 +11615,9 @@
       ],
       "answer": "Lysine",
       "explanation": "Corn and soybean meal are usually deficient in lysine first, making it the reference amino acid when formulating grower-finisher swine diets.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00726",
@@ -11631,9 +11631,9 @@
       ],
       "answer": "Protein",
       "explanation": "Sweet potato is rich in starch but very low in protein, so pigs fed it as the staple ration develop protein deficiency unless it is balanced with protein-rich feeds.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00727",
@@ -11647,9 +11647,9 @@
       ],
       "answer": "A DNA virus of the family Asfarviridae",
       "explanation": "ASF is caused by African swine fever virus, an enveloped DNA virus with no effective vaccine, spreading through infected pigs, pork products, and soft ticks.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00728",
@@ -11663,9 +11663,9 @@
       ],
       "answer": "Pestivirus (RNA virus)",
       "explanation": "Classical swine fever is a highly contagious viral disease caused by a pestivirus of the family Flaviviridae, distinct from African swine fever despite similar names.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00729",
@@ -11679,9 +11679,9 @@
       ],
       "answer": "PRRS",
       "explanation": "Porcine reproductive and respiratory syndrome causes ear cyanosis in some cases along with reproductive failure in sows and respiratory disease in growing pigs.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00730",
@@ -11695,9 +11695,9 @@
       ],
       "answer": "Swine erysipelas",
       "explanation": "Erysipelothrix rhusiopathiae produces the distinctive diamond-shaped reddish skin lesions in pigs, often accompanied by arthritis or acute septicemia.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00731",
@@ -11711,9 +11711,9 @@
       ],
       "answer": "The same afternoon",
       "explanation": "The AM-PM rule states that cows seen in heat in the morning are bred that afternoon, and cows seen in the afternoon are bred the next morning, timing AI near ovulation.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00732",
@@ -11727,9 +11727,9 @@
       ],
       "answer": "283 days",
       "explanation": "Cattle carry calves for about 283 days or roughly 9 months, and this value is used to predict expected calving dates from breeding records.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00733",
@@ -11743,9 +11743,9 @@
       ],
       "answer": "35 to 60 days",
       "explanation": "From about 35 to 60 days after breeding, uterine tone, fluid, and fetal membranes can be felt per rectum; ultrasound allows even earlier diagnosis.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00734",
@@ -11759,9 +11759,9 @@
       ],
       "answer": "Volatile fatty acids such as acetate, propionate, and butyrate",
       "explanation": "Rumen microbes ferment fiber and starch into volatile fatty acids, which are absorbed through the rumen wall and supply most of the ruminant's energy.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00735",
@@ -11775,9 +11775,9 @@
       ],
       "answer": "Microbial protein",
       "explanation": "Rumen microbes use ammonia released from urea to build microbial protein, which the cow later digests, provided adequate energy is available in the ration.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00736",
@@ -11791,9 +11791,9 @@
       ],
       "answer": "Frothy bloat",
       "explanation": "Rapid fermentation of highly digestible legumes produces stable foam that traps rumen gas, causing frothy or primary bloat in the rumen.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00737",
@@ -11807,9 +11807,9 @@
       ],
       "answer": "Cloven-hoofed animals such as cattle, swine, goats, and sheep",
       "explanation": "FMD virus is an aphthovirus that infects cloven-hoofed (even-toed ungulate) species, producing vesicular lesions; it does not naturally affect poultry or horses.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00738",
@@ -13055,9 +13055,9 @@
       ],
       "answer": "Systemic",
       "explanation": "Systemic fungicides move inside the plant and can protect new growth that was not directly sprayed.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00816",
@@ -13071,9 +13071,9 @@
       ],
       "answer": "Bacterial diseases",
       "explanation": "Bacterial infections often produce water-soaked spots and bacterial ooze, signs not typical of virus or fungal diseases.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00817",
@@ -13087,9 +13087,9 @@
       ],
       "answer": "Sclerotium",
       "explanation": "Sclerotia are compact, hardened fungal bodies that survive adverse conditions and later germinate to start infection.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00818",
@@ -13103,9 +13103,9 @@
       ],
       "answer": "Rice blast",
       "explanation": "Blast lesions on rice leaves are typically spindle or diamond shaped with gray centers and brown borders.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00819",
@@ -13119,9 +13119,9 @@
       ],
       "answer": "Bacterial leaf blight",
       "explanation": "Kresek is the seedling wilt phase of bacterial leaf blight caused by Xanthomonas oryzae pv. oryzae.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00820",
@@ -13135,9 +13135,9 @@
       ],
       "answer": "Tungro",
       "explanation": "Tungro infected plants show chlorotic yellowing or orange discoloration, stunting, and fewer tillers.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00821",
@@ -13151,9 +13151,9 @@
       ],
       "answer": "Cercospora leaf spot",
       "explanation": "Cercospora lesions are circular to oval with pale centers and concentric rings resembling a frog's eye.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00822",
@@ -13167,9 +13167,9 @@
       ],
       "answer": "Green leafhopper",
       "explanation": "Green leafhoppers, mainly Nephotettix virescens, transmit the tungro virus complex in a semi-persistent manner.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00823",
@@ -13183,9 +13183,9 @@
       ],
       "answer": "Semi-persistent manner",
       "explanation": "Tungro viruses are acquired and transmitted semi-persistently; vectors remain infective for only a short time.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00824",
@@ -13199,9 +13199,9 @@
       ],
       "answer": "Planting tungro-resistant varieties",
       "explanation": "Host resistance combined with vector control and synchronous planting is the cornerstone of tungro management.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00825",
@@ -13215,9 +13215,9 @@
       ],
       "answer": "Pyricularia oryzae",
       "explanation": "Rice blast is caused by Pyricularia oryzae, whose teleomorph stage is Magnaporthe oryzae.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00826",
@@ -13231,9 +13231,9 @@
       ],
       "answer": "Panicle neck",
       "explanation": "Neck blast girdles the panicle neck, causing unfilled or blank grains and severe yield loss.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00827",
@@ -13247,9 +13247,9 @@
       ],
       "answer": "Balanced fertilization avoiding excess nitrogen",
       "explanation": "Excess nitrogen favors blast, so balanced fertilization and resistant varieties reduce disease severity.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00828",
@@ -13263,9 +13263,9 @@
       ],
       "answer": "Xanthomonas oryzae pv. oryzae",
       "explanation": "The bacterium Xanthomonas oryzae pv. oryzae causes bacterial leaf blight, a major rice disease in Asia.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00829",
@@ -13279,9 +13279,9 @@
       ],
       "answer": "Start from leaf tips and margins with wavy yellow borders",
       "explanation": "BLB lesions begin at the tips and margins as water-soaked areas that yellow and dry with wavy borders.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00830",
@@ -14527,9 +14527,9 @@
       ],
       "answer": "expose farmers to successful farms and proven practices in other localities",
       "explanation": "Farm tours widen farmers' perspectives by showing proven practices and successful farms in other areas, encouraging replication at home.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00908",
@@ -14543,9 +14543,9 @@
       ],
       "answer": "participants work on tasks in small groups with active involvement",
       "explanation": "Workshops emphasize active participation, small-group tasks, and shared problem solving instead of one-way lecture delivery.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00909",
@@ -14559,9 +14559,9 @@
       ],
       "answer": "reaches many farmers at low cost without requiring literacy",
       "explanation": "Radio's wide coverage, low cost, and oral-aural nature make it highly effective for reaching farmers regardless of literacy.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00910",
@@ -14575,9 +14575,9 @@
       ],
       "answer": "a brief single topic that farmers can keep for reference",
       "explanation": "Leaflets are short, inexpensive printed aids that present one practice simply and can be kept by farmers for future reference.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00911",
@@ -14591,9 +14591,9 @@
       ],
       "answer": "immediate two-way interaction and feedback with farmers",
       "explanation": "Social media allows posting, commenting, and direct messaging, enabling two-way dialogue and rapid feedback that one-way mass media cannot provide.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00912",
@@ -14607,9 +14607,9 @@
       ],
       "answer": "method demonstration",
       "explanation": "A method demonstration teaches the step-by-step skill of performing a practice, making it ideal for skills such as grafting or spraying.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00913",
@@ -14623,9 +14623,9 @@
       ],
       "answer": "show the outcome of a recommended practice compared with the farmer's usual practice",
       "explanation": "Result demonstrations persuade through visible evidence, usually comparing a recommended practice against a check plot under local conditions.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00914",
@@ -14639,9 +14639,9 @@
       ],
       "answer": "noise",
       "explanation": "The Shannon-Weaver model is a linear model that formally introduced noise as any interference distorting the message in a channel.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00915",
@@ -14655,9 +14655,9 @@
       ],
       "answer": "Source, Message, Channel, Receiver",
       "explanation": "Berlo's SMCR framework breaks communication into source, message, channel, and receiver, each carrying factors that affect communication fidelity.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00916",
@@ -14671,9 +14671,9 @@
       ],
       "answer": "share overlapping fields of experience",
       "explanation": "Schramm emphasized that understanding depends on how much the sender's and receiver's fields of experience overlap.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00917",
@@ -14687,9 +14687,9 @@
       ],
       "answer": "feedback",
       "explanation": "Feedback is the receiver's response, verbal or nonverbal, that tells the source whether the message was received and understood.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00918",
@@ -14703,9 +14703,9 @@
       ],
       "answer": "semantic",
       "explanation": "Semantic barriers occur when words or symbols carry different meanings for sender and receiver, as when a technician uses jargon.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00919",
@@ -14719,9 +14719,9 @@
       ],
       "answer": "psychological barrier",
       "explanation": "Psychological barriers arise from the receiver's attitudes, emotions, and perceptions, such as distrust toward the information source.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00920",
@@ -14735,9 +14735,9 @@
       ],
       "answer": "give full attention and restate the farmer's message to confirm understanding",
       "explanation": "Active listening means concentrating on the speaker, signaling attention, and paraphrasing to confirm that the message was correctly understood.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00921",
@@ -14751,9 +14751,9 @@
       ],
       "answer": "helping adults learn",
       "explanation": "Andragogy is Knowles' theory of adult learning, distinguished from pedagogy, which focuses on how children learn.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00922",
@@ -15903,9 +15903,9 @@
       ],
       "answer": "Quantity demanded equals quantity supplied",
       "explanation": "Equilibrium is the price-quantity point where the quantity buyers want to purchase equals the quantity sellers offer, clearing the market.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00994",
@@ -15919,9 +15919,9 @@
       ],
       "answer": "Surplus",
       "explanation": "At a price above equilibrium, quantity supplied exceeds quantity demanded, creating unsold inventory that pressures prices downward.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00995",
@@ -15935,9 +15935,9 @@
       ],
       "answer": "Shortage of palay",
       "explanation": "A price ceiling below equilibrium makes quantity demanded exceed quantity supplied because farmers reduce the amount they are willing to offer.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00996",
@@ -15951,9 +15951,9 @@
       ],
       "answer": "Percentage change in quantity demanded divided by the percentage change in price",
       "explanation": "Price elasticity of demand compares the percentage response of quantity demanded to a one-percent change in price.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00997",
@@ -15967,9 +15967,9 @@
       ],
       "answer": "Greater than 1",
       "explanation": "Elastic demand means quantity demanded responds more than proportionally to a price change, so the elasticity coefficient exceeds one.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00998",
@@ -15983,9 +15983,9 @@
       ],
       "answer": "Inelastic",
       "explanation": "Rice is a staple necessity with few close substitutes, so quantity demanded changes little when its price changes.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q00999",
@@ -15999,9 +15999,9 @@
       ],
       "answer": "Rise",
       "explanation": "With elastic demand the percentage gain in quantity sold exceeds the percentage price cut, so total revenue increases.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q01000",
@@ -16015,9 +16015,9 @@
       ],
       "answer": "Substitutes",
       "explanation": "A positive cross elasticity means a price rise in one product increases demand for the other, which is the relationship between substitutes.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q01001",
@@ -16031,9 +16031,9 @@
       ],
       "answer": "Between 0 and 1",
       "explanation": "Spending on necessities grows more slowly than income, so their income elasticity of demand lies between zero and one.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q01002",
@@ -16047,9 +16047,9 @@
       ],
       "answer": "Inelastic",
       "explanation": "Farmers cannot quickly change output once planting decisions and production cycles are fixed, making short-run farm supply inelastic.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q01003",
@@ -16063,9 +16063,9 @@
       ],
       "answer": "Retail price and farm price",
       "explanation": "The marketing margin measures the total compensation for all marketing services rendered between the farmer and the final consumer.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q01004",
@@ -16079,9 +16079,9 @@
       ],
       "answer": "50 percent",
       "explanation": "The farmer's share is the farm price divided by the retail price, or 20 divided by 40, which equals 50 percent.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q01005",
@@ -16095,9 +16095,9 @@
       ],
       "answer": "Exchange functions",
       "explanation": "Exchange functions cover the transfer of title through buying and selling, while physical and facilitating functions support the flow of goods.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q01006",
@@ -16111,9 +16111,9 @@
       ],
       "answer": "Storage",
       "explanation": "Physical functions include assembly, transportation, storage, and processing, all of which handle the physical movement of the product.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q01007",
@@ -16127,9 +16127,9 @@
       ],
       "answer": "Facilitating functions",
       "explanation": "Facilitating functions do not move goods directly but make exchange and physical functions work more smoothly and efficiently.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-18"
     },
     {
       "id": "Q01008",

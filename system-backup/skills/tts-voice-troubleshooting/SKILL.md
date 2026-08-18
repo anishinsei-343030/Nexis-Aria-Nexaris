@@ -95,6 +95,40 @@ The primary TTS provider for this profile is **local Chatterbox-Nano** (`mei-kok
 
 ---
 
+## 9. Telegram Voice Delivery: OGG Required for Inline Playback
+
+### Problem
+Telegram **only plays `.ogg` (Opus) files inline as voice bubbles**. WAV/MP3 files delivered via `MEDIA:` always land as downloadable attachments — users must tap to download, then play externally.
+
+### Root Cause (observed 2026-08-18, AgriQuizBot)
+The daily/reminder cron jobs generate `.wav` via `hermes_tts.py` and deliver with `MEDIA:D:/Hermes/.../voice/daily_YYYYMMDD.wav`. In the Pre-Board Exam supergroup this renders as a file attachment, not a playable voice bubble. FFmpeg is available on the host (`ffmpeg` on PATH).
+
+### Fix
+| Approach | Where | Change |
+|---|---|---|
+| A | `hermes_tts.py` | Add format detection: if `--output` ends with `.ogg`, FFmpeg-convert the generated WAV → OGG (Opus) and delete the WAV. |
+| B | Cron prompts | Change `--output ...daily_YYYYMMDD.wav` → `...daily_YYYYMMDD.ogg` and update `MEDIA:` paths to match. |
+
+Do **A + B**: keep conversion logic in the bridge (one place), flip the cron prompts to `.ogg`. Future TTS callers get OGG for free.
+
+**PITFALL — agent cannot apply Approach A itself (2026-08-18):** the write guardrail blocks `write_file` AND `patch` on `D:\DevTools\tts\hermes_tts.py` — it is outside the managed workspace (`D:\Hermes\Nexis Aria Nexaris`), and explicit chat approval ("proceed"/"confirm") does NOT reach the gate. Machine-side consent (whitelisting the path) is required. Until then: hand Shin the exact diff/commands and let him apply the edit manually. Do NOT loop retrying writes to that path — every attempt returns the same guardrail error.
+
+### FFmpeg sketch (append to `hermes_tts.py` after WAV generation)
+```python
+if Path(args.output).suffix.lower() == ".ogg":
+    wav_path = Path(args.output).with_suffix(".wav")
+    subprocess.run([
+        "ffmpeg", "-y", "-i", str(wav_path),
+        "-c:a", "libopus", "-b:a", "16k", "-ac", "1", args.output
+    ], check=True)
+    wav_path.unlink(missing_ok=True)
+```
+
+### Verification
+Voice note appears as a playable bubble in the Telegram group; no download required. If it still lands as an attachment, check the file extension is truly `.ogg` and the codec is Opus (`ffprobe`), not a renamed WAV.
+
+---
+
 ## 8. Persona Voice Tuning
 
 This section covers selecting, configuring, and refining the TTS voice to ensure it aligns with a specific persona's identity (e.g., a youthful anime-style companion).

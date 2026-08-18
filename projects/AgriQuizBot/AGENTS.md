@@ -7,10 +7,18 @@ Google Form each morning, auto-graded, posted to the Pre-Board Exam supergroup.
 
 - **Weekly refill (Sunday 18:00, agent job):** Nexis researches ~960 new
   questions (160 per LEA area), writes a batch JSON, runs `bank_add.py`.
-- **Daily quiz (20:00, script + Nexis posts):** `agri_quiz_daily.py` runs
+- **Daily quiz (20:00, agent job):** `agri_quiz_daily.py` runs
   `agri_quiz_bot.py`; Nexis relays the resulting message to the group.
-- **9PM reminder (20:45, no_agent):** `agri_quiz_reminder.py` prints a nudge
+- **9PM reminder (20:45, agent job):** `agri_quiz_reminder.py` prints a nudge
   only if today's quiz was posted.
+- **Voice notes (daily + reminder):** generate with
+  `D:\DevTools\tts\hermes_tts.py` (hermes313 python) with
+  `--ref nexis --output <voice\..._YYYYMMDD.ogg>`; it converts WAV→OGG
+  automatically. To deliver as a Telegram **voice bubble**, the reply MUST
+  contain `[[audio_as_voice]]` on its own line directly above the
+  `MEDIA:D:/Hermes/Nexis Aria Nexaris/projects/AgriQuizBot/voice/<file>.ogg`
+  line. Without the directive, `.ogg` still arrives as a downloadable
+  attachment (verified 2026-08-18).
 
 ## Commands
 

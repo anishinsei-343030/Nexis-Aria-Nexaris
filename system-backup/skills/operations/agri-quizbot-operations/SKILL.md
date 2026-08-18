@@ -13,13 +13,14 @@ tags:
 
 # AgriQuizBot Operations
 
-Manage the daily and weekly question bank pipeline for the AgriQuizBot (D:\Zero\Projects\AgriQuizBot). The bot writes 120 fresh questions into a Google Form daily.
+Manage the daily and weekly question bank pipeline for the AgriQuizBot (D:\Hermes\Nexis Aria Nexaris\projects\AgriQuizBot). The bot writes 90 fresh questions into a Google Form daily.
 
 ## Pipeline Logic
 
-- **Daily Run:** `agri_quiz_bot.py` selects 120 unused questions (20 per area).
-- **Top-Up Trigger:** If unused questions < 120, bot returns `BANK_LOW n` (Exit 2).
-- **Emergency Target:** Top up to 240 unused questions (40 per area).
+- **Daily Run:** `agri_quiz_bot.py` selects 90 unused questions (15 per area; numbering restarts 1-15 per subject).
+- **Top-Up Trigger:** If unused questions < 90, bot returns `BANK_LOW n` (Exit 2).
+- **Emergency Target:** Top up to 180 unused questions (30 per area).
+- **Cron jobs:** "Pre-Board Exam Daily (20:00)" and "Pre-Board Exam 9PM Reminder (21:45)" — relay scripts live in `C:\Users\Administrator\.hermes\profiles\nexis\scripts\` (`agri_quiz_daily.py`, `agri_quiz_reminder.py`), NOT in the project dir. Full job prompts live in `~/.hermes/profiles/nexis/cron/jobs.json` (read via python, not grep-able JSON pretty-print).
 
 ## Execution Workflow
 
@@ -61,5 +62,15 @@ Never fabricate a `QUIZ_OK` message. If the bot returns `API_ERROR` or `KEY_MISS
 
 Check unused count without running the bot:
 ```bash
-"/c/Users/Administrator/AppData/Local/Python/hermes313/Scripts/python.exe" -c "import json; b=json.load(open(r'D:\Zero\Projects\AgriQuizBot\question_bank.json',encoding='utf-8-sig')); print('UNUSED', sum(1 for q in b['questions'] if q['status']=='unused'))"
+"/c/Users/Administrator/AppData/Local/Python/hermes313/Scripts/python.exe" -c "import json; b=json.load(open(r'D:\Hermes\Nexis Aria Nexaris\projects\AgriQuizBot\question_bank.json',encoding='utf-8-sig')); print('UNUSED', sum(1 for q in b['questions'] if q['status']=='unused'))"
 ```
+
+## Voice Notes in Cron Jobs (Telegram)
+
+Both daily and reminder cron runs generate a voice note with a fresh motivational quote (1 line, <25 words, always English, study/future/life themed) via:
+```bash
+"/c/Users/Administrator/AppData/Local/Python/hermes313/Scripts/python.exe" D:/DevTools/tts/hermes_tts.py --ref nexis --output D:/Hermes/Nexis Aria Nexaris/projects/AgriQuizBot/voice/{daily|reminder}_YYYYMMDD.wav --text "<spoken message>"
+```
+Then verify the file exists and add `MEDIA:D:/Hermes/Nexis Aria Nexaris/projects/AgriQuizBot/voice/{daily|reminder}_YYYYMMDD.wav` to the reply so it delivers to the group.
+
+**PITFALL (2026-08-18):** WAV files delivered via `MEDIA:` land in Telegram as downloadable attachments — they do NOT play inline. Telegram voice bubbles require OGG (Opus). Fix: convert WAV → OGG via FFmpeg (available on host) and use `.ogg` in both the `--output` path and the `MEDIA:` line. See `tts-voice-troubleshooting` section 9 for the implementation sketch. STATUS: the `hermes_tts.py` edit is BLOCKED by the write guardrail (out-of-workspace path; chat approval doesn't reach the gate) — Shin applies it manually, cron prompts stay `.wav` until then. Until the fix lands, keep verifying the `.wav` exists before the `MEDIA:` line.
