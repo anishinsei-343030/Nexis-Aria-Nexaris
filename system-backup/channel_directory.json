@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-08-18T22:57:19.038335",
+  "updated_at": "2026-08-20T07:49:50.534845",
   "platforms": {
     "telegram": [
-      {
-        "id": "7795539900",
-        "name": "AniShin Sei",
-        "type": "dm",
-        "thread_id": null
-      },
       {
         "id": "-1004346387239",
         "name": "Aoi & Shin",
         "type": "group",
+        "thread_id": null
+      },
+      {
+        "id": "7795539900",
+        "name": "AniShin Sei",
+        "type": "dm",
         "thread_id": null
       },
       {

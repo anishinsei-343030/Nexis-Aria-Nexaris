@@ -8959,9 +8959,9 @@
       ],
       "answer": "Cavendish",
       "explanation": "Cavendish cultivars dominate Philippine banana exports because of their high yields, uniform bunches, and long green life for shipping.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00560",
@@ -8975,9 +8975,9 @@
       ],
       "answer": "As fingers mature, the ridges or ribs become less angular and more rounded",
       "explanation": "In banana, the ribs of fingers become progressively rounder as fruits fill, so loss of angularity signals harvest maturity.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00561",
@@ -8991,9 +8991,9 @@
       ],
       "answer": "Long daylength combined with suitable temperature",
       "explanation": "Onion bulbing is induced when daylength exceeds roughly 12 hours together with favorable temperatures, which is why variety choice depends on latitude.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00562",
@@ -9007,9 +9007,9 @@
       ],
       "answer": "Cucurbitaceae",
       "explanation": "Bitter gourd is a cucurbit, placing it with squash, cucumber, and melons in the family Cucurbitaceae.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00563",
@@ -9023,9 +9023,9 @@
       ],
       "answer": "Calcium",
       "explanation": "Blossom-end rot results from calcium deficiency in developing fruits, often aggravated by erratic soil moisture that limits calcium uptake.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00564",
@@ -9039,9 +9039,9 @@
       ],
       "answer": "Cloves",
       "explanation": "Garlic rarely produces viable true seed and is propagated vegetatively through cloves, which is why garlic varieties are clones.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00565",
@@ -9055,9 +9055,9 @@
       ],
       "answer": "Can be grown in flooded or semiaquatic conditions",
       "explanation": "Water spinach thrives in wet or flooded soil and is often grown in ponds or paddy margins for its succulent shoots.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00566",
@@ -9071,9 +9071,9 @@
       ],
       "answer": "Cool conditions around 15 to 20°C",
       "explanation": "Cabbage is a cool-season crop; sustained temperatures around 15 to 20°C favor proper head formation and quality.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00567",
@@ -9087,9 +9087,9 @@
       ],
       "answer": "5.5 to 6.5",
       "explanation": "Most vegetables grow best at slightly acid to neutral pH of about 5.5 to 6.5, where nutrient availability is at its peak.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00568",
@@ -9103,9 +9103,9 @@
       ],
       "answer": "Vine cuttings",
       "explanation": "Sweet potato is vegetatively propagated with vine cuttings, which root readily and preserve the cultivar characteristics.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00569",
@@ -9119,9 +9119,9 @@
       ],
       "answer": "Stem cuttings or stakes",
       "explanation": "Cassava is planted from mature stem cuttings, commonly 20 to 30 cm long, which sprout and form new plants.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00570",
@@ -9135,9 +9135,9 @@
       ],
       "answer": "Colocasia esculenta",
       "explanation": "Gabi or taro is Colocasia esculenta, an aroid grown for its edible corms and leaves in wetland or upland conditions.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00571",
@@ -9151,9 +9151,9 @@
       ],
       "answer": "Convolvulaceae",
       "explanation": "Sweet potato is a member of the morning glory family, Convolvulaceae, distinct from true yams and taro.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00572",
@@ -9167,9 +9167,9 @@
       ],
       "answer": "Corn",
       "explanation": "Corn is a C4 crop with high photosynthetic efficiency and water-use efficiency, unlike C3 crops such as rice and wheat.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00573",
@@ -9183,9 +9183,9 @@
       ],
       "answer": "It initiates flowering when the night period exceeds a critical length",
       "explanation": "Short-day plants flower when nights are longer than a critical length, which is why soybean varieties are adapted to specific latitudes.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00574",
@@ -10463,9 +10463,9 @@
       ],
       "answer": "6.0 to 7.0",
       "explanation": "In the near-neutral range most nutrients are sufficiently available while toxic elements such as aluminum remain insoluble.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00654",
@@ -10479,9 +10479,9 @@
       ],
       "answer": "Soluble aluminum",
       "explanation": "Aluminum dissolves into toxic Al3+ ions at low pH and damages roots before deficiencies of most nutrients become severe.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00655",
@@ -10495,9 +10495,9 @@
       ],
       "answer": "Cation exchange capacity",
       "explanation": "CEC is the total negative charge that retains cations such as Ca2+, Mg2+, K+, and Na+ in exchangeable form.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00656",
@@ -10511,9 +10511,9 @@
       ],
       "answer": "Humus",
       "explanation": "Humus carries roughly 150 to 300 cmol(+)/kg, far exceeding montmorillonite, kaolinite, and inert sand or iron oxides.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00657",
@@ -10527,9 +10527,9 @@
       ],
       "answer": "Basic cations such as Ca, Mg, K, and Na",
       "explanation": "High base saturation means the CEC is dominated by nutrient cations, while low values indicate dominance of H+ and Al3+.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00658",
@@ -10543,9 +10543,9 @@
       ],
       "answer": "Humus and iron-aluminum oxides",
       "explanation": "Organic matter and Fe-Al oxides develop charge that changes with pH, giving weathered tropical soils their pH-dependent CEC.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00659",
@@ -10559,9 +10559,9 @@
       ],
       "answer": "Iron and aluminum",
       "explanation": "In acid soils, soluble phosphorus precipitates as iron and aluminum phosphates, which is why P is often the limiting nutrient.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00660",
@@ -10575,9 +10575,9 @@
       ],
       "answer": "Calcium",
       "explanation": "At high pH, calcium precipitates phosphate into sparingly soluble calcium phosphates, sharply reducing P availability.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00661",
@@ -10591,9 +10591,9 @@
       ],
       "answer": "Molybdenum",
       "explanation": "Molybdenum solubility rises with pH while zinc, iron, and manganese all become less available in alkaline conditions.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00662",
@@ -10607,9 +10607,9 @@
       ],
       "answer": "Ammonium and nitrate",
       "explanation": "Ammonium and nitrate are the mineral nitrogen forms absorbed by roots; urea must first be converted before uptake.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00663",
@@ -10623,9 +10623,9 @@
       ],
       "answer": "Nitrobacter",
       "explanation": "Nitrosomonas oxidizes ammonium to nitrite, while Nitrobacter completes the process by oxidizing nitrite to nitrate.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00664",
@@ -10639,9 +10639,9 @@
       ],
       "answer": "Denitrification",
       "explanation": "Under anaerobic conditions, denitrifying bacteria such as Pseudomonas use nitrate as an electron acceptor and release N2 gas.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00665",
@@ -10655,9 +10655,9 @@
       ],
       "answer": "Rhizobium",
       "explanation": "Rhizobium species form nodules on legumes and fix nitrogen symbiotically, a partnership enhanced by adequate molybdenum and pH.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00666",
@@ -10671,9 +10671,9 @@
       ],
       "answer": "Azolla-Anabaena",
       "explanation": "The water fern Azolla carries Anabaena, a blue-green alga that fixes nitrogen, contributing modest nitrogen to flooded rice.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00667",
@@ -10687,9 +10687,9 @@
       ],
       "answer": "Enhancing phosphorus uptake",
       "explanation": "VAM fungi extend the absorbing surface of roots and help acquire immobile phosphorus in exchange for carbohydrates.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00668",
@@ -11823,9 +11823,9 @@
       ],
       "answer": "Clostridium chauvoei",
       "explanation": "Clostridium chauvoei spores contaminate soil and germinate in muscle tissue, causing gas gangrene known as blackleg; vaccination is the main preventive measure.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00739",
@@ -11839,9 +11839,9 @@
       ],
       "answer": "Mastitis in dairy cows",
       "explanation": "The CMT detects elevated somatic cells in milk, which indicate inflammation of the udder, making it a practical screening test for mastitis on the farm.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00740",
@@ -11855,9 +11855,9 @@
       ],
       "answer": "Carcass weight divided by live weight, multiplied by 100",
       "explanation": "Dressing percentage expresses carcass yield relative to the animal's live weight and varies with species, gut fill, fatness, and muscling.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00741",
@@ -11871,9 +11871,9 @@
       ],
       "answer": "Intramuscular fat flecks within the lean meat",
       "explanation": "Marbling is the intramuscular fat distributed within the muscle, and it contributes to the juiciness, flavor, and tenderness of beef in quality grading.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00742",
@@ -11887,9 +11887,9 @@
       ],
       "answer": "The Netherlands",
       "explanation": "Holstein Friesians were developed in the Netherlands and are the highest milk-producing dairy breed, widely used in Philippine dairy crossbreeding programs.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00743",
@@ -11903,9 +11903,9 @@
       ],
       "answer": "Oxytocin",
       "explanation": "Milking or suckling stimulates the release of oxytocin from the posterior pituitary, which contracts the myoepithelial cells and causes milk ejection.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00744",
@@ -11919,9 +11919,9 @@
       ],
       "answer": "Mastitis or udder inflammation in the herd",
       "explanation": "Somatic cells are mostly leukocytes that increase sharply when the udder is infected, so somatic cell count is a standard indicator of mastitis and milk quality.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00745",
@@ -11935,9 +11935,9 @@
       ],
       "answer": "Jersey",
       "explanation": "Jersey milk averages around 5 percent butterfat, the highest among the major dairy breeds, although total milk volume is lower than that of the Holstein.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00746",
@@ -11951,9 +11951,9 @@
       ],
       "answer": "Swamp type",
       "explanation": "The native Philippine carabao is a swamp-type buffalo used mainly for draft and work, while riverine types such as the Murrah are oriented toward milk production.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00747",
@@ -11967,9 +11967,9 @@
       ],
       "answer": "310 to 320 days",
       "explanation": "Carabao gestation averages about 10.5 months or 310 to 320 days, which is longer than the roughly 283-day gestation of cattle.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00748",
@@ -11983,9 +11983,9 @@
       ],
       "answer": "Trypanosoma evansi",
       "explanation": "Surra is caused by Trypanosoma evansi, which is transmitted mechanically by biting flies such as tabanids, producing anemia, fever, and progressive emaciation.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00749",
@@ -11999,9 +11999,9 @@
       ],
       "answer": "Murrah",
       "explanation": "The dairy carabao development program upgrades native swamp carabaos with Murrah blood to raise milk yield while keeping the animals adapted to local conditions.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00750",
@@ -12015,9 +12015,9 @@
       ],
       "answer": "145 to 155 days",
       "explanation": "Goat gestation averages about 150 days or five months, and improved breeds commonly produce twins when nutrition is adequate.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00751",
@@ -12031,9 +12031,9 @@
       ],
       "answer": "Browsing on shrubs, leaves, and broad-leaved plants",
       "explanation": "Goats are natural browsers with mobile lips and an upright feeding posture, preferring woody plants and forbs, which makes them ideal for brushy or weedy lots.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00752",
@@ -12047,9 +12047,9 @@
       ],
       "answer": "Twins or triplets per kidding",
       "explanation": "Improved breeds such as Boer and Anglo-Nubian commonly give birth to twins or triplets with good nutrition, which improves the profitability of goat raising.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00753",
@@ -13295,9 +13295,9 @@
       ],
       "answer": "Wounds and stormy weather with rain",
       "explanation": "The bacterium enters through wounds, and rain splash and winds, especially typhoons, spread it across fields.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00831",
@@ -13311,9 +13311,9 @@
       ],
       "answer": "Oomycetes (water molds)",
       "explanation": "Downy mildew pathogens are oomycetes, fungal-like organisms distinct from true fungi and favored by moist weather.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00832",
@@ -13327,9 +13327,9 @@
       ],
       "answer": "Peronosclerospora philippinensis",
       "explanation": "Peronosclerospora philippinensis causes the destructive downy mildew disease of corn in the Philippines.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00833",
@@ -13343,9 +13343,9 @@
       ],
       "answer": "White to gray downy or fuzzy growth",
       "explanation": "The downy, grayish-white sporulation on the underside of leaves is the hallmark sign of downy mildew.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00834",
@@ -13359,9 +13359,9 @@
       ],
       "answer": "Bakanae disease",
       "explanation": "Bakanae, caused by Fusarium fujikuroi, produces gibberellins that cause abnormal elongation of seedlings.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00835",
@@ -13375,9 +13375,9 @@
       ],
       "answer": "Oval to irregular water-soaked lesions on leaf sheaths",
       "explanation": "Sheath blight lesions appear as elongated, water-soaked spots on sheaths that enlarge and may form sclerotia.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00836",
@@ -13391,9 +13391,9 @@
       ],
       "answer": "Ustilago maydis",
       "explanation": "Ustilago maydis causes common smut, producing tumor-like galls on corn ears, tassels, and stalks.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00837",
@@ -13407,9 +13407,9 @@
       ],
       "answer": "Green leafhopper",
       "explanation": "Hemimetabolous insects like leafhoppers pass through egg, nymph, and adult stages with no pupal stage.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00838",
@@ -13423,9 +13423,9 @@
       ],
       "answer": "Lepidoptera",
       "explanation": "Lepidoptera includes moths and butterflies, whose larvae are often serious defoliators and borers.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00839",
@@ -13439,9 +13439,9 @@
       ],
       "answer": "Brown planthopper",
       "explanation": "Planthoppers and other hemipterans insert stylets into plant tissues to suck sap.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00840",
@@ -13455,9 +13455,9 @@
       ],
       "answer": "Brown planthopper",
       "explanation": "Massive brown planthopper feeding removes sap and injects toxins, causing hopperburn patches in rice.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00841",
@@ -13471,9 +13471,9 @@
       ],
       "answer": "Coleoptera",
       "explanation": "Coleoptera, the beetles, have hardened forewings called elytra and include many stored-product pests.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00842",
@@ -13487,9 +13487,9 @@
       ],
       "answer": "Larva",
       "explanation": "In holometabolous insects the larva hatches from the egg, feeds, and later pupates into the adult.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00843",
@@ -13503,9 +13503,9 @@
       ],
       "answer": "Ostrinia furnacalis",
       "explanation": "Ostrinia furnacalis, the Asian corn borer, attacks corn leaves, tassels, and stalks throughout the Philippines.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00844",
@@ -13519,9 +13519,9 @@
       ],
       "answer": "Pinholes or shot-hole damage on the whorl leaves",
       "explanation": "Young ACB larvae feed on the unfolding whorl leaves, producing the characteristic shot-hole symptom.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00845",
@@ -14767,9 +14767,9 @@
       ],
       "answer": "learners' own accumulated experience",
       "explanation": "Adults bring a lifetime of experience, so methods that draw out and build on that experience are the most effective in extension training.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00923",
@@ -14783,9 +14783,9 @@
       ],
       "answer": "directly relevant to the problems they face on their own farms",
       "explanation": "Adults are motivated by immediate relevance; training tied to real farm problems engages them far more than abstract content.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00924",
@@ -14799,9 +14799,9 @@
       ],
       "answer": "reflective observation",
       "explanation": "Kolb's experiential learning cycle runs from concrete experience to reflective observation, then abstract conceptualization, and finally active experimentation.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00925",
@@ -14815,9 +14815,9 @@
       ],
       "answer": "perform the practice themselves under the guidance of the worker",
       "explanation": "The learning-by-doing principle holds that farmers truly learn skills when they perform them, with the worker guiding and correcting.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00926",
@@ -14831,9 +14831,9 @@
       ],
       "answer": "is communicated through certain channels over time among members of a social system",
       "explanation": "Rogers defines diffusion as the process by which an innovation is communicated through certain channels over time among members of a social system.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00927",
@@ -14847,9 +14847,9 @@
       ],
       "answer": "relative advantage",
       "explanation": "Relative advantage, one of Rogers' perceived attributes, is the degree to which an innovation is seen as better than what it replaces.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00928",
@@ -14863,9 +14863,9 @@
       ],
       "answer": "compatibility",
       "explanation": "Compatibility is how well the innovation fits the adopters' existing values, customs, and farming practices.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00929",
@@ -14879,9 +14879,9 @@
       ],
       "answer": "trialability",
       "explanation": "Trialability is the degree to which an innovation can be tried on a limited basis, reducing the farmer's risk before full adoption.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00930",
@@ -14895,9 +14895,9 @@
       ],
       "answer": "learns that the innovation exists but lacks complete information about it",
       "explanation": "Awareness is the first stage of adoption, where the farmer knows the innovation exists but has little information about it.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00931",
@@ -14911,9 +14911,9 @@
       ],
       "answer": "evaluation",
       "explanation": "The classic adoption sequence is awareness, interest, evaluation, trial, and adoption, so evaluation follows interest.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00932",
@@ -14927,9 +14927,9 @@
       ],
       "answer": "discontinuance",
       "explanation": "Discontinuance is Rogers' term for the decision to reject an innovation after having previously adopted it.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00933",
@@ -14943,9 +14943,9 @@
       ],
       "answer": "Early majority and late majority",
       "explanation": "Rogers' distribution is approximately 2.5 percent innovators, 13.5 percent early adopters, 34 percent early majority, 34 percent late majority, and 16 percent laggards.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00934",
@@ -14959,9 +14959,9 @@
       ],
       "answer": "venturesome and willing to accept risk",
       "explanation": "Innovators are the first and smallest group to adopt, being venturesome, willing to take risks, and often cosmopolitan.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00935",
@@ -14975,9 +14975,9 @@
       ],
       "answer": "traditional and suspicious of change",
       "explanation": "Laggards are the last to adopt; they are traditional, suspicious of change, and adopt only when an innovation is fully proven.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00936",
@@ -14991,9 +14991,9 @@
       ],
       "answer": "influences others' decisions informally through credibility and respect",
       "explanation": "Opinion leaders exert informal influence through credibility and trust; neighbors follow their example even without official authority.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q00937",
@@ -16143,9 +16143,9 @@
       ],
       "answer": "Capturing margins normally earned by middlemen",
       "explanation": "Selling directly to consumers lets the farmer receive the retail price, keeping the marketing margin that intermediaries would otherwise take.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q01009",
@@ -16159,9 +16159,9 @@
       ],
       "answer": "The same marketing service is provided at a lower cost",
       "explanation": "Efficiency measures the cost of performing marketing services, so delivering the same service at a lower cost raises efficiency.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q01010",
@@ -16175,9 +16175,9 @@
       ],
       "answer": "Cyclical price fluctuations in commodities whose production lags behind price signals",
       "explanation": "Producers base output on last season's prices, and when supply catches up the price adjusts sharply, producing hog-cycle style oscillations.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q01011",
@@ -16191,9 +16191,9 @@
       ],
       "answer": "Harvest season",
       "explanation": "Harvest time floods the market with new supply, and with inelastic demand prices fall to their seasonal low.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q01012",
@@ -16207,9 +16207,9 @@
       ],
       "answer": "Market surplus",
       "explanation": "A binding floor keeps price above equilibrium so quantity supplied exceeds quantity demanded, generating a persistent surplus.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q01013",
@@ -16223,9 +16223,9 @@
       ],
       "answer": "Guarantee a minimum farm income for producers",
       "explanation": "Support prices protect farmers by ensuring a minimum purchase price that keeps farm income stable when market prices fall.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q01014",
@@ -16239,9 +16239,9 @@
       ],
       "answer": "Raw farm products have inelastic and derived demand",
       "explanation": "Demand for raw farm products is inelastic and derived from consumer demand, so small shifts in supply cause wide farm price swings.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q01015",
@@ -16255,9 +16255,9 @@
       ],
       "answer": "Reduce price uncertainty for producers and consumers",
       "explanation": "Stabilization smooths price fluctuations, giving farmers predictable income and protecting consumers from sudden price spikes.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q01016",
@@ -16271,9 +16271,9 @@
       ],
       "answer": "Decrease marginal product",
       "explanation": "After a certain point each additional unit of the variable input adds less to total output, so marginal product declines.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q01017",
@@ -16287,9 +16287,9 @@
       ],
       "answer": "Value of the best alternative foregone when a choice is made",
       "explanation": "Every resource used in a farm enterprise sacrifices the return it could have earned in its next best use.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q01018",
@@ -16303,9 +16303,9 @@
       ],
       "answer": "Marginal revenue equals marginal cost",
       "explanation": "Producing where marginal revenue equals marginal cost ensures each additional unit adds at least as much value as it costs.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q01019",
@@ -16319,9 +16319,9 @@
       ],
       "answer": "Highest return per unit of the limiting resource",
       "explanation": "The limiting resource governs production, so the enterprise with the best return per unit of that resource uses the farm most profitably.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q01020",
@@ -16335,9 +16335,9 @@
       ],
       "answer": "Additional output from one more unit of a variable input",
       "explanation": "MPP measures the change in total physical product arising from an extra unit of the variable input.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q01021",
@@ -16351,9 +16351,9 @@
       ],
       "answer": "Provide the basis for sound management decisions and tax reporting",
       "explanation": "Records such as the income statement and balance sheet let the farmer measure profitability and make data-driven decisions.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q01022",
@@ -16367,9 +16367,9 @@
       ],
       "answer": "Total revenue equals total cost",
       "explanation": "At the break-even point the farm covers all its costs; beyond that point, profit begins to accumulate.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-19"
     },
     {
       "id": "Q01023",

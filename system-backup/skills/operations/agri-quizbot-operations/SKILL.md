@@ -47,6 +47,7 @@ Manage the daily and weekly question bank pipeline for the AgriQuizBot (D:\Herme
 The `terminal` tool runs via Git Bash (MSYS). Full Windows paths like `C:\...` are often misinterpreted.
 - **FIX:** Use double quotes and forward slashes for executables:
   `"/c/Users/Administrator/AppData/Local/Python/hermes313/Scripts/python.exe"`
+- **Script arguments get mangled too (2026-08-19):** a backslash path passed as an argument loses its escapes in bash (`D:\DevTools\tts\hermes_tts.py` arrives as `D:DevToolsttshermes_tts.py` and resolves against cwd), and MSYS-style `/d/DevTools/...` handed to a Windows-native exe can come out as `D:\d\DevTools\...`. **FIX that worked:** `cd /d/DevTools/tts && "<python.exe>" hermes_tts.py ...` — cd into the script's directory and pass the bare filename. Forward-slash `D:/...` paths are safe for `--output` / `MEDIA:` style arguments and for `ls`.
 
 ### 2. `execute_code` vs. `terminal` in Cron Jobs
 In scheduled cron jobs, `execute_code` may block arbitrary local Python calls (e.g., `subprocess`) due to `approvals.cron_mode`.
@@ -73,4 +74,12 @@ Both daily and reminder cron runs generate a voice note with a fresh motivationa
 ```
 Then verify the file exists and add `MEDIA:D:/Hermes/Nexis Aria Nexaris/projects/AgriQuizBot/voice/{daily|reminder}_YYYYMMDD.wav` to the reply so it delivers to the group.
 
+## Reminder cron reply format (2026-08-19, updated)
+
+- Reminder chat: Pre-Board Exam supergroup, Telegram `-1004302584573`.
+- The reminder script's output is injected as "Script Output" — if it contains the reminder text, post it in warm voice keeping title, link, and submit-before-9PM line, plus ONE fresh researched motivational line (<25 words, always English). If the script prints nothing, reply `[SILENT]` — do not post.
+- Voice note: spoken text = short reminder (quiz closes 9PM, link in chat) + the same motivational line, spoken aloud. Generate as `.ogg` (see pitfall below), then the reply MUST carry two lines, in order: `[[audio_as_voice]]` on its own line, then `MEDIA:D:/Hermes/Nexis Aria Nexaris/projects/AgriQuizBot/voice/reminder_YYYYMMDD.ogg`. End the reply with the exact text message that was posted.
+
 **PITFALL (2026-08-18):** WAV files delivered via `MEDIA:` land in Telegram as downloadable attachments — they do NOT play inline. Telegram voice bubbles require OGG (Opus). Fix: convert WAV → OGG via FFmpeg (available on host) and use `.ogg` in both the `--output` path and the `MEDIA:` line. See `tts-voice-troubleshooting` section 9 for the implementation sketch. STATUS: the `hermes_tts.py` edit is BLOCKED by the write guardrail (out-of-workspace path; chat approval doesn't reach the gate) — Shin applies it manually, cron prompts stay `.wav` until then. Until the fix lands, keep verifying the `.wav` exists before the `MEDIA:` line.
+
+**STATUS UPDATE (2026-08-19):** the `.ogg` conversion is now BUILT INTO `hermes_tts.py` — pass `--output <path>.ogg` and the script saves WAV then converts to OGG automatically, printing `OK <path>.ogg`. Cron jobs must now request `.ogg` directly (never `.wav`), and the `MEDIA:` line must point at the `.ogg`. Verified live: reminder cron generated `reminder_20260819.ogg` (39.7 KB, ~38.4s audio) and delivered as a voice bubble. Also verified 2026-08-18: without the `[[audio_as_voice]]` directive the `.ogg` still arrives as a downloadable attachment, so the directive stays mandatory.
