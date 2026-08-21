@@ -9199,9 +9199,9 @@
       ],
       "answer": "Auxin",
       "explanation": "Auxin produced in the shoot apex inhibits lateral bud outgrowth, a phenomenon known as apical dominance.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00575",
@@ -9215,9 +9215,9 @@
       ],
       "answer": "Abscisic acid",
       "explanation": "Abscisic acid accumulates in water-stressed plants and promotes stomatal closure to reduce transpirational water loss.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00576",
@@ -9231,9 +9231,9 @@
       ],
       "answer": "Ethylene",
       "explanation": "Ethylene is a natural plant hormone that accelerates ripening, so commercial ripening rooms flush bananas with ethylene gas.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00577",
@@ -9247,9 +9247,9 @@
       ],
       "answer": "ATP and NADPH",
       "explanation": "Light reactions produce ATP and NADPH, which supply the energy and reducing power needed to fix carbon dioxide in the Calvin cycle.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00578",
@@ -9263,9 +9263,9 @@
       ],
       "answer": "Consumes fixed carbon and energy without producing sugar",
       "explanation": "In photorespiration, RuBisCO fixes oxygen instead of carbon dioxide, consuming energy and releasing fixed carbon without net sugar production.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00579",
@@ -9279,9 +9279,9 @@
       ],
       "answer": "The promotion of flowering by a period of low temperature",
       "explanation": "Vernalization is the cold treatment that induces or accelerates flowering, as required by certain crops such as winter cereals.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00580",
@@ -9295,9 +9295,9 @@
       ],
       "answer": "14 days",
       "explanation": "The ISTA rice germination test runs 14 days, with the first count at 5 days and the final count at 14 days.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00581",
@@ -9311,9 +9311,9 @@
       ],
       "answer": "Dehydrogenase activity indicating living tissue",
       "explanation": "Living embryos reduce tetrazolium salts to a red compound, so stained tissues indicate viable tissue for a quick viability estimate.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00582",
@@ -9327,9 +9327,9 @@
       ],
       "answer": "Coconut",
       "explanation": "Coconut seeds are recalcitrant: they lose viability when dried or chilled and must be handled fresh.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00583",
@@ -9343,9 +9343,9 @@
       ],
       "answer": "14 percent",
       "explanation": "Rice seed is safe to store at about 14 percent moisture in the tropics, while grains for long-term storage may need lower moisture.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00584",
@@ -9359,9 +9359,9 @@
       ],
       "answer": "Breeder to foundation to registered to certified",
       "explanation": "Seed classes descend from breeder seed through foundation and registered seed, with certified seed sold to farmers.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00585",
@@ -9375,9 +9375,9 @@
       ],
       "answer": "The ability of seeds to establish normal seedlings rapidly under adverse field conditions",
       "explanation": "Vigor measures the speed and uniformity of seedling emergence, especially under stress, beyond simple germination percentage.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00586",
@@ -9391,9 +9391,9 @@
       ],
       "answer": "Alternating 20 to 30°C",
       "explanation": "Many warm-season crop seeds germinate best under alternating temperatures of 20 to 30°C, mimicking natural day-night conditions.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00587",
@@ -9407,9 +9407,9 @@
       ],
       "answer": "Transplanting young seedlings singly with wider spacing and no continuous flooding",
       "explanation": "SRI uses 8 to 12-day-old seedlings transplanted singly at wider spacing with intermittent irrigation rather than continuous flooding.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00588",
@@ -9423,9 +9423,9 @@
       ],
       "answer": "Weeds during the early growth stage",
       "explanation": "Without the floodwater and seedling head start of transplanting, direct-seeded rice competes with weeds early, demanding good water or herbicide management.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00589",
@@ -10703,9 +10703,9 @@
       ],
       "answer": "Nitrogen immobilization",
       "explanation": "Microbes decomposing residue with a wide C:N ratio consume soil nitrogen, temporarily tying it up until the straw decomposes.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00669",
@@ -10719,9 +10719,9 @@
       ],
       "answer": "Zinc deficiency",
       "explanation": "Khaira is the classic zinc deficiency of lowland rice, showing rusty brown spots and stunting on young plants.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00670",
@@ -10735,9 +10735,9 @@
       ],
       "answer": "Iron deficiency",
       "explanation": "Iron is immobile in the plant, so deficiency symptoms first show on new growth, unlike N, P, and K which move to older leaves.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00671",
@@ -10751,9 +10751,9 @@
       ],
       "answer": "Boron deficiency",
       "explanation": "Boron deficiency disrupts cell wall formation, producing cracked, corky, and hollow tissues in sensitive vegetables.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00672",
@@ -10767,9 +10767,9 @@
       ],
       "answer": "Nitrogen fixation and nitrate reduction",
       "explanation": "Molybdenum is a component of nitrogenase and nitrate reductase, enzymes central to both fixation and nitrate assimilation.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00673",
@@ -10783,9 +10783,9 @@
       ],
       "answer": "Nitrogen deficiency",
       "explanation": "Nitrogen is mobile within the plant, so it is redistributed from old leaves to new growth, yellowing the older foliage first.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00674",
@@ -10799,9 +10799,9 @@
       ],
       "answer": "14 percent N, 14 percent P2O5, 14 percent K2O",
       "explanation": "Fertilizer grades state percentages of nitrogen and of phosphorus and potassium expressed as P2O5 and K2O.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00675",
@@ -10815,9 +10815,9 @@
       ],
       "answer": "Urea (46-0-0)",
       "explanation": "Urea carries 46 percent nitrogen, the highest concentration among the common dry nitrogen fertilizers listed.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00676",
@@ -10831,9 +10831,9 @@
       ],
       "answer": "Ammonium carbonate",
       "explanation": "Urease hydrolyzes urea to ammonium carbonate, which then dissociates to ammonium, a form subject to volatilization on the surface.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00677",
@@ -10847,9 +10847,9 @@
       ],
       "answer": "Ammonium sulfate",
       "explanation": "Ammonium sulfate releases two hydrogen ions per ammonium nitrified, making it more acidifying than urea or the nitrate salts.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00678",
@@ -10863,9 +10863,9 @@
       ],
       "answer": "Potassium sulfate (0-0-50)",
       "explanation": "Sulfate of potash supplies potassium without the chloride that degrades tobacco leaf quality and burns sensitive crops.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00679",
@@ -10879,9 +10879,9 @@
       ],
       "answer": "Ground phosphate rock",
       "explanation": "Solophos is finely ground indigenous phosphate rock with about 18 percent P2O5, best suited to acid soils where it dissolves.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00680",
@@ -10895,9 +10895,9 @@
       ],
       "answer": "Grade",
       "explanation": "Grade is the guaranteed minimum N-P2O5-K2O percentages, while analysis refers to the actual percentages found by laboratory testing.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00681",
@@ -10911,9 +10911,9 @@
       ],
       "answer": "300 kg",
       "explanation": "Each 100 kg of 14-14-14 carries 14 kg of nitrogen, so 42 divided by 0.14 equals 300 kg of material per hectare.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00682",
@@ -10927,9 +10927,9 @@
       ],
       "answer": "Is immobile and easily fixed in soil",
       "explanation": "Banding concentrates phosphorus in a small volume, reducing contact with fixing colloids and placing nutrient where young roots explore.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00683",
@@ -12063,9 +12063,9 @@
       ],
       "answer": "Mycoplasma",
       "explanation": "CCPP is caused by Mycoplasma capricolum subspecies capripneumoniae and produces fibrinous pleuropneumonia with very high mortality in affected goat flocks.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00754",
@@ -12079,9 +12079,9 @@
       ],
       "answer": "Abomasum of goats and sheep",
       "explanation": "Haemonchus contortus attaches to the abomasal lining and sucks blood, causing anemia and bottle jaw; FAMACHA eye scoring helps identify affected animals.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00755",
@@ -12095,9 +12095,9 @@
       ],
       "answer": "Parapoxvirus",
       "explanation": "Orf, also called contagious ecthyma, is a zoonotic parapoxvirus that produces scabby proliferative lesions around the mouth and muzzle of young kids and lambs.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00756",
@@ -12111,9 +12111,9 @@
       ],
       "answer": "Clostridium perfringens type D",
       "explanation": "Sudden access to high-grain diets lets Clostridium perfringens type D multiply and release epsilon toxin, causing a rapidly fatal toxemia in sheep and goats.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00757",
@@ -12127,9 +12127,9 @@
       ],
       "answer": "32 to 35 degrees Celsius (90 to 95 degrees Fahrenheit)",
       "explanation": "Day-old chicks cannot regulate body temperature well, so a brooding temperature of 32 to 35 degrees Celsius at chick level in week one, reduced weekly, is standard.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00758",
@@ -12143,9 +12143,9 @@
       ],
       "answer": "35 to 42 days",
       "explanation": "Modern broiler strains reach around 1.5 to 1.8 kilograms in five to six weeks with feed conversion ratios near 1.6 to 1.8 under good management.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00759",
@@ -12159,9 +12159,9 @@
       ],
       "answer": "Respiratory irritation, eye damage, and reduced performance",
       "explanation": "Ammonia from decomposing litter irritates the respiratory tract and eyes of birds, increasing susceptibility to disease and lowering feed efficiency and growth.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00760",
@@ -12175,9 +12175,9 @@
       ],
       "answer": "18 to 20 weeks",
       "explanation": "Pullets start laying around 18 to 20 weeks, reach peak production of about 90 percent at 26 to 30 weeks, and are usually molted or replaced after about 70 weeks.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00761",
@@ -12191,9 +12191,9 @@
       ],
       "answer": "Rest the reproductive tract and improve subsequent egg quality",
       "explanation": "Feed and light restriction induces molting, giving the reproductive tract a rest so the hen resumes laying with better egg size and shell quality in the second cycle.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00762",
@@ -12207,9 +12207,9 @@
       ],
       "answer": "14 to 16 hours",
       "explanation": "Long-day photoperiods of 14 to 16 hours sustain ovulation in layers; sudden changes in day length can disturb egg production.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00763",
@@ -12223,9 +12223,9 @@
       ],
       "answer": "Chicken 21 days; duck 28 days",
       "explanation": "Chicken eggs hatch in about 21 days and duck eggs in about 28 days when incubation temperature and humidity are properly maintained.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00764",
@@ -12239,9 +12239,9 @@
       ],
       "answer": "37.5 degrees Celsius (99.5 degrees Fahrenheit) with 55 to 60 percent relative humidity",
       "explanation": "Chicken eggs incubate best near 37.5 degrees Celsius and 55 to 60 percent relative humidity, with higher humidity around 70 percent used inside the hatcher.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00765",
@@ -12255,9 +12255,9 @@
       ],
       "answer": "Prevents embryo adhesion to the shell membrane and promotes even heating",
       "explanation": "Regular turning keeps the embryo from sticking to the shell membrane and ensures uniform temperature distribution; turning stops when eggs are moved to the hatcher.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00766",
@@ -12271,9 +12271,9 @@
       ],
       "answer": "Identify fertile eggs and remove clears and infertiles",
       "explanation": "At day 7 a dark embryo with blood vessels is visible in fertile eggs, so candling allows removal of infertile clears to save incubator space and improve hatch management.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00767",
@@ -12287,9 +12287,9 @@
       ],
       "answer": "Metabolizable energy in kcal per kg",
       "explanation": "Poultry rations are formulated using metabolizable energy, which is digestible energy minus energy lost in urine, expressed typically in kcal per kg of feed.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00768",
@@ -13535,9 +13535,9 @@
       ],
       "answer": "Trichogramma egg parasitoids",
       "explanation": "Trichogramma species are mass-released egg parasitoids used to control Asian corn borer egg masses.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00846",
@@ -13551,9 +13551,9 @@
       ],
       "answer": "Aspidiotus destructor",
       "explanation": "Aspidiotus destructor, the coconut scale insect, caused massive coconut damage in Quezon and Bicol provinces.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00847",
@@ -13567,9 +13567,9 @@
       ],
       "answer": "Yellowing and drying of fronds",
       "explanation": "Heavy scale feeding sucks sap from leaflets, causing yellowing, desiccation, and premature frond fall.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00848",
@@ -13583,9 +13583,9 @@
       ],
       "answer": "Comperiella calauanica",
       "explanation": "Comperiella calauanica, a parasitoid wasp, was mass-produced and released to control Aspidiotus destructor.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00849",
@@ -13599,9 +13599,9 @@
       ],
       "answer": "Pomacea canaliculata",
       "explanation": "Pomacea canaliculata, the golden apple snail, feeds on young rice seedlings in flooded paddies.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00850",
@@ -13615,9 +13615,9 @@
       ],
       "answer": "Seedling stage within the first month after transplanting",
       "explanation": "Young transplanted seedlings are soft and easily cut by the snail, causing missing hills and replanting.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00851",
@@ -13631,9 +13631,9 @@
       ],
       "answer": "Transplanting older seedlings of 20 to 25 days old",
       "explanation": "Older, hardened seedlings survive snail feeding, while handpicking, ducks, and barriers add to control.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00852",
@@ -13647,9 +13647,9 @@
       ],
       "answer": "Spodoptera frugiperda",
       "explanation": "Spodoptera frugiperda, the fall armyworm, invaded the Philippines in 2019 and attacks corn and many crops.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00853",
@@ -13663,9 +13663,9 @@
       ],
       "answer": "Accumulated wet frass in the whorl",
       "explanation": "FAW larvae hide in the whorl and leave large amounts of moist frass, a reliable detection sign.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00854",
@@ -13679,9 +13679,9 @@
       ],
       "answer": "Early scouting and use of selective insecticides",
       "explanation": "Monitoring young whorl-stage corn and applying selective products preserves natural enemies for FAW control.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00855",
@@ -13695,9 +13695,9 @@
       ],
       "answer": "Yellow stem borer",
       "explanation": "Yellow stem borer larvae tunnel into the tiller, cutting the growing point and producing dead heart.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00856",
@@ -13711,9 +13711,9 @@
       ],
       "answer": "Lepidoptera, using Bacillus thuringiensis",
       "explanation": "Plutella xylostella is a lepidopteran pest of cabbage; Bt sprays are effective against its larvae.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00857",
@@ -13727,9 +13727,9 @@
       ],
       "answer": "Mango pulp weevil",
       "explanation": "Sternochetus frigidus, the mango pulp weevil, infests the pulp and is regulated as a quarantine pest in Palawan.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00858",
@@ -13743,9 +13743,9 @@
       ],
       "answer": "Whitefly (Bemisia tabaci)",
       "explanation": "Bemisia tabaci, the sweetpotato whitefly, transmits tomato yellow leaf curl virus in a persistent manner.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00859",
@@ -13759,9 +13759,9 @@
       ],
       "answer": "Thrips",
       "explanation": "Thrips rasp plant tissues and suck exuding sap, leaving silvery streaks and curled, distorted leaves.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00860",
@@ -15007,9 +15007,9 @@
       ],
       "answer": "a professional who deliberately intervenes to bring about change",
       "explanation": "Change agents are trained professionals from outside who deliberately work to bring about change, unlike opinion leaders who influence from within the community.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00938",
@@ -15023,9 +15023,9 @@
       ],
       "answer": "close personal ties, tradition, and shared values",
       "explanation": "Gemeinschaft, or community, is bound by intimate personal ties, tradition, and shared values, typical of small rural villages.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00939",
@@ -15039,9 +15039,9 @@
       ],
       "answer": "small, isolated, homogeneous, and strongly traditional",
       "explanation": "Redfield's folk society is small, isolated, nonliterate, homogeneous, and strongly traditional, with group solidarity.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00940",
@@ -15055,9 +15055,9 @@
       ],
       "answer": "affects farmers' access to resources, information, and capacity to adopt innovations",
       "explanation": "Differences in land, income, and status shape how farmers gain access to resources and information, so extension programs must be differentiated.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00941",
@@ -15071,9 +15071,9 @@
       ],
       "answer": "an inner sense of gratitude that creates obligations of reciprocity",
       "explanation": "Utang na loob is a deep, inner gratitude that obliges repayment, a force that can strengthen but also complicate extension relationships.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00942",
@@ -15087,9 +15087,9 @@
       ],
       "answer": "communal cooperation, such as neighbors helping move a house or share farm labor",
       "explanation": "Bayanihan is voluntary communal work, such as helping relocate a house or harvesting together, and is a resource for group extension activities.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00943",
@@ -15103,9 +15103,9 @@
       ],
       "answer": "pakikisama",
       "explanation": "Pakikisama, the value of smooth interpersonal relations and conformity to the group, can either accelerate or delay technology adoption.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00944",
@@ -15119,9 +15119,9 @@
       ],
       "answer": "personal influence, respect, and credibility rather than official position",
       "explanation": "Informal leaders lead through persuasion, respect, and credibility rather than through any official position in government.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00945",
@@ -15135,9 +15135,9 @@
       ],
       "answer": "integration (social preparation) phase",
       "explanation": "Entry and integration build the organizer's acceptance in the community before planning and organizing activities begin.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00946",
@@ -15151,9 +15151,9 @@
       ],
       "answer": "local people analyze their own situation together with facilitators",
       "explanation": "PRA puts local people in charge of gathering and analyzing their own information, with facilitators merely guiding the process.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00947",
@@ -15167,9 +15167,9 @@
       ],
       "answer": "walking across the community to observe land use, soils, crops, and problems",
       "explanation": "A transect walk systematically crosses the community's zones to observe land use, soils, crops, and problems on the ground.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00948",
@@ -15183,9 +15183,9 @@
       ],
       "answer": "monthly patterns of activities, labor, income, and problems across the year",
       "explanation": "Seasonal calendars reveal the year-round rhythm of farm and household activities, helping planners time interventions appropriately.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00949",
@@ -15199,9 +15199,9 @@
       ],
       "answer": "show which institutions matter to the community and how they relate to one another",
       "explanation": "Venn diagrams in PRA map the institutions and organizations important to the community and show the strength of their linkages.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00950",
@@ -15215,9 +15215,9 @@
       ],
       "answer": "Indonesia",
       "explanation": "The Farmer Field School began in Indonesia in 1989 as season-long experiential training in integrated pest management for rice.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00951",
@@ -15231,9 +15231,9 @@
       ],
       "answer": "guides rice farmers through a set of key checks for integrated crop management",
       "explanation": "PalayCheck packages key rice management checks into a learning system that helps farmers raise productivity step by step.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q00952",
@@ -16383,9 +16383,9 @@
       ],
       "answer": "Expected revenues and costs of a single crop or livestock enterprise",
       "explanation": "The enterprise budget isolates one enterprise so its profitability can be compared against alternative enterprises.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q01024",
@@ -16399,9 +16399,9 @@
       ],
       "answer": "Added returns, reduced costs, reduced returns, and added costs",
       "explanation": "The partial budget framework compares what the change adds and saves against what it gives up and costs.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q01025",
@@ -16415,9 +16415,9 @@
       ],
       "answer": "Variable costs",
       "explanation": "Gross margin is the contribution of the enterprise to covering fixed costs and profit after variable costs are paid.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q01026",
@@ -16431,9 +16431,9 @@
       ],
       "answer": "Short-run decisions on whether to continue producing",
       "explanation": "In the short run fixed costs are sunk, so continuing production is worthwhile while revenue covers variable costs.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q01027",
@@ -16447,9 +16447,9 @@
       ],
       "answer": "Cost less salvage value divided by useful life",
       "explanation": "Straight-line depreciation spreads the depreciable amount evenly over the asset's expected useful life.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q01028",
@@ -16463,9 +16463,9 @@
       ],
       "answer": "Depreciation and insurance",
       "explanation": "Depreciation, interest, insurance, and taxes accrue with ownership and do not vary with the hours the machine is used.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q01029",
@@ -16479,9 +16479,9 @@
       ],
       "answer": "Planning the overall profitability and cash needs of the entire farm",
       "explanation": "The whole-farm budget combines all enterprises to project total income, expenses, and net farm income.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q01030",
@@ -16495,9 +16495,9 @@
       ],
       "answer": "Fertilizer",
       "explanation": "Fertilizer use varies with the area planted and output level, making it a variable production cost.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q01031",
@@ -16511,9 +16511,9 @@
       ],
       "answer": "Change in total cost from producing one more unit",
       "explanation": "Marginal cost captures the additional cost incurred when output increases by one unit.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q01032",
@@ -16527,9 +16527,9 @@
       ],
       "answer": "Deducts the opportunity costs of owned resources",
       "explanation": "Economic profit subtracts implicit costs such as the owner's labor and capital returns from accounting profit.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q01033",
@@ -16543,9 +16543,9 @@
       ],
       "answer": "Opportunity costs of resources owned by the farmer",
       "explanation": "Implicit costs are non-cash sacrifices like the foregone wages of operator family labor and returns on owned capital.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q01034",
@@ -16559,9 +16559,9 @@
       ],
       "answer": "Average variable cost",
       "explanation": "If price cannot cover variable costs, each unit sold increases the loss, so shutting down limits losses to fixed costs alone.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q01035",
@@ -16575,9 +16575,9 @@
       ],
       "answer": "Average cost falls as output expands",
       "explanation": "Larger operations spread fixed costs over more units, reducing average cost as the scale of output increases.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q01036",
@@ -16591,9 +16591,9 @@
       ],
       "answer": "Fixed costs and variable costs",
       "explanation": "Total cost combines the fixed costs that do not change with output and the variable costs that do change with output.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q01037",
@@ -16607,9 +16607,9 @@
       ],
       "answer": "Financing production inputs for a cropping season",
       "explanation": "Short-term loans finance seeds, fertilizer, and other operating inputs and are repaid within the production cycle.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-20"
     },
     {
       "id": "Q01038",
