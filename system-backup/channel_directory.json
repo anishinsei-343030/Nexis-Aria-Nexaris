@@ -1,10 +1,16 @@
 {
-  "updated_at": "2026-08-21T19:18:29.105074",
+  "updated_at": "2026-08-21T22:58:45.494920",
   "platforms": {
     "telegram": [
       {
         "id": "-1004346387239",
         "name": "Aoi & Shin",
+        "type": "group",
+        "thread_id": null
+      },
+      {
+        "id": "-1004443524375",
+        "name": "Cosplay Hub",
         "type": "group",
         "thread_id": null
       },

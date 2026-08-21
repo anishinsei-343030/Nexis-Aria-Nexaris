@@ -9439,9 +9439,9 @@
       ],
       "answer": "45 to 60 days",
       "explanation": "Onion seedlings are transplanted at about 45 to 60 days, when they have developed several leaves and pencil-sized stems.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00590",
@@ -9455,9 +9455,9 @@
       ],
       "answer": "Toughen seedlings against transplant shock and field stress",
       "explanation": "Gradual exposure to sun, wind, and reduced watering during hardening makes seedlings withstand transplant shock and field conditions better.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00591",
@@ -9471,9 +9471,9 @@
       ],
       "answer": "25 hills",
       "explanation": "At 20 by 20 cm spacing, one square meter is divided into 0.04 square meter cells, yielding about 25 hills.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00592",
@@ -9487,9 +9487,9 @@
       ],
       "answer": "46-0-0",
       "explanation": "Urea contains 46 percent nitrogen and no phosphorus or potassium, expressed as 46-0-0.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00593",
@@ -9503,9 +9503,9 @@
       ],
       "answer": "Chlorosis of the older, lower leaves",
       "explanation": "Nitrogen is mobile in plants, so deficiency symptoms appear first as yellowing of older leaves when nitrogen is remobilized to new growth.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00594",
@@ -9519,9 +9519,9 @@
       ],
       "answer": "Scorching or browning of leaf margins and tips",
       "explanation": "Potassium deficiency shows as marginal scorch or necrosis on older leaves, often accompanied by weak stalks and poor fruit quality.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00595",
@@ -9535,9 +9535,9 @@
       ],
       "answer": "Raise the soil pH and supply calcium",
       "explanation": "Lime neutralizes soil acidity, raising pH and supplying calcium, which improves nutrient availability in acid soils.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00596",
@@ -9551,9 +9551,9 @@
       ],
       "answer": "14 percent nitrogen, 14 percent phosphorus, 14 percent potassium",
       "explanation": "The numbers on a fertilizer bag give percentages of N, P2O5, and K2O, so 14-14-14 supplies equal amounts of the three macronutrients.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00597",
@@ -9567,9 +9567,9 @@
       ],
       "answer": "Split application reduces losses through leaching and denitrification",
       "explanation": "Applying nitrogen in fractions synchronizes supply with crop demand and cuts losses from leaching and denitrification in flooded fields.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00598",
@@ -9583,9 +9583,9 @@
       ],
       "answer": "Cell wall formation and pollen viability",
       "explanation": "Boron is essential for cell wall structure, membrane integrity, and pollen germination, with deficiencies causing disorders like hollow heart in peanut.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00599",
@@ -9599,9 +9599,9 @@
       ],
       "answer": "20 to 22 percent",
       "explanation": "Rice is harvested at roughly 20 to 22 percent grain moisture, when most grains are straw-colored but not yet shattering.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00600",
@@ -9615,9 +9615,9 @@
       ],
       "answer": "Aspergillus flavus",
       "explanation": "Aflatoxins are toxic metabolites of Aspergillus flavus and related fungi that develop in improperly dried or stored grains and nuts.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00601",
@@ -9631,9 +9631,9 @@
       ],
       "answer": "Ethylene",
       "explanation": "Ripening rooms expose mature green bananas to ethylene gas at controlled temperature to initiate uniform ripening.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00602",
@@ -9647,9 +9647,9 @@
       ],
       "answer": "Depleting oxygen and raising carbon dioxide in sealed containers",
       "explanation": "Sealed hermetic containers exhaust oxygen through respiration of grain and pests, suffocating insects without chemicals.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00603",
@@ -9663,9 +9663,9 @@
       ],
       "answer": "5 to 6 percent",
       "explanation": "Copra is dried to 5 to 6 percent moisture to prevent mold growth, rancidity, and quality loss during storage.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00604",
@@ -10943,9 +10943,9 @@
       ],
       "answer": "Supply early nutrients for seedling establishment",
       "explanation": "Small amounts of high-phosphorus fertilizer near the seed give seedlings an early boost before root systems develop.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00684",
@@ -10959,9 +10959,9 @@
       ],
       "answer": "Correcting micronutrient deficiencies",
       "explanation": "Foliar sprays fix micronutrient shortages quickly, but they cannot economically replace most macronutrient requirements.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00685",
@@ -10975,9 +10975,9 @@
       ],
       "answer": "Slow-release nitrogen fertilizer",
       "explanation": "The sulfur coating dissolves gradually, releasing nitrogen over time and reducing leaching and volatilization losses.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00686",
@@ -10991,9 +10991,9 @@
       ],
       "answer": "0 to 20 cm",
       "explanation": "Most crop roots and fertilizer responses occur in the plow layer, so a 0-20 cm composite represents the fertility zone.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00687",
@@ -11007,9 +11007,9 @@
       ],
       "answer": "10 to 20 cores",
       "explanation": "Mixing 10 to 20 cores from a uniform area averages out local variability into one representative sample for the laboratory.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00688",
@@ -11023,9 +11023,9 @@
       ],
       "answer": "Olsen's sodium bicarbonate solution",
       "explanation": "The Olsen test, using 0.5 M sodium bicarbonate at pH 8.5, is widely employed to estimate plant-available phosphorus.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00689",
@@ -11039,9 +11039,9 @@
       ],
       "answer": "Walkley-Black wet oxidation method",
       "explanation": "The Walkley-Black method oxidizes organic carbon with dichromate and sulfuric acid, from which organic matter is estimated.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00690",
@@ -11055,9 +11055,9 @@
       ],
       "answer": "Kjeldahl method",
       "explanation": "Kjeldahl digestion converts organic nitrogen to ammonium, which is then distilled and titrated to give total nitrogen.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00691",
@@ -11071,9 +11071,9 @@
       ],
       "answer": "Nitrogen topdressing timing",
       "explanation": "The LCC matches leaf greenness against shade panels to time nitrogen topdressing so fertilizer follows the crop's real demand.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00692",
@@ -11087,9 +11087,9 @@
       ],
       "answer": "Identifying the nutrient that limits growth",
       "explanation": "MOET grows test plants in solutions each missing one nutrient; the omitted element that causes deficiency is the limiting one.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00693",
@@ -11103,9 +11103,9 @@
       ],
       "answer": "Andisols",
       "explanation": "Andisols form in volcanic ejecta, hold much water, have low bulk density, and fix phosphorus strongly through allophane.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00694",
@@ -11119,9 +11119,9 @@
       ],
       "answer": "Allophane and volcanic glass",
       "explanation": "The large specific surface and reactive aluminum of allophane bind phosphate strongly, requiring higher P rates on volcanic soils.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00695",
@@ -11135,9 +11135,9 @@
       ],
       "answer": "Ultisols",
       "explanation": "Ultisols are strongly leached soils with clay accumulation and base saturation below 35 percent in the subsoil.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00696",
@@ -11151,9 +11151,9 @@
       ],
       "answer": "Vertisols",
       "explanation": "Vertisols are rich in shrink-swell clays, forming wide cracks in dry seasons and self-mixing of the profile when wet.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00697",
@@ -11167,9 +11167,9 @@
       ],
       "answer": "Mollisols",
       "explanation": "Mollisols are the fertile prairie and steppe soils whose mollic epipedon is dark, thick, and well supplied with bases.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00698",
@@ -12303,9 +12303,9 @@
       ],
       "answer": "3.5 to 4.0 percent",
       "explanation": "Heavy shell output requires 3.5 to 4.0 percent calcium in layer feed, often supplemented with oyster shell or limestone; deficiency causes shell thinning and weak shells.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00769",
@@ -12319,9 +12319,9 @@
       ],
       "answer": "22 to 23 percent",
       "explanation": "Broiler starter feeds supply about 22 to 23 percent crude protein to support rapid early growth, decreasing to around 19 to 20 percent in finisher rations.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00770",
@@ -12335,9 +12335,9 @@
       ],
       "answer": "Paramyxovirus",
       "explanation": "Newcastle disease is a highly contagious paramyxovirus infection showing respiratory, nervous, and digestive signs, controlled mainly by vaccination such as LaSota.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00771",
@@ -12351,9 +12351,9 @@
       ],
       "answer": "Bursa of Fabricius",
       "explanation": "The Gumboro virus destroys the bursa of Fabricius in chicks of 3 to 6 weeks of age, suppressing antibody production and increasing susceptibility to other diseases.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00772",
@@ -12367,9 +12367,9 @@
       ],
       "answer": "Coccidiosis",
       "explanation": "Eimeria species damage the intestinal lining, causing bloody droppings, poor growth, and mortality; control relies on anticoccidials and dry, clean litter.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00773",
@@ -12383,9 +12383,9 @@
       ],
       "answer": "Mycoplasma gallisepticum",
       "explanation": "MG is a mycoplasma that causes chronic respiratory disease in chickens, often complicated by E. coli, and can be transmitted through the egg to chicks.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00774",
@@ -12399,9 +12399,9 @@
       ],
       "answer": "Egg production",
       "explanation": "Native itik such as the Itik Pateros are prolific egg-type ducks that supply the balut and salted egg industries of the country.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00775",
@@ -12415,9 +12415,9 @@
       ],
       "answer": "Is a separate species (Cairina moschata) and not a mallard descendant",
       "explanation": "Muscovies belong to Cairina moschata and are not descended from the mallard, unlike common domestic ducks; they are mainly raised for meat.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00776",
@@ -12431,9 +12431,9 @@
       ],
       "answer": "17 to 18 days",
       "explanation": "Balut is harvested at about 17 to 18 days of incubation, when the embryo is fully formed but the bones are not yet hardened, giving the prized texture.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00777",
@@ -12447,9 +12447,9 @@
       ],
       "answer": "Khaki Campbell",
       "explanation": "Khaki Campbell ducks can lay 250 to 300 or more eggs per year, far exceeding the output of meat-type breeds such as Pekin and Muscovy.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00778",
@@ -12463,9 +12463,9 @@
       ],
       "answer": "Albumen quality and freshness of the egg",
       "explanation": "The Haugh unit is calculated from albumen height and egg weight; higher values indicate fresher eggs with thicker, firmer egg white.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00779",
@@ -12479,9 +12479,9 @@
       ],
       "answer": "Cracks, blood spots, and internal defects",
       "explanation": "Candling passes light through the shell to reveal cracks, blood spots, and other internal defects, allowing eggs to be graded and sorted for quality.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00780",
@@ -12495,9 +12495,9 @@
       ],
       "answer": "Jumbo",
       "explanation": "Philippine egg grading classifies the heaviest eggs, 70 grams and above, as Jumbo, with progressively lighter classes below that weight.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00781",
@@ -12511,9 +12511,9 @@
       ],
       "answer": "High fiber content and low lysine",
       "explanation": "Copra meal contains about 20 percent crude protein but is fibrous and deficient in lysine, which restricts its use especially in broiler and starter feeds.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00782",
@@ -12527,9 +12527,9 @@
       ],
       "answer": "Rich in high-quality protein and essential amino acids such as lysine and methionine",
       "explanation": "Fish meal at 55 to 65 percent crude protein supplies a balanced amino acid profile and minerals, making it a key protein source in poultry and swine diets.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00783",
@@ -13775,9 +13775,9 @@
       ],
       "answer": "Methyl eugenol",
       "explanation": "Methyl eugenol is a powerful male attractant for Bactrocera fruit flies, used in traps and male annihilation.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00861",
@@ -13791,9 +13791,9 @@
       ],
       "answer": "Grows where it is not wanted",
       "explanation": "A weed is any plant growing out of place, competing with crops for light, water, nutrients, and space.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00862",
@@ -13807,9 +13807,9 @@
       ],
       "answer": "Echinochloa crus-galli (barnyard grass)",
       "explanation": "Barnyard grass is a competitive grass weed of rice that mimics rice seedlings and reduces yields severely.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00863",
@@ -13823,9 +13823,9 @@
       ],
       "answer": "Cuscuta (dodder)",
       "explanation": "Dodder is a leafless, yellow parasitic vine that coils around hosts and absorbs nutrients through haustoria.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00864",
@@ -13839,9 +13839,9 @@
       ],
       "answer": "Glyphosate",
       "explanation": "Glyphosate is a systemic, non-selective herbicide that moves through the plant to kill roots and rhizomes.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00865",
@@ -13855,9 +13855,9 @@
       ],
       "answer": "Pre-emergence herbicides",
       "explanation": "Pre-emergence herbicides are applied to soil before weed emergence and are activated by soil moisture.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00866",
@@ -13871,9 +13871,9 @@
       ],
       "answer": "Limiting oxygen and light for germinating weed seeds",
       "explanation": "Standing water creates anaerobic, dark conditions that inhibit germination and establishment of many weeds.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00867",
@@ -13887,9 +13887,9 @@
       ],
       "answer": "Nematoda",
       "explanation": "Nematodes are unsegmented roundworms of the phylum Nematoda; many species parasitize plant roots.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00868",
@@ -13903,9 +13903,9 @@
       ],
       "answer": "Root-knot nematode",
       "explanation": "Meloidogyne species cause root-knot disease, producing characteristic galls on roots of tomato and other crops.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00869",
@@ -13919,9 +13919,9 @@
       ],
       "answer": "Hirschmanniella oryzae",
       "explanation": "Hirschmanniella oryzae is an endoparasitic nematode of rice roots widely distributed in Philippine fields.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00870",
@@ -13935,9 +13935,9 @@
       ],
       "answer": "Stunting and yellowing despite adequate water and fertilizer",
       "explanation": "Damaged roots cannot take up water and nutrients, so plants show general decline even with good care.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00871",
@@ -13951,9 +13951,9 @@
       ],
       "answer": "Crop rotation with non-host crops",
       "explanation": "Rotating with non-host crops and fallowing starves nematodes and lowers soil populations over time.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00872",
@@ -13967,9 +13967,9 @@
       ],
       "answer": "Wash the roots and look for galls and egg masses",
       "explanation": "Roots of infected plants show galls with jelly-like egg masses visible on their surface after washing.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00873",
@@ -13983,9 +13983,9 @@
       ],
       "answer": "Combine cultural, biological, physical, and chemical methods to keep pests below damaging levels",
       "explanation": "IPM integrates multiple tactics based on monitoring to manage pests economically with the least risk.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00874",
@@ -13999,9 +13999,9 @@
       ],
       "answer": "Control action should be taken to prevent economic injury",
       "explanation": "The economic threshold triggers action so pest populations do not reach the economic injury level.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00875",
@@ -15247,9 +15247,9 @@
       ],
       "answer": "jointly own and democratically control an enterprise for their common benefit",
       "explanation": "RA 9520 defines cooperatives as user-owned and user-controlled enterprises serving the members' social, economic, and cultural needs.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00953",
@@ -15263,9 +15263,9 @@
       ],
       "answer": "every member has equal voting power regardless of capital contribution",
       "explanation": "One member, one vote expresses democratic member control, giving every member equal voting power regardless of capital held.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00954",
@@ -15279,9 +15279,9 @@
       ],
       "answer": "15 natural persons",
       "explanation": "RA 9520 requires at least fifteen natural persons to organize a primary cooperative.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00955",
@@ -15295,9 +15295,9 @@
       ],
       "answer": "Cooperative Development Authority",
       "explanation": "The Cooperative Development Authority is the agency mandated to register and regulate cooperatives under the Cooperative Code.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00956",
@@ -15311,9 +15311,9 @@
       ],
       "answer": "organizes farmers to operate, manage, and maintain a communal irrigation system",
       "explanation": "Irrigators' associations partner with the National Irrigation Administration to operate and maintain communal irrigation systems and collect service fees.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00957",
@@ -15327,9 +15327,9 @@
       ],
       "answer": "Head, Heart, Hands, and Health",
       "explanation": "4-H stands for Head, Heart, Hands, and Health, the four areas of development the club program promotes among rural youth.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00958",
@@ -15343,9 +15343,9 @@
       ],
       "answer": "local government units",
       "explanation": "The 1991 Local Government Code devolved agricultural extension to provinces, cities, municipalities, and barangays.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00959",
@@ -15359,9 +15359,9 @@
       ],
       "answer": "provincial governor",
       "explanation": "The Office of the Provincial Agriculturist is part of the provincial government and operates under the provincial governor.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00960",
@@ -15375,9 +15375,9 @@
       ],
       "answer": "policy formulation, research, and regulation of the agriculture sector",
       "explanation": "Devolution transferred service delivery to local governments while the DA kept national policy, research, regulation, and program support functions.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00961",
@@ -15391,9 +15391,9 @@
       ],
       "answer": "strengthens the Agricultural Training Institute as the lead agency for agricultural training and extension education",
       "explanation": "RA 10801 strengthens the Agricultural Training Institute's mandate for training, extension education, and knowledge management in agriculture.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00962",
@@ -15407,9 +15407,9 @@
       ],
       "answer": "train farmers, fisherfolk, and extension workers to upgrade their capabilities",
       "explanation": "ATI is the DA's training arm, delivering capability-building programs for farmers, fisherfolk, and extension personnel.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00963",
@@ -15423,9 +15423,9 @@
       ],
       "answer": "give aspiring farmers hands-on practical agriculture training",
       "explanation": "The School for Practical Agriculture is ATI's flagship program that trains aspiring farmers through hands-on, farm-based instruction.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00964",
@@ -15439,9 +15439,9 @@
       ],
       "answer": "farm mechanization, certified seeds, credit, and extension services",
       "explanation": "RCEF, funded from rice tariff revenues, supports rice farmers through farm mechanization, certified inbred seeds, credit, and extension.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00965",
@@ -15455,9 +15455,9 @@
       ],
       "answer": "promote and support organic farming through a national program covering promotion, extension, and certification support",
       "explanation": "RA 10068 established a national organic agriculture program covering promotion, research, extension, and certification support.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00966",
@@ -15471,9 +15471,9 @@
       ],
       "answer": "RA 8435",
       "explanation": "RA 8435 (AFMA) laid down modernization pillars for agriculture and fisheries, including extension support, credit, and infrastructure.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q00967",
@@ -16623,9 +16623,9 @@
       ],
       "answer": "Intermediate-term credit",
       "explanation": "Intermediate-term credit runs from about one to ten years and finances machinery and breeding stock.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q01039",
@@ -16639,9 +16639,9 @@
       ],
       "answer": "Purchase of land and major improvements",
       "explanation": "Long-term loans exceed ten years in maturity and match the productive life of land and permanent improvements.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q01040",
@@ -16655,9 +16655,9 @@
       ],
       "answer": "Land Bank of the Philippines",
       "explanation": "The Land Bank of the Philippines extends credit to farmers, cooperatives, and agrarian reform beneficiaries.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q01041",
@@ -16671,9 +16671,9 @@
       ],
       "answer": "Collateral",
       "explanation": "Collateral secures the loan and is the fifth C that lenders evaluate alongside character, capacity, capital, and conditions.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q01042",
@@ -16687,9 +16687,9 @@
       ],
       "answer": "Higher interest with easier access and flexible terms",
       "explanation": "Informal credit is convenient and quickly accessible but typically carries higher interest rates than formal bank loans.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q01043",
@@ -16703,9 +16703,9 @@
       ],
       "answer": "Cooperative Development Authority",
       "explanation": "The CDA was created under RA 6939 to register, regulate, and supervise cooperatives in the country.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q01044",
@@ -16719,9 +16719,9 @@
       ],
       "answer": "RA 9520",
       "explanation": "RA 9520, the Philippine Cooperative Code of 2008, governs the formation and operation of cooperatives.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q01045",
@@ -16735,9 +16735,9 @@
       ],
       "answer": "15",
       "explanation": "RA 9520 requires a minimum of fifteen members for the registration of a primary cooperative.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q01046",
@@ -16751,9 +16751,9 @@
       ],
       "answer": "One member, one vote",
       "explanation": "Each member has one vote regardless of shareholding, embodying the democratic member control principle.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q01047",
@@ -16767,9 +16767,9 @@
       ],
       "answer": "25 percent of subscriptions paid",
       "explanation": "The code requires twenty-five percent of the authorized capital subscribed and twenty-five percent of total subscriptions paid upon registration.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q01048",
@@ -16783,9 +16783,9 @@
       ],
       "answer": "10 percent",
       "explanation": "The code mandates that at least ten percent of net surplus go to the reserve fund for the cooperative's stability.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q01049",
@@ -16799,9 +16799,9 @@
       ],
       "answer": "Savings and loan services",
       "explanation": "Credit cooperatives pool member savings and lend them out as loans for productive and personal needs.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q01050",
@@ -16815,9 +16815,9 @@
       ],
       "answer": "All operations from input supply through production to processing and distribution of farm products",
       "explanation": "Agribusiness encompasses the input sector, farm production, and the processing and marketing of farm commodities.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q01051",
@@ -16831,9 +16831,9 @@
       ],
       "answer": "Processing and distribution",
       "explanation": "The system runs from farm inputs through production into processing, manufacturing, and distribution to consumers.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q01052",
@@ -16847,9 +16847,9 @@
       ],
       "answer": "One firm controlling successive stages of production and marketing",
       "explanation": "A vertically integrated firm owns or controls multiple stages, such as feed production, growing, and processing.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-21"
     },
     {
       "id": "Q01053",
