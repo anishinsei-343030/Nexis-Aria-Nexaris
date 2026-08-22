@@ -1,7 +1,13 @@
 {
-  "updated_at": "2026-08-21T22:58:45.494920",
+  "updated_at": "2026-08-22T23:00:24.380235",
   "platforms": {
     "telegram": [
+      {
+        "id": "7795539900",
+        "name": "AniShin Sei",
+        "type": "dm",
+        "thread_id": null
+      },
       {
         "id": "-1004346387239",
         "name": "Aoi & Shin",
@@ -12,12 +18,6 @@
         "id": "-1004443524375",
         "name": "Cosplay Hub",
         "type": "group",
-        "thread_id": null
-      },
-      {
-        "id": "7795539900",
-        "name": "AniShin Sei",
-        "type": "dm",
         "thread_id": null
       },
       {

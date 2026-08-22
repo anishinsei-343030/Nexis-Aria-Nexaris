@@ -9679,9 +9679,9 @@
       ],
       "answer": "Estimate the maturity or ripeness of fruit such as mango and banana",
       "explanation": "The starch-iodine test stains residual starch, showing how far fruits have converted starch to sugar and thus their maturity or ripeness stage.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00605",
@@ -9695,9 +9695,9 @@
       ],
       "answer": "Lowering oxygen and raising carbon dioxide to slow respiration",
       "explanation": "Modified atmospheres with low oxygen and elevated carbon dioxide slow respiration and ripening, extending the storage life of fresh produce.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00606",
@@ -9711,9 +9711,9 @@
       ],
       "answer": "15 to 30 percent",
       "explanation": "AWD allows the field to dry briefly between irrigations, cutting water use by roughly 15 to 30 percent without significant yield loss.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00607",
@@ -9727,9 +9727,9 @@
       ],
       "answer": "ETc equals ETo multiplied by a crop coefficient",
       "explanation": "The crop coefficient Kc adjusts reference evapotranspiration to actual crop water use, so ETc = Kc x ETo.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00608",
@@ -9743,9 +9743,9 @@
       ],
       "answer": "The water held after free drainage has ceased",
       "explanation": "Field capacity is the moisture remaining in soil about one to three days after saturation when gravitational drainage stops.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00609",
@@ -9759,9 +9759,9 @@
       ],
       "answer": "Field capacity minus permanent wilting point",
       "explanation": "Available water is the moisture held between field capacity and permanent wilting point that plants can extract.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00610",
@@ -9775,9 +9775,9 @@
       ],
       "answer": "Panicle initiation to flowering",
       "explanation": "Water stress during panicle initiation through flowering severely reduces panicle development, spikelet fertility, and grain yield.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00611",
@@ -9791,9 +9791,9 @@
       ],
       "answer": "Drip irrigation",
       "explanation": "Drip irrigation applies water slowly at the root zone with little loss, commonly reaching application efficiencies around 90 percent.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00612",
@@ -9807,9 +9807,9 @@
       ],
       "answer": "Distribution of rainfall through the year",
       "explanation": "The Modified Coronas classification groups Philippine provinces by rainfall distribution patterns, forming the basis of agro-climatic zones.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00613",
@@ -9823,9 +9823,9 @@
       ],
       "answer": "Summing daily temperatures above a base temperature",
       "explanation": "GDD accumulate the excess of mean daily temperature over a crop-specific base temperature, estimating heat available for development.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00614",
@@ -9839,9 +9839,9 @@
       ],
       "answer": "Rise above about 21°C",
       "explanation": "High night temperatures above roughly 21°C cause flower drop and poor fruit set in tomato because of abnormal pollen development.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00615",
@@ -9855,9 +9855,9 @@
       ],
       "answer": "In highland areas like Benguet with cool temperatures",
       "explanation": "The cool temperatures of highland regions such as Benguet allow successful production of temperate vegetables like cabbage and potato.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00616",
@@ -9871,9 +9871,9 @@
       ],
       "answer": "Tomato",
       "explanation": "Tomato flowers regardless of daylength, making it day-neutral, unlike short-day soybean or long-day onion and garlic.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00617",
@@ -9887,9 +9887,9 @@
       ],
       "answer": "Corn",
       "explanation": "Corn is the classic heterosis crop; hybrid corn varieties routinely outyield their parents, making hybrid seed production highly profitable.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00618",
@@ -9903,9 +9903,9 @@
       ],
       "answer": "The progeny of a single homozygous self-pollinated plant",
       "explanation": "A pure line descends from one self-pollinated homozygous plant, so all individuals in the line are genetically identical.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00619",
@@ -11183,9 +11183,9 @@
       ],
       "answer": "Histosols",
       "explanation": "Histosols contain more than 12 to 18 percent organic carbon in the upper layers and are common in marshes such as Agusan.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00699",
@@ -11199,9 +11199,9 @@
       ],
       "answer": "Entisols",
       "explanation": "Entisols are weakly developed soils without diagnostic horizons, typical of fresh floodplain deposits and recent sediments.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00700",
@@ -11215,9 +11215,9 @@
       ],
       "answer": "Inceptisols",
       "explanation": "Inceptisols have begun to develop a cambic B horizon but remain young, making them extensive across Philippine landscapes.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00701",
@@ -11231,9 +11231,9 @@
       ],
       "answer": "Oxisols",
       "explanation": "Oxisols have undergone intense weathering that leaves resistant oxides and low-activity clays with few weatherable minerals.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00702",
@@ -11247,9 +11247,9 @@
       ],
       "answer": "Young alluvial soils of river floodplains",
       "explanation": "The Pampanga and adjoining river systems deposit fresh alluvium, forming the fertile Entisol-Inceptisol soils of the rice granary.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00703",
@@ -11263,9 +11263,9 @@
       ],
       "answer": "Volcanic ash and pyroclastic materials",
       "explanation": "Mayon's repeated eruptions blanket the region with volcanic ejecta that weather into fertile Andisols supporting abaca and rice.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00704",
@@ -11279,9 +11279,9 @@
       ],
       "answer": "Soils derived from carbonate parent material",
       "explanation": "Limestone weathering leaves reddish clayey residues with shallow profiles and karst features over the calcareous bedrock.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00705",
@@ -11295,9 +11295,9 @@
       ],
       "answer": "Histosols",
       "explanation": "Long-term waterlogging slows decomposition, so organic materials accumulate as deep peat, which is diagnostic of Histosols.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00706",
@@ -11311,9 +11311,9 @@
       ],
       "answer": "Acid sulfate soil",
       "explanation": "Draining acid sulfate soils oxidizes pyrite to sulfuric acid and jarosite, dropping pH often below 3.5 in severe cases.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00707",
@@ -11327,9 +11327,9 @@
       ],
       "answer": "Becomes reduced and pH moves toward neutrality",
       "explanation": "Oxygen is depleted and iron-manganese oxides buffer the chemistry, so paddy pH converges near neutrality while Eh drops.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00708",
@@ -11343,9 +11343,9 @@
       ],
       "answer": "Saline soils",
       "explanation": "Seawater intrusion and evaporation concentrate soluble salts in these coastal soils, raising EC and limiting crop choices.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00709",
@@ -11359,9 +11359,9 @@
       ],
       "answer": "Splash, sheet, rill, gully",
       "explanation": "Erosion begins with raindrop splash, then uniform sheet removal, followed by rills and finally large gullies.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00710",
@@ -11375,9 +11375,9 @@
       ],
       "answer": "Soil erodibility",
       "explanation": "The USLE reads A = R x K x LS x C x P, where K measures how susceptible the soil itself is to detachment.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00711",
@@ -11391,9 +11391,9 @@
       ],
       "answer": "Contour farming",
       "explanation": "Contour tillage and planting create small ridges that hold runoff, cutting erosion on gentle to moderate slopes.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00712",
@@ -11407,9 +11407,9 @@
       ],
       "answer": "Contour hedgerows of nitrogen-fixing shrubs",
       "explanation": "SALT uses double-row hedgerows of legumes such as Flemingia and Desmodium on contours to stabilize slopes and supply mulch.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00713",
@@ -12543,9 +12543,9 @@
       ],
       "answer": "Mimosine",
       "explanation": "Leucaena contains mimosine, a toxic amino acid that adapted rumen microbes can degrade in cattle, but non-ruminants like pigs and chickens are poisoned by it.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00784",
@@ -12559,9 +12559,9 @@
       ],
       "answer": "Calculate the amounts of two feedstuffs needed to reach a target nutrient level",
       "explanation": "The Pearson square balances two ingredients, such as corn and fish meal, to achieve a desired crude protein percentage in a simple ration formulation.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00785",
@@ -12575,9 +12575,9 @@
       ],
       "answer": "Fermented under anaerobic conditions at high moisture",
       "explanation": "Silage is high-moisture forage preserved by lactic acid fermentation in airtight conditions, whereas hay is forage dried in the sun to low moisture.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00786",
@@ -12591,9 +12591,9 @@
       ],
       "answer": "Napier grass (Pennisetum purpureum)",
       "explanation": "Napier or elephant grass produces large amounts of biomass per hectare and is a staple cut-and-carry forage for cattle and carabao feeding.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00787",
@@ -12607,9 +12607,9 @@
       ],
       "answer": "Litter size and other reproductive traits",
       "explanation": "Reproductive traits such as litter size are lowly heritable because they are strongly influenced by environment, so they respond slowly to mass selection.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00788",
@@ -12623,9 +12623,9 @@
       ],
       "answer": "Heterosis or hybrid vigor",
       "explanation": "Heterosis is the superiority of crossbreds over the parental average in traits like fertility and survival, which is why commercial pigs and chickens are crossbred.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00789",
@@ -12639,9 +12639,9 @@
       ],
       "answer": "Inbreeding depression shown as reduced fertility and vigor",
       "explanation": "Inbreeding increases homozygosity and exposes deleterious recessive genes, reducing fertility, growth, and survival, which is why line crosses are preferred.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00790",
@@ -12655,9 +12655,9 @@
       ],
       "answer": "FSH",
       "explanation": "Follicle-stimulating hormone stimulates the growth of many follicles and produces multiple ovulations, while progesterone maintains pregnancy rather than superovulation.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00791",
@@ -12671,9 +12671,9 @@
       ],
       "answer": "Lyse the corpus luteum and synchronize estrus",
       "explanation": "Prostaglandin F2 alpha causes regression of the corpus luteum, bringing cycling cows into estrus within days and allowing timed insemination programs.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00792",
@@ -12687,9 +12687,9 @@
       ],
       "answer": "Emptying and cleaning the house between groups to break disease cycles",
       "explanation": "All-in-all-out with cleaning and disinfection between batches prevents pathogens from building up and passing from older to younger groups of pigs.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00793",
@@ -12703,9 +12703,9 @@
       ],
       "answer": "Induce stronger and longer-lasting immunity",
       "explanation": "Modified-live vaccines replicate in the host and stimulate broader cell-mediated and antibody immunity; killed vaccines are safer but often need boosters.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00794",
@@ -12719,9 +12719,9 @@
       ],
       "answer": "Bureau of Animal Industry (BAI)",
       "explanation": "The Bureau of Animal Industry implements animal quarantine, disease surveillance, and import controls at ports of entry to protect the local livestock industry.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00795",
@@ -12735,9 +12735,9 @@
       ],
       "answer": "Chronic carriers that shed leptospires in their urine",
       "explanation": "Pigs and rats harbor Leptospira in the kidneys and shed the bacteria in urine, contaminating water and soil and infecting humans through contact.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00796",
@@ -12751,9 +12751,9 @@
       ],
       "answer": "Abortions in late pregnancy and is zoonotic",
       "explanation": "Brucella abortus causes late-term abortion and retained placenta in cattle and undulant fever in humans, usually through unpasteurized milk.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00797",
@@ -12767,9 +12767,9 @@
       ],
       "answer": "H5N1",
       "explanation": "Highly pathogenic avian influenza H5N1, a zoonotic strain, caused the Philippine outbreaks beginning in 2022, leading to mass depopulation of infected flocks.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00798",
@@ -14015,9 +14015,9 @@
       ],
       "answer": "Economic injury level",
       "explanation": "At the economic injury level, pest damage equals the cost of control, making intervention worthwhile.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00876",
@@ -14031,9 +14031,9 @@
       ],
       "answer": "Detect pest presence and density before deciding on control",
       "explanation": "Scouting provides the data needed to judge whether pest populations warrant any control action.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00877",
@@ -14047,9 +14047,9 @@
       ],
       "answer": "Breaks the pest's food supply and reduces carry-over populations",
       "explanation": "Uniform planting and harvesting deny pests continuous food sources across seasons and fields.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00878",
@@ -14063,9 +14063,9 @@
       ],
       "answer": "Inhibiting the enzyme acetylcholinesterase",
       "explanation": "Organophosphates inhibit acetylcholinesterase, causing nerve impulse failure in target insects.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00879",
@@ -14079,9 +14079,9 @@
       ],
       "answer": "Pyrethroids",
       "explanation": "Pyrethroids are synthetic analogs of natural pyrethrins extracted from chrysanthemum flowers.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00880",
@@ -14095,9 +14095,9 @@
       ],
       "answer": "Nicotinic acetylcholine receptors",
       "explanation": "Neonicotinoids bind to nicotinic acetylcholine receptors, causing continuous nerve stimulation and death.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00881",
@@ -14111,9 +14111,9 @@
       ],
       "answer": "Inhibiting ergosterol biosynthesis in fungi",
       "explanation": "Triazoles interfere with ergosterol synthesis, damaging fungal cell membranes.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00882",
@@ -14127,9 +14127,9 @@
       ],
       "answer": "Selective systemic herbicide for broadleaf weeds",
       "explanation": "2,4-D is a selective phenoxy herbicide that controls broadleaf weeds in grass crops such as rice.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00883",
@@ -14143,9 +14143,9 @@
       ],
       "answer": "Insecticidal crystal (delta-endotoxin) proteins",
       "explanation": "Bt produces crystal proteins that are activated in the insect gut, causing feeding cessation and death.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00884",
@@ -14159,9 +14159,9 @@
       ],
       "answer": "Inhibiting cholinesterase enzymes",
       "explanation": "Carbamates also inhibit cholinesterase, although their inhibition is generally reversible.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00885",
@@ -14175,9 +14175,9 @@
       ],
       "answer": "Kills 50 percent of the test animals",
       "explanation": "LD50 is the lethal dose killing half of the test animals; a smaller LD50 indicates higher toxicity.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00886",
@@ -14191,9 +14191,9 @@
       ],
       "answer": "Extremely hazardous",
       "explanation": "WHO Class Ia covers extremely hazardous active ingredients, which have the lowest LD50 values.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00887",
@@ -14207,9 +14207,9 @@
       ],
       "answer": "Dermal absorption during spraying",
       "explanation": "Spray operators contact pesticides through the skin during mixing, handling, and spraying, so protective clothing matters.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00888",
@@ -14223,9 +14223,9 @@
       ],
       "answer": "Excessive salivation, tearing, and muscle twitching",
       "explanation": "Cholinesterase inhibition causes symptoms such as salivation, lacrimation, and muscle twitching.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00889",
@@ -14239,9 +14239,9 @@
       ],
       "answer": "Remove contaminated clothing and wash the skin with soap and water",
       "explanation": "Immediate decontamination of the skin prevents absorption and reduces the severity of poisoning.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00890",
@@ -15487,9 +15487,9 @@
       ],
       "answer": "coconut levy funds, earmarked for coconut farmer development programs",
       "explanation": "RA 11524 created the trust fund from coconut levy proceeds to finance replanting, farm improvement, and coconut farmer welfare programs.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00968",
@@ -15503,9 +15503,9 @@
       ],
       "answer": "protect and promote the welfare and rights of small farmers",
       "explanation": "RA 7607 grants small farmers legal protection and support covering services such as credit, marketing, and technical assistance.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00969",
@@ -15519,9 +15519,9 @@
       ],
       "answer": "Philippine Agricultural and Biosystems Engineering Act",
       "explanation": "RA 10915 expanded and retitled the earlier agricultural engineering law into the Philippine Agricultural and Biosystems Engineering Act.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00970",
@@ -15535,9 +15535,9 @@
       ],
       "answer": "1985",
       "explanation": "PhilRice was created in 1985 as the national research, development, and extension agency for rice.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00971",
@@ -15551,9 +15551,9 @@
       ],
       "answer": "Presidential Decree No. 232",
       "explanation": "Presidential Decree No. 232 (1973) created the Philippine Coconut Authority to regulate and promote the coconut industry.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00972",
@@ -15567,9 +15567,9 @@
       ],
       "answer": "Fertilizer and Pesticide Authority",
       "explanation": "The Fertilizer and Pesticide Authority, created under PD 1144, regulates fertilizer and pesticide products to protect users and the environment.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00973",
@@ -15583,9 +15583,9 @@
       ],
       "answer": "lists all farm assets and their current condition",
       "explanation": "A farm inventory documents the farm's assets such as land, buildings, equipment, livestock, and crops at a given point in time.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00974",
@@ -15599,9 +15599,9 @@
       ],
       "answer": "P18,000",
       "explanation": "Straight-line depreciation equals (cost minus salvage value) divided by useful life: (P200,000 - P20,000) / 10 years = P18,000 per year.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00975",
@@ -15615,9 +15615,9 @@
       ],
       "answer": "gross income minus variable costs",
       "explanation": "Gross margin, gross income minus variable costs, shows how much an enterprise contributes above its operating cash costs.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00976",
@@ -15631,9 +15631,9 @@
       ],
       "answer": "value of the next best alternative foregone when a resource is used",
       "explanation": "Opportunity cost values a resource by its best alternative use, a central concept in farm management decisions.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00977",
@@ -15647,9 +15647,9 @@
       ],
       "answer": "yields successively smaller increases in output",
       "explanation": "With other inputs fixed, each additional unit of a variable input eventually adds smaller and smaller amounts to total output.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00978",
@@ -15663,9 +15663,9 @@
       ],
       "answer": "the effect of a small change in a farm enterprise",
       "explanation": "A partial budget evaluates only the added costs and returns of a proposed change, such as shifting one enterprise.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00979",
@@ -15679,9 +15679,9 @@
       ],
       "answer": "difference between the farm price and the retail price of a product",
       "explanation": "Price spread is the difference between farm and retail prices and represents the total marketing margin of middlemen and processors.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00980",
@@ -15695,9 +15695,9 @@
       ],
       "answer": "received by the farmer at the farm for the produce",
       "explanation": "The farm gate price is the value received by the farmer at the farm, before marketing costs and middlemen margins are added.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00981",
@@ -15711,9 +15711,9 @@
       ],
       "answer": "collects small lots of produce from many farms and sells them in larger volume",
       "explanation": "Assemblers consolidate the small, scattered lots of many farms into volumes that can be transported and traded efficiently.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q00982",
@@ -16863,9 +16863,9 @@
       ],
       "answer": "Increase in product value created by processing and marketing activities",
       "explanation": "Value added is the gain in product worth from transforming raw materials and providing services along the chain.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q01054",
@@ -16879,9 +16879,9 @@
       ],
       "answer": "Is commercially oriented with profit objectives",
       "explanation": "Agribusiness firms produce for the market with profit as a goal, unlike subsistence production for home use.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q01055",
@@ -16895,9 +16895,9 @@
       ],
       "answer": "Perfect information",
       "explanation": "Perfect competition assumes all participants have full knowledge of prices and products so no firm can influence price.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q01056",
@@ -16911,9 +16911,9 @@
       ],
       "answer": "Price taker",
       "explanation": "Because each farm supplies a tiny share of total output, it accepts the prevailing market price.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q01057",
@@ -16927,9 +16927,9 @@
       ],
       "answer": "Monopoly",
       "explanation": "A monopoly exists when one firm supplies the whole market and can influence the price of the product.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q01058",
@@ -16943,9 +16943,9 @@
       ],
       "answer": "A few large firms whose decisions are interdependent",
       "explanation": "In oligopoly the actions of each firm affect rivals, so pricing and output decisions are strategically linked.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q01059",
@@ -16959,9 +16959,9 @@
       ],
       "answer": "Product differentiation among many sellers",
       "explanation": "Many sellers compete using product differences such as branding and quality in monopolistic competition.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q01060",
@@ -16975,9 +16975,9 @@
       ],
       "answer": "Perfect competition",
       "explanation": "With numerous small producers selling homogeneous products, farm output markets come closest to perfect competition.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q01061",
@@ -16991,9 +16991,9 @@
       ],
       "answer": "Department of Agriculture",
       "explanation": "The DA formulates and implements policies and programs for agriculture and fisheries development.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q01062",
@@ -17007,9 +17007,9 @@
       ],
       "answer": "Buffer stocking of rice",
       "explanation": "The rice tariffication law stripped NFA of import, regulatory, and price stabilization powers but retained its buffer stocking role.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q01063",
@@ -17023,9 +17023,9 @@
       ],
       "answer": "National Irrigation Administration",
       "explanation": "The NIA, created under RA 3601, administers national irrigation systems and collects irrigation service fees.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q01064",
@@ -17039,9 +17039,9 @@
       ],
       "answer": "Philippine Coconut Authority",
       "explanation": "The PCA oversees coconut production, marketing, and research and administers the coconut levy trust funds.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q01065",
@@ -17055,9 +17055,9 @@
       ],
       "answer": "A government corporation operating a food terminal and agribusiness complex",
       "explanation": "FTI runs a central food terminal and agribusiness estate that links producers to wholesale markets.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q01066",
@@ -17071,9 +17071,9 @@
       ],
       "answer": "PhilRice",
       "explanation": "The Philippine Rice Research Institute (PhilRice) is the government's lead agency for rice science and development.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q01067",
@@ -17087,9 +17087,9 @@
       ],
       "answer": "Philippine Crop Insurance Corporation",
       "explanation": "The PCIC indemnifies farmers for losses caused by typhoons, drought, pests, and other perils.",
-      "status": "unused",
+      "status": "used",
       "created_date": "2026-08-17",
-      "used_date": null
+      "used_date": "2026-08-22"
     },
     {
       "id": "Q01068",
