@@ -22,26 +22,23 @@
       "schedule_display": "0 18 * * 0",
       "repeat": {
         "times": null,
-        "completed": 0
+        "completed": 1
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-16T20:11:44.277745+08:00",
-      "next_run_at": "2026-08-23T18:00:00+08:00",
-      "last_run_at": null,
-      "last_status": null,
+      "next_run_at": "2026-08-30T18:00:00+08:00",
+      "last_run_at": "2026-08-23T18:26:00.956036+08:00",
+      "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
       "deliver": "telegram:7795539900",
       "origin": null,
       "enabled_toolsets": null,
       "workdir": "D:\\Hermes\\Nexis Aria Nexaris\\projects\\AgriQuizBot",
-      "fire_claim": {
-        "at": "2026-08-16T22:02:15.788573+08:00",
-        "by": "AniShinSei:12280"
-      }
+      "fire_claim": null
     },
     {
       "id": "5cdd3844581d",
@@ -65,15 +62,15 @@
       "schedule_display": "0 20 * * *",
       "repeat": {
         "times": null,
-        "completed": 7
+        "completed": 8
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-16T20:12:02.098420+08:00",
-      "next_run_at": "2026-08-23T20:00:00+08:00",
-      "last_run_at": "2026-08-22T20:04:32.054206+08:00",
+      "next_run_at": "2026-08-24T20:00:00+08:00",
+      "last_run_at": "2026-08-23T20:04:38.113651+08:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -105,15 +102,15 @@
       "schedule_display": "45 21 * * *",
       "repeat": {
         "times": null,
-        "completed": 7
+        "completed": 8
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-16T20:12:30.211505+08:00",
-      "next_run_at": "2026-08-23T21:45:00+08:00",
-      "last_run_at": "2026-08-22T21:48:42.181014+08:00",
+      "next_run_at": "2026-08-24T21:45:00+08:00",
+      "last_run_at": "2026-08-23T21:48:52.289689+08:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -185,15 +182,15 @@
       "schedule_display": "every 180m",
       "repeat": {
         "times": null,
-        "completed": 22
+        "completed": 27
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-17T12:11:34.711303+08:00",
-      "next_run_at": "2026-08-23T01:19:26.460383+08:00",
-      "last_run_at": "2026-08-22T22:19:26.460383+08:00",
+      "next_run_at": "2026-08-24T00:13:34.263576+08:00",
+      "last_run_at": "2026-08-23T21:13:34.263576+08:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -231,15 +228,15 @@
       "schedule_display": "0 23 * * *",
       "repeat": {
         "times": null,
-        "completed": 5
+        "completed": 6
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-17T13:28:43.633231+08:00",
-      "next_run_at": "2026-08-23T23:00:00+08:00",
-      "last_run_at": "2026-08-21T23:00:52.224108+08:00",
+      "next_run_at": "2026-08-24T23:00:00+08:00",
+      "last_run_at": "2026-08-22T23:00:32.758439+08:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -296,5 +293,5 @@
       "fire_claim": null
     }
   ],
-  "updated_at": "2026-08-22T23:00:26.724908+08:00"
+  "updated_at": "2026-08-23T23:00:35.296160+08:00"
 }

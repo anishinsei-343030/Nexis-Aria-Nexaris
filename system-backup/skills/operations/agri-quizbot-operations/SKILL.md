@@ -54,7 +54,7 @@ In scheduled cron jobs, `execute_code` may block arbitrary local Python calls (e
 - **FIX:** Use `write_file` to save a `.py` script to disk, then execute it via `terminal`.
 
 ### 3. Data Quality Requirement
-**PLACEHOLDERS ARE PROHIBITED.** Generating questions like "Topic X: Question Y" with "Option A" as the answer is a critical failure. All questions must be real, exam-level content with verified answers.
+**PLACEHOLDERS ARE PROHIBITED. Ensure dynamically generated questions are replaced with real, exam-level content before adding to the bank.** Generating questions like "Topic X: Question Y" with "Option A" as the answer is a critical failure. All questions must be real, exam-level content with verified answers.
 
 ### 4. Integrity of `QUIZ_OK`
 Never fabricate a `QUIZ_OK` message. If the bot returns `API_ERROR` or `KEY_MISSING`, notify the group that the quiz is delayed.
