@@ -48,6 +48,11 @@ The `terminal` tool runs via Git Bash (MSYS). Full Windows paths like `C:\...` a
 - **FIX:** Use double quotes and forward slashes for executables:
   `"/c/Users/Administrator/AppData/Local/Python/hermes313/Scripts/python.exe"`
 - **Script arguments get mangled too (2026-08-19):** a backslash path passed as an argument loses its escapes in bash (`D:\DevTools\tts\hermes_tts.py` arrives as `D:DevToolsttshermes_tts.py` and resolves against cwd), and MSYS-style `/d/DevTools/...` handed to a Windows-native exe can come out as `D:\d\DevTools\...`. **FIX that worked:** `cd /d/DevTools/tts && "<python.exe>" hermes_tts.py ...` — cd into the script's directory and pass the bare filename. Forward-slash `D:/...` paths are safe for `--output` / `MEDIA:` style arguments and for `ls`.
+- **CONFIRMED WORKING PATTERN (2026-08-27):** For the TTS script specifically, the reliable pattern is:
+  ```bash
+  cd /d/DevTools/tts && "/c/Users/Administrator/AppData/Local/Python/hermes313/Scripts/python.exe" hermes_tts.py --ref nexis --output "/d/Hermes/Nexis Aria Nexaris/projects/AgriQuizBot/voice/reminder_YYYYMMDD.ogg" --text "<spoken message>"
+  ```
+  The `cd` into the script's directory avoids all path mangling. The `--output` uses forward-slash MSYS path (auto-resolves to Windows path). The `--text` quoted string is passed directly to the Windows exe without further interpretation.
 
 ### 2. `execute_code` vs. `terminal` in Cron Jobs
 In scheduled cron jobs, `execute_code` may block arbitrary local Python calls (e.g., `subprocess`) due to `approvals.cron_mode`.
