@@ -22,17 +22,17 @@
       "schedule_display": "0 18 * * 0",
       "repeat": {
         "times": null,
-        "completed": 1
+        "completed": 2
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-16T20:11:44.277745+08:00",
-      "next_run_at": "2026-08-30T18:00:00+08:00",
-      "last_run_at": "2026-08-23T18:26:00.956036+08:00",
-      "last_status": "ok",
-      "last_error": null,
+      "next_run_at": "2026-09-06T18:00:00+08:00",
+      "last_run_at": "2026-08-30T18:06:10.810666+08:00",
+      "last_status": "error",
+      "last_error": "RuntimeError: Request payload too large (413). Cannot compress further.",
       "last_delivery_error": null,
       "deliver": "telegram:7795539900",
       "origin": null,
@@ -62,15 +62,15 @@
       "schedule_display": "0 20 * * *",
       "repeat": {
         "times": null,
-        "completed": 14
+        "completed": 15
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-16T20:12:02.098420+08:00",
-      "next_run_at": "2026-08-30T20:00:00+08:00",
-      "last_run_at": "2026-08-29T20:05:16.831998+08:00",
+      "next_run_at": "2026-08-31T20:00:00+08:00",
+      "last_run_at": "2026-08-30T20:03:32.047109+08:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -109,7 +109,7 @@
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-16T20:12:30.211505+08:00",
-      "next_run_at": "2026-08-30T21:45:00+08:00",
+      "next_run_at": "2026-08-31T21:45:00+08:00",
       "last_run_at": "2026-08-29T21:52:58.251268+08:00",
       "last_status": "ok",
       "last_error": null,
@@ -182,15 +182,15 @@
       "schedule_display": "every 180m",
       "repeat": {
         "times": null,
-        "completed": 55
+        "completed": 59
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-17T12:11:34.711303+08:00",
-      "next_run_at": "2026-08-29T23:37:55.155952+08:00",
-      "last_run_at": "2026-08-29T20:37:55.155952+08:00",
+      "next_run_at": "2026-08-31T11:15:08.888541+08:00",
+      "last_run_at": "2026-08-30T20:12:29.571960+08:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -228,15 +228,15 @@
       "schedule_display": "0 23 * * *",
       "repeat": {
         "times": null,
-        "completed": 12
+        "completed": 13
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-17T13:28:43.633231+08:00",
-      "next_run_at": "2026-08-30T23:00:00+08:00",
-      "last_run_at": "2026-08-29T11:37:31.408470+08:00",
+      "next_run_at": "2026-08-31T23:00:00+08:00",
+      "last_run_at": "2026-08-29T23:01:00.110337+08:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -293,5 +293,5 @@
       "fire_claim": null
     }
   ],
-  "updated_at": "2026-08-29T23:00:55.017502+08:00"
+  "updated_at": "2026-08-31T08:15:08.889503+08:00"
 }
