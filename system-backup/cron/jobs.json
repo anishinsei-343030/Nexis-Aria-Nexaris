@@ -22,7 +22,7 @@
       "schedule_display": "0 18 * * 0",
       "repeat": {
         "times": null,
-        "completed": 2
+        "completed": 3
       },
       "enabled": true,
       "state": "scheduled",
@@ -30,7 +30,7 @@
       "paused_reason": null,
       "created_at": "2026-08-16T20:11:44.277745+08:00",
       "next_run_at": "2026-09-13T18:00:00+08:00",
-      "last_run_at": "2026-08-30T18:06:10.810666+08:00",
+      "last_run_at": "2026-09-07T19:53:18.549114+08:00",
       "last_status": "error",
       "last_error": "RuntimeError: Request payload too large (413). Cannot compress further.",
       "last_delivery_error": null,
@@ -62,15 +62,15 @@
       "schedule_display": "0 20 * * *",
       "repeat": {
         "times": null,
-        "completed": 16
+        "completed": 18
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-16T20:12:02.098420+08:00",
-      "next_run_at": "2026-09-07T20:00:00+08:00",
-      "last_run_at": "2026-09-04T18:03:11.299872+08:00",
+      "next_run_at": "2026-09-08T20:00:00+08:00",
+      "last_run_at": "2026-09-07T20:05:15.249968+08:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -102,15 +102,15 @@
       "schedule_display": "45 21 * * *",
       "repeat": {
         "times": null,
-        "completed": 15
+        "completed": 16
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-16T20:12:30.211505+08:00",
-      "next_run_at": "2026-09-07T21:45:00+08:00",
-      "last_run_at": "2026-08-31T08:15:09.771875+08:00",
+      "next_run_at": "2026-09-08T21:45:00+08:00",
+      "last_run_at": "2026-09-07T19:59:54.322288+08:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -182,15 +182,15 @@
       "schedule_display": "every 180m",
       "repeat": {
         "times": null,
-        "completed": 62
+        "completed": 63
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-17T12:11:34.711303+08:00",
-      "next_run_at": "2026-09-07T22:42:23.574598+08:00",
-      "last_run_at": "2026-09-04T17:56:50.678467+08:00",
+      "next_run_at": "2026-09-08T22:21:40.320524+08:00",
+      "last_run_at": "2026-09-07T19:42:24.059411+08:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -228,17 +228,17 @@
       "schedule_display": "0 23 * * *",
       "repeat": {
         "times": null,
-        "completed": 15
+        "completed": 16
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-17T13:28:43.633231+08:00",
-      "next_run_at": "2026-09-07T23:00:00+08:00",
-      "last_run_at": "2026-09-04T17:57:56.196413+08:00",
-      "last_status": "ok",
-      "last_error": null,
+      "next_run_at": "2026-09-08T23:00:00+08:00",
+      "last_run_at": "2026-09-07T19:43:15.177849+08:00",
+      "last_status": "error",
+      "last_error": "Script exited with code 1\nstdout:\nBACKUP_FAIL: git push error: error: RPC failed; curl 28 Failed to connect to github.com:443 after 21098 ms: Could not connect to server\nsend-pack: unexpected disconnect while reading sideband packet\nfatal: the remote end hung up unexpectedly\nEverything up-to-date",
       "last_delivery_error": null,
       "deliver": "local",
       "origin": {
@@ -293,5 +293,5 @@
       "fire_claim": null
     }
   ],
-  "updated_at": "2026-09-07T19:42:23.576480+08:00"
+  "updated_at": "2026-09-08T19:21:40.321321+08:00"
 }

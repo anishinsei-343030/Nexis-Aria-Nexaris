@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-09-07T19:42:22.501990",
+  "updated_at": "2026-09-08T19:21:39.263350",
   "platforms": {
     "telegram": [
-      {
-        "id": "-1004299945362:1",
-        "name": "Nexaris World / topic 1",
-        "type": "group",
-        "thread_id": "1"
-      },
       {
         "id": "-1004346387239",
         "name": "Aoi & Shin",
         "type": "group",
         "thread_id": null
+      },
+      {
+        "id": "-1004299945362:1",
+        "name": "Nexaris World / topic 1",
+        "type": "group",
+        "thread_id": "1"
       },
       {
         "id": "-1004443524375",

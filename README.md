@@ -29,7 +29,8 @@ D:\Hermes\Nexis Aria Nexaris\
 |   `-- .gitkeep
 |-- Backup
 |   |-- nexis_full_backup_20260817_184906.tar.gz
-|   `-- nexis_full_backup_20260904_175652.tar.gz
+|   |-- nexis_full_backup_20260904_175652.tar.gz
+|   `-- nexis_full_backup_20260907_194225.tar.gz
 |-- docs
 |   |-- process
 |   `-- specs
