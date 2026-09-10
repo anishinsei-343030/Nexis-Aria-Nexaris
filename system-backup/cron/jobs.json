@@ -62,17 +62,17 @@
       "schedule_display": "0 20 * * *",
       "repeat": {
         "times": null,
-        "completed": 18
+        "completed": 19
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-16T20:12:02.098420+08:00",
-      "next_run_at": "2026-09-09T20:00:00+08:00",
-      "last_run_at": "2026-09-07T20:05:15.249968+08:00",
-      "last_status": "ok",
-      "last_error": null,
+      "next_run_at": "2026-09-10T20:00:00+08:00",
+      "last_run_at": "2026-09-09T18:46:00.257592+08:00",
+      "last_status": "error",
+      "last_error": "RuntimeError: Connection error.",
       "last_delivery_error": null,
       "deliver": "telegram:-1004302584573",
       "origin": null,
@@ -102,15 +102,15 @@
       "schedule_display": "45 21 * * *",
       "repeat": {
         "times": null,
-        "completed": 17
+        "completed": 18
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-16T20:12:30.211505+08:00",
-      "next_run_at": "2026-09-09T21:45:00+08:00",
-      "last_run_at": "2026-09-08T19:21:41.096974+08:00",
+      "next_run_at": "2026-09-10T21:45:00+08:00",
+      "last_run_at": "2026-09-09T18:46:00.361226+08:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -182,15 +182,15 @@
       "schedule_display": "every 180m",
       "repeat": {
         "times": null,
-        "completed": 64
+        "completed": 65
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-17T12:11:34.711303+08:00",
-      "next_run_at": "2026-09-09T21:42:52.798542+08:00",
-      "last_run_at": "2026-09-08T19:21:40.735734+08:00",
+      "next_run_at": "2026-09-10T20:40:57.024124+08:00",
+      "last_run_at": "2026-09-09T18:42:53.229906+08:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -228,17 +228,17 @@
       "schedule_display": "0 23 * * *",
       "repeat": {
         "times": null,
-        "completed": 17
+        "completed": 18
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-17T13:28:43.633231+08:00",
-      "next_run_at": "2026-09-09T23:00:00+08:00",
-      "last_run_at": "2026-09-08T19:22:27.728311+08:00",
+      "next_run_at": "2026-09-10T23:00:00+08:00",
+      "last_run_at": "2026-09-09T18:42:54.817374+08:00",
       "last_status": "error",
-      "last_error": "Script exited with code 1\nstdout:\nBACKUP_FAIL: git push error: error: RPC failed; curl 55 Send failure: Connection was reset\nsend-pack: unexpected disconnect while reading sideband packet\nfatal: the remote end hung up unexpectedly\nEverything up-to-date",
+      "last_error": "Script exited with code 1\nstdout:\nBACKUP_FAIL: git push error: fatal: unable to access 'https://github.com/anishinsei-343030/Nexis-Aria-Nexaris.git/': Could not resolve host: github.com",
       "last_delivery_error": null,
       "deliver": "local",
       "origin": {
@@ -293,5 +293,5 @@
       "fire_claim": null
     }
   ],
-  "updated_at": "2026-09-09T18:42:52.799356+08:00"
+  "updated_at": "2026-09-10T17:40:57.025210+08:00"
 }
