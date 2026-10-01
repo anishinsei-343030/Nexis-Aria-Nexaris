@@ -22,7 +22,7 @@
       "schedule_display": "0 18 * * 0",
       "repeat": {
         "times": null,
-        "completed": 3
+        "completed": 4
       },
       "enabled": true,
       "state": "scheduled",
@@ -30,9 +30,9 @@
       "paused_reason": null,
       "created_at": "2026-08-16T20:11:44.277745+08:00",
       "next_run_at": "2026-10-04T18:00:00+08:00",
-      "last_run_at": "2026-09-07T19:53:18.549114+08:00",
+      "last_run_at": "2026-10-01T20:19:56.766072+08:00",
       "last_status": "error",
-      "last_error": "RuntimeError: Request payload too large (413). Cannot compress further.",
+      "last_error": "RuntimeError: Connection error.",
       "last_delivery_error": null,
       "deliver": "telegram:7795539900",
       "origin": null,
@@ -62,7 +62,7 @@
       "schedule_display": "0 20 * * *",
       "repeat": {
         "times": null,
-        "completed": 20
+        "completed": 21
       },
       "enabled": true,
       "state": "scheduled",
@@ -70,7 +70,7 @@
       "paused_reason": null,
       "created_at": "2026-08-16T20:12:02.098420+08:00",
       "next_run_at": "2026-10-02T20:00:00+08:00",
-      "last_run_at": "2026-09-10T17:43:57.922186+08:00",
+      "last_run_at": "2026-10-01T20:22:05.422657+08:00",
       "last_status": "error",
       "last_error": "RuntimeError: Connection error.",
       "last_delivery_error": null,
@@ -102,15 +102,15 @@
       "schedule_display": "45 21 * * *",
       "repeat": {
         "times": null,
-        "completed": 19
+        "completed": 21
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-16T20:12:30.211505+08:00",
-      "next_run_at": "2026-10-01T21:45:00+08:00",
-      "last_run_at": "2026-09-10T17:43:58.028042+08:00",
+      "next_run_at": "2026-10-02T21:45:00+08:00",
+      "last_run_at": "2026-10-01T21:45:59.275596+08:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -182,15 +182,15 @@
       "schedule_display": "every 180m",
       "repeat": {
         "times": null,
-        "completed": 66
+        "completed": 67
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-17T12:11:34.711303+08:00",
-      "next_run_at": "2026-10-01T23:16:58.027781+08:00",
-      "last_run_at": "2026-09-10T17:40:57.430114+08:00",
+      "next_run_at": "2026-10-01T23:16:58.413327+08:00",
+      "last_run_at": "2026-10-01T20:16:58.413327+08:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -228,17 +228,17 @@
       "schedule_display": "0 23 * * *",
       "repeat": {
         "times": null,
-        "completed": 19
+        "completed": 20
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-17T13:28:43.633231+08:00",
-      "next_run_at": "2026-10-01T23:00:00+08:00",
-      "last_run_at": "2026-09-10T17:41:13.550069+08:00",
-      "last_status": "ok",
-      "last_error": null,
+      "next_run_at": "2026-10-02T23:00:00+08:00",
+      "last_run_at": "2026-10-01T20:17:03.319112+08:00",
+      "last_status": "error",
+      "last_error": "Script exited with code 1\nstdout:\nBACKUP_FAIL: git push error: fatal: unable to access 'https://github.com/anishinsei-343030/Nexis-Aria-Nexaris.git/': schannel: SEC_E_UNTRUSTED_ROOT (0x80090325) - The certificate chain was issued by an authority that is not trusted.",
       "last_delivery_error": null,
       "deliver": "local",
       "origin": {
@@ -293,5 +293,5 @@
       "fire_claim": null
     }
   ],
-  "updated_at": "2026-10-01T20:16:58.028639+08:00"
+  "updated_at": "2026-10-01T23:00:59.429754+08:00"
 }
